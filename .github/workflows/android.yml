@@ -182,6 +182,8 @@ jobs:
 
       - name: Report debug build failure
         if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           {
             echo "### Debug build failed"
@@ -190,7 +192,12 @@ jobs:
             grep -E "^e: |error:|FAILURE:|What went wrong|^> |Caused by" /tmp/debug-build.log \
               | head -60 || tail -60 /tmp/debug-build.log
             echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
+          } | tee /tmp/report.md >> "$GITHUB_STEP_SUMMARY"
+          # Also mirror it onto the PR, where it is readable via the API.
+          if [ -n "${{ github.event.pull_request.number }}" ]; then
+            gh pr comment ${{ github.event.pull_request.number }} \
+              --repo ${{ github.repository }} --body-file /tmp/report.md || true
+          fi
 
       - name: Build release APK
         if: ${{ github.event.inputs.build_type != 'debug' }}
