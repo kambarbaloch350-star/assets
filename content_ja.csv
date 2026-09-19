@@ -1,0 +1,963 @@
+Id	Category	Tags	Words																															
+0	方位	easy	北	東	南	西	北西	北東	南西	南東	方位	方位角	針	磁石	文字盤	ポイント	オリエンテーション																	
+1	仕事	easy	看護師	運転手	先生	エンジニア	配管工	弁護士	シェフ	医者	アーティスト	マネージャー	消防士	パイロット	会計士	整備士	電気技師																	
+2	色	easy	赤	青	黄	緑	オレンジ	紫	黒	白	灰	茶	ピンク	金	銀	シアン	マゼンタ																	
+3	楽器	easy	ギター	ピアノ	バイオリン	ドラム	トランペット	チェロ	フルート	サックス	ハープ	クラリネット	オーボエ	チューバ	バンジョー	マリンバ	アコーディオン																	
+4	惑星	easy	水星	金星	地球	火星	木星	土星	天王星	海王星	冥王星	系外惑星	軌道	彗星	小惑星	銀河	太陽系																	
+5	キッチン用品	easy	フォーク	スプーン	ナイフ	泡立て器	へら	お玉	麺棒	ザル	ピーラー	トング	計量カップ	おろし金	スキレット	鍋	ミキサー																	
+6	天気	easy	雨	雪	雲	風	霧	嵐	太陽	雷	稲妻	雹	そよ風	霧雨	吹雪	ハリケーン	竜巻																	
+7	形	easy	円	正方形	三角形	長方形	楕円	星	ダイヤモンド	六角形	五角形	八角形	球	立方体	ピラミッド	円錐	円柱																	
+8	スポーツ	easy	サッカー	バスケ	テニス	ゴルフ	野球	ランニング	水泳	バレー	ホッケー	ボクシング	サイクリング	スキー	ラグビー	フェンシング	クリケット																	
+9	果物	easy	リンゴ	バナナ	さくらんぼ	オレンジ	イチゴ	マンゴー	パイナップル	スイカ	レモン	ブルーベリー	ラズベリー	キウイ	桃	ブドウ	梨																	
+10	野菜	easy	人参	ジャガイモ	トマト	レタス	ブロッコリー	玉ねぎ	ピーマン	トウモロコシ	ほうれん草	キャベツ	きゅうり	ズッキーニ	キノコ	アスパラ	大根																	
+11	体の部位	easy	頭	腕	脚	手	足	目	耳	鼻	口	首	肩	指	つま先	胸	胃																	
+12	感情	easy	喜び	怒り	恐怖	悲しみ	驚き	嫌悪	興奮	落ち着き	愛	不安	恥	罪悪感	嫉妬	希望	誇り																	
+13	乗り物	easy	車	バス	電車	飛行機	自転車	ボート	船	バイク	スクーター	地下鉄	タクシー	ヘリコプター	フェリー	トラック	ロケット																	
+14	音楽	easy	ディスコ	ポップ	ジャズ	クラシック	ブルース	カントリー	ヒップホップ	エレクトロ	レゲエ	フォーク	メタル	ソウル	ロック	ゴスペル	オペラ																	
+15	学校の教科	easy	数学	科学	歴史	英語	美術	地理	音楽	物理	化学	生物	文学	経済	心理学	外国語	演劇																	
+16	庭	easy	花	木	茂み	シャベル	熊手	土	草	ホース	じょうろ	フェンス	ベンチ	巣箱	種	堆肥	穴																	
+17	家具	easy	椅子	テーブル	ソファ	ベッド	机	ランプ	棚	キャビネット	ドレッサー	スツール	オットマン	ラグ	鏡	時計	ワードローブ																	
+18	デザート	easy	ケーキ	パイ	チーズケーキ	アイス	プリン	ブラウニー	ドーナツ	マフィン	タルト	クッキー	シャーベット	カスタード	ジェラート	ワッフル	スフレ																	
+19	ボードゲーム	easy	チェス	チェッカー	モノポリー	スクラブル	クルード	リスク	囲碁	バックギャモン	ドミノ	ポーカー	ビンゴ	サイコロ	駒	カード	戦略																	
+20	鳥	easy	コマドリ	スズメ	ワシ	タカ	ハト	フクロウ	ペンギン	オウム	カナリア	カラス	白鳥	アヒル	ガチョウ	ハゲタカ	アホウドリ																	
+21	哺乳類	easy	ゾウ	ライオン	トラ	サル	クマ	オオカミ	シカ	キツネ	ウサギ	ネズミ	クジラ	コウモリ	カンガルー	ウマ	シマウマ																	
+22	技術	easy	パソコン	電話	ネット	ソフト	ハード	回線	チップ	画素	データ	サーバー	クラウド	タブレット	ルーター	キーボード	アルゴリズム																	
+23	履物	easy	靴	ブーツ	サンダル	スニーカー	ヒール	スリッパ	ローファー	モカシン	クロッグ	運動靴	ビーサン	長靴	パンプス	スパイク	革靴																	
+24	事務用品	easy	ペン	紙	ホッチキス	ファイル	マーカー	プリンター	封筒	ハサミ	蛍光ペン	クリップ	バインダー	ホワイトボード	付箋	電卓	テープ																	
+25	遊園地	easy	ジェットコースター	観覧車	メリーゴーランド	チケット	乗り物	列	綿菓子	ゲーム	広場	ブース	スリル	入場料	公園	マスコット	お土産																	
+26	国	easy	ブラジル	イギリス	インド	ロシア	カナダ	メキシコ	エジプト	ナイジェリア	日本	韓国	オーストラリア	ドイツ	フランス	フィンランド	アルゼンチン																	
+27	ファストフード	easy	バーガー	ポテト	ピザ	タコス	サンド	ホットドッグ	チキン	シェイク	ソーダ	ドーナツ	ラップ	ナゲット	オニオンリング	ドライブスルー	ケチャップ																	
+28	名前	easy	マイケル	ジェシカ	クリス	エミリー	デビッド	サラ	ジェームズ	アンナ	ロバート	ローラ	ジョン	マリア	ウィリアム	ニコール	トーマス																	
+29	祝日	easy	クリスマス	イースター	ハロウィン	感謝祭	ディワリ	ハヌカ	正月	バレンタイン	誕生日	記念日	祭り	休暇	お祝い	パレード	宴会																	
+30	昆虫	easy	アリ	ハチ	ハエ	蚊	カブトムシ	蝶	蛾	コオロギ	バッタ	スズメバチ	イナゴ	てんとう虫	シロアリ	トンボ	芋虫																	
+31	形容詞	easy	嬉しい	悲しい	高い	低い	速い	遅い	大きい	小さい	赤い	青い	うるさい	静か	明るい	暗い	滑らか																	
+32	動詞	easy	走る	飛ぶ	歩く	食べる	寝る	話す	考える	書く	読む	運転する	歌う	踊る	泳ぐ	建てる	飛ぶ																	
+33	素材	easy	木	金属	プラスチック	ガラス	ゴム	紙	セラミック	コンクリート	レンガ	布	泡	樹脂	粘土	石	ワックス																	
+34	道具	easy	ハンマー	ドリル	のこぎり	レンチ	ペンチ	水平器	ドライバー	のみ	斧	メジャー	万力	やすり	クランプ	タッカー	はしご																	
+35	服	easy	シャツ	ズボン	ドレス	スカート	ジャケット	セーター	コート	靴下	靴	帽子	マフラー	手袋	ベルト	ネクタイ	ジーンズ																	
+36	カードゲーム	easy	ポーカー	ブリッジ	ラミー	ソリティア	ブラックジャック	ゴーフィッシュ	ハーツ	クリベッジ	ユーカー	ピノクル	デッキ	手札	シャッフル	配る	切り札																	
+37	気象現象	easy	雨	雪	雹	雷雨	吹雪	ハリケーン	竜巻	干ばつ	霧	風	サイクロン	みぞれ	虹	豪雨	モンスーン																	
+38	家電	easy	オーブン	コンロ	レンジ	トースター	ミキサー	冷蔵庫	食洗機	コーヒーメーカー	泡だて器	グリル	ケトル	プロセッサー	フライヤー	レンジ台	フード																	
+39	音楽ジャンル	easy	ポップ	ロック	ジャズ	ブルース	クラシック	フォーク	メタル	ヒップホップ	レゲエ	EDM	ソウル	カントリー	オペラ	パンク	ディスコ																	
+40	前置詞	easy	で	上に	中に	へ	ために	と	下に	越えて	通って	について	間に	中で	後ろに	前に	後に																	
+41	家畜	easy	牛	豚	鶏	羊	馬	ヤギ	アヒル	七面鳥	ガチョウ	ロバ	ラマ	アルパカ	ウサギ	雄鶏	子牛																	
+42	スポーツ用品	easy	ボール	バット	ラケット	クラブ	ネット	スティック	ヘルメット	グローブ	パッド	スケート	ゴーグル	フープ	スパイク	ゴール	シャトル																	
+43	建物の部品	easy	壁	床	天井	屋根	ドア	窓	基礎	梁	柱	階段	煙突	バルコニー	屋根裏	地下	雨どい																	
+44	アメリカの州	easy	カリフォルニア	テキサス	フロリダ	ニューヨーク	アラスカ	ハワイ	イリノイ	オハイオ	ペンシルベニア	ミシガン	ジョージア	ノースカロライナ	ワシントン	バージニア	アリゾナ																	
+45	園芸道具	easy	こて	熊手	シャベル	鍬	剪定ばさみ	バリカン	手押し車	手袋	フォーク	エッジャー	スプリンクラー	耕運機	種まき機	穴あけ棒	ロッパー																	
+46	道路標識	easy	止まれ	譲れ	制限速度	注意	カーブ	迂回	スクールゾーン	踏切	合流	一方通行	進入禁止	歩行者	工事中	病院	駐車																	
+47	飲み物	easy	水	牛乳	ジュース	お茶	コーヒー	ソーダ	ビール	ワイン	カクテル	スムージー	レモネード	ココア	エナドリ	サイダー	炭酸水																	
+48	筆記具	easy	ペン	鉛筆	キーボード	紙	インク	羽ペン	タイプライター	マーカー	チョーク	消しゴム	ノート	タブレット	スタイラス	書道	筆																	
+49	体の動作	easy	呼吸	飲み込む	まばたき	咳	くしゃみ	あくび	しかめ面	微笑む	震える	汗をかく	消化	歩く	走る	聞く	見る																	
+50	形 2D	easy	円	正方形	三角形	長方形	楕円	六角形	五角形	八角形	ひし形	台形	平行四辺形	多角形	凧形	扇形	楕円																	
+51	車メーカー	easy	トヨタ	ホンダ	フォード	シボレー	BMW	メルセデス	アウディ	フォルクスワーゲン	ヒュンダイ	起亜	日産	ジープ	テスラ	フェラーリ	ポルシェ																	
+52	道路の乗り物	easy	車	トラック	バス	バイク	バン	スクーター	自転車	大型トラック	SUV	セダン	クーペ	ハッチバック	オープンカー	ミニバン	トレーラー																	
+53	スポーツチーム	easy	レイカーズ	ヤンキース	カウボーイズ	セルティックス	バルセロナ	レアルマドリード	パッカーズ	ペイトリオッツ	ブルズ	ヒート	ドジャース	ジャイアンツ	チーフス	ラプターズ	アーセナル																	
+54	通貨	easy	ドル	ユーロ	円	ポンド	フラン	ルピー	ペソ	元	レアル	ルーブル	ディナール	シェケル	リンギット	ウォン	シリング																	
+55	髪型	easy	三つ編み	お団子	ポニーテール	ボブ	ピクシー	パーマ	ドレッド	アフロ	フェード	前髪	アップ	バズカット	コーンロウ	レイヤー	ハイライト																	
+56	アイスの味	easy	バニラ	チョコ	イチゴ	ミント	キャラメル	コーヒー	ピスタチオ	マンゴー	バターピーカン	クッキー生地	クリーム	チェリー	レモン	ラズベリー	シャーベット																	
+57	動物園の動物	easy	ライオン	トラ	サル	ゾウ	キリン	パンダ	クマ	シマウマ	ペンギン	サイ	カバ	ゴリラ	ヘビ	フラミンゴ	ダチョウ																	
+58	化学元素	hard	酸素	炭素	金	銀	鉄	水素	窒素	ネオン	ヘリウム	カルシウム	銅	ナトリウム	塩素	硫黄	アルミニウム																	
+59	貴金属	hard	金	銀	プラチナ	パラジウム	ロジウム	イリジウム	オスミウム	ルテニウム	合金	鉱石	金塊	カラット	インゴット	メッキ	試金																	
+60	軍の階級	hard	大将	大佐	少佐	大尉	中尉	軍曹	伍長	提督	司令官	士官候補生	兵卒	チーフ	将校	元帥	少尉																	
+61	文章スタイル	hard	フィクション	ノンフィクション	エッセイ	詩	回顧録	ジャーナリズム	伝記	技術	創作	学術	物語	説得	描写	説明	散文																	
+62	海	hard	地中海	カリブ海	バルト海	黒海	カスピ海	エーゲ海	北海	アドリア海	紅海	アラビア海	タスマン海	珊瑚海	ベーリング海	サルガッソ海	イオニア海																	
+63	銀河の物体	hard	星	星雲	ブラックホール	クエーサー	パルサー	超新星	ダークマター	アンドロメダ	天の川	星団	彗星	特異点	球状星団	ハロー	光																	
+64	海の捕食者	hard	サメ	シャチ	バラクーダ	ウツボ	ダイオウイカ	アミキリ	ピラニア	ホオジロザメ	ミノカサゴ	アシカ	ヒョウアザラシ	キラーホエール	タコ	アンコウ	ワニ																	
+65	体系	hard	骨格	筋肉	神経	循環	呼吸	消化	内分泌	免疫	泌尿	リンパ	器官	細胞	組織	心臓	脳																	
+66	形 3D	hard	球	立方体	ピラミッド	円柱	円錐	プリズム	トーラス	十二面体	四面体	頂点	辺	面	体積	固体	六面体																	
+67	化学結合	hard	共有	イオン	金属	水素	ファンデルワールス	原子	電子	分子	化合物	核	原子価	軌道	極性	共有	移動																	
+68	有名な画家	hard	ピカソ	ゴッホ	モネ	レオナルド	レンブラント	ミケランジェロ	ダリ	ラファエロ	ウォーホル	クリムト	ルノワール	ドガ	ゴーギャン	ティツィアーノ	ボス																	
+69	架空の都市	hard	ゴッサム	アトランティス	ホグワーツ	メトロポリス	ナルニア	中つ国	オズ	ワンダーランド	スプリングフィールド	宇宙艦隊	裂け谷	パンドラ	キャメロット	ザナドゥ	シャングリラ																	
+70	星座	hard	オリオン	おおぐま	カシオペア	アンドロメダ	こと	はくちょう	しし	ふたご	おうし	さそり	北斗七星	南十字	ペガサス	りゅう	ケンタウルス																	
+71	文学ジャンル	hard	ドラマ	コメディ	悲劇	風刺	叙事詩	ロマンス	ゴシック	西部劇	ホラー	教養小説	パロディ	寓話	アレゴリー	ミステリー	スリラー																	
+72	アフリカの国	hard	ナイジェリア	エジプト	南アフリカ	ケニア	モロッコ	ガーナ	アルジェリア	エチオピア	タンザニア	スーダン	ウガンダ	リビア	ザンビア	ジンバブエ	セネガル																	
+73	海洋層	hard	表層	中層	深層	漸深層	超深海層	表面	深海	海溝	ゾーン	有光層	無光層	水温躍層	底生	遠洋	大陸棚																	
+74	建築様式	hard	ゴシック	バロック	ロマネスク	ルネサンス	モダン	クラシック	アールデコ	ネオクラシック	現代	ビクトリア朝	ブルータリズム	抽象	ビザンチン	ミニマリスト	コロニアル																	
+75	橋の種類	hard	桁	アーチ	トラス	吊り	斜張	カンチレバー	高架橋	跳ね橋	歩道橋	ポンツーン	スパン	橋脚	橋台	デッキ	桁																	
+76	古代帝国	hard	ローマ	ギリシャ	エジプト	ペルシャ	オスマン	アステカ	マヤ	インカ	モンゴル	中国	バビロニア	カルタゴ	クシュ	帝国	文明																	
+77	哲学者	hard	プラトン	アリストテレス	ソクラテス	カント	ニーチェ	デカルト	孔子	ロック	ヒューム	アクィナス	マルクス	フーコー	ルソー	エピクロス	ブッダ																	
+78	化学実験室	hard	ビーカー	試験管	フラスコ	ピペット	バーナー	顕微鏡	ゴーグル	遠心分離機	天秤	フィルター	溶液	試薬	実験	滴定	漏斗																	
+79	音楽コード	hard	メジャー	マイナー	セブンス	ディミニッシュ	オーギュメント	サス	ルート	転回	トライアド	アルペジオ	進行	コード	ボイシング	音程	テトラコード																	
+80	ガラスの種類	hard	強化	合わせ	ホウケイ酸	クリスタル	繊維	ステンド	安全	板	フロート	窓ガラス	シート	レンズ	プリズム	黒曜石	シリカ																	
+81	気象ツール	hard	温度計	気圧計	風速計	雨量計	湿度計	衛星	レーダー	風向計	ラジオゾンデ	予報	等圧線	気候	気象学者	センサー	地図																	
+82	橋の種類 2	hard	アーチ	トラス	吊り	桁	斜張	カンチレバー	高架橋	跳ね橋	歩道橋	ポンツーン	スパン	橋脚	橋台	デッキ	桁																	
+83	有名な戦い	hard	ヘイスティングス	ワーテルロー	ゲティスバーグ	マラトン	スターリングラード	ミッドウェー	テルモピュライ	カンナエ	バンカーヒル	アジャンクール	ノルマンディー	トラファルガー	サラエボ	ソンム	ヨークタウン																	
+84	架空のペット	hard	ヘドウィグ	スヌーピー	ピカチュウ	トゥース	チューバッカ	ガーフィールド	プルート	ラッシー	トト	ドビー	E.T.	バルー	R2-D2	ファルコン	ギズモ																	
+85	文学的技法	hard	隠喩	直喩	頭韻	誇張	擬人化	皮肉	象徴	イメージ	擬音語	引喩	テーマ	モチーフ	伏線	撞着語法	駄洒落																	
+86	火山の種類	hard	盾状	成層	スコリア丘	溶岩ドーム	カルデラ	成層火山	休火山	活火山	死火山	マグマ	噴火	火口	灰	構造	亀裂																	
+87	芸術技法	hard	スケッチ	陰影	ぼかし	遠近法	印象派	抽象	点描	コラージュ	描画	絵画	彫刻	エッチング	ズグラッフィート	グレージング	ハッチング																	
+88	写真スタイル	hard	ポートレート	風景	マクロ	ストリート	抽象	ドキュメンタリー	ファッション	静物	ファインアート	キャンディッド	野生生物	タイムラプス	建築	天体	合成																	
+89	橋の種類 3	hard	桁	アーチ	トラス	吊り	斜張	カンチレバー	高架橋	跳ね橋	歩道橋	ポンツーン	スパン	橋脚	橋台	デッキ	桁																	
+90	架空の動物	medium	ドラゴン	ユニコーン	グリフィン	フェニックス	スフィンクス	人魚	狼男	吸血鬼	イエティ	ヒドラ	キメラ	バジリスク	ケンタウルス	ゴブリン	トロール																	
+91	本	medium	小説	伝記	教科書	ミステリー	スリラー	ファンタジー	SF	詩	参考書	料理本	歴史	回顧録	漫画	アンソロジー	辞書																	
+92	ヨーロッパの国	medium	フランス	ドイツ	イタリア	スペイン	イギリス	ギリシャ	ポーランド	スウェーデン	ノルウェー	アイルランド	ポルトガル	スイス	ベルギー	オーストリア	オランダ																	
+93	海洋生物	medium	クジラ	イルカ	サメ	サンゴ	魚	タコ	イカ	カニ	アザラシ	カメ	ヒトデ	クラゲ	海藻	マンタ	プランクトン																	
+94	木	medium	オーク	カエデ	松	柳	白樺	杉	ニレ	レッドウッド	トウヒ	トネリコ	ヒイラギ	ヤシ	イチジク	ヒノキ	モクレン																	
+95	建築	medium	建物	パティオ	塔	大聖堂	城	摩天楼	ピラミッド	ドーム	アーチ	柱	ファサード	基礎	尖塔	橋	設計図																	
+96	宝石	medium	ダイヤモンド	ルビー	サファイア	エメラルド	アメジスト	トパーズ	真珠	オパール	ガーネット	アクアマリン	ペリドット	トルマリン	ジルコン	翡翠	水晶																	
+97	写真	medium	カメラ	レンズ	シャッター	絞り	フラッシュ	三脚	フォーカス	露出	フィルム	デジタル	ポートレート	風景	フィルター	ズーム	センサー																	
+98	料理の動詞	medium	刻む	スライス	さいの目	茹でる	揚げる	焼く	グリル	ロースト	炒める	混ぜる	泡立てる	ブレンド	マリネ	煮る	蒸す																	
+99	天文学	medium	星	月	太陽	惑星	銀河	星雲	彗星	流星	望遠鏡	星座	ブラックホール	光年	軌道	宇宙	小惑星																	
+100	手工具	medium	ハンマー	ドライバー	ペンチ	レンチ	のこぎり	ドリル	メジャー	水平器	のみ	クランプ	やすり	万力	斧	シャベル	はしご																	
+101	繊維	medium	綿	絹	羊毛	麻	ポリエステル	ナイロン	レーヨン	デニム	ベルベット	フリース	サテン	革	キャンバス	黄麻	マイクロファイバー																	
+102	首都	medium	ロンドン	パリ	ローマ	ベルリン	東京	カイロ	北京	モスクワ	シドニー	オタワ	ウィーン	マドリード	ダブリン	ソウル	ブエノスアイレス																	
+103	宗教	medium	キリスト教	イスラム教	ユダヤ教	ヒンドゥー教	仏教	シーク教	神道	道教	信仰	崇拝	祈り	寺院	教会	聖典	神																	
+104	測定単位	medium	メートル	リットル	グラム	秒	ワット	ボルト	アンペア	オーム	ジュール	フィート	ポンド	オンス	度	マイル	ガロン																	
+105	爬虫類	medium	ヘビ	トカゲ	カメ	ワニ	アリゲーター	カメレオン	ヤモリ	リクガメ	マムシ	コブラ	イグアナ	コモドドラゴン	ニシキヘビ	スキンク	ムカシトカゲ																	
+106	期間	medium	世紀	十年	時代	エポック	千年	年齢	年	月	週	日	時間	分	秒	古代	現代																	
+107	自然災害	medium	地震	火山	津波	ハリケーン	洪水	竜巻	山火事	干ばつ	地滑り	雪崩	サイクロン	吹雪	飢饉	伝染病	熱波																	
+108	川	medium	ナイル	アマゾン	ミシシッピ	ドナウ	長江	ガンジス	ライン	ヴォルガ	テムズ	セーヌ	コロラド	マレー	コンゴ	ミズーリ	ユーフラテス																	
+109	砂漠	medium	サハラ	ゴビ	アタカマ	ナミブ	アラビア	カラハリ	モハベ	砂	砂丘	サボテン	オアシス	熱	乾燥	ラクダ	侵食																	
+110	太陽系	medium	太陽	小惑星	彗星	流星体	カイパーベルト	オールトの雲	準惑星	地球型	巨大ガス	衛星	環	軌道	傾き	軸	重力																	
+111	宇宙用具	medium	宇宙飛行士	宇宙服	ヘルメット	酸素	ロケット	シャトル	衛星	ローバー	モジュール	ドッキング	制御	望遠鏡	Gフォース	スラスター	発射台																	
+112	世界料理	medium	パスタ	寿司	タコス	カレー	ピザ	フォー	フムス	パエリア	ブリトー	グヤーシュ	餃子	シチュー	ケバブ	ラーメン	ステーキ																	
+113	山	medium	エベレスト	K2	キリマンジャロ	デナリ	アルプス	アンデス	ロッキー	富士山	頂上	ピーク	山脈	氷河	高度	トレッキング	登頂																	
+114	副詞	medium	速く	遅く	大きく	静かに	幸せに	悲しく	いつも	決して	頻繁に	時々	ここ	そこ	上	下	慎重に																	
+115	おとぎ話	medium	シンデレラ	白雪姫	ルンペルシュティルツキン	ジンジャーブレッドマン	ゴールディロックス	赤ずきん	眠れる森の美女	王子	王女	魔女	城	魔法	森	悪役	英雄																	
+116	感覚	medium	視覚	聴覚	嗅覚	味覚	触覚	聞く	見る	嗅ぐ	味わう	感じる	知覚	感覚	神経	脳	刺激																	
+117	恐竜	medium	ティラノサウルス	トリケラトプス	ヴェロキラプトル	ブロントサウルス	ステゴサウルス	化石	絶滅	ジュラ紀	白亜紀	草食	肉食	爬虫類	古生物学	卵	爪																	
+118	神話	medium	ゼウス	ヘラ	ポセイドン	ハデス	アテナ	アポロ	アレス	ロキ	トール	オーディン	ドラゴン	神	英雄	伝説	予言																	
+119	スパイス	medium	塩	コショウ	シナモン	クローブ	ナツメグ	バジル	オレガノ	タイム	ローズマリー	生姜	ニンニク	ターメリック	クミン	サフラン	パプリカ																	
+120	ダンス	medium	バレエ	ジャズ	タップ	ヒップホップ	ワルツ	サルサ	タンゴ	モダン	社交	振付	舞台	ルーチン	ステップ	リズム	ピルエット																	
+121	画材	medium	油絵	アクリル	水彩	パステル	木炭	鉛筆	インク	彫刻	粘土	キャンバス	筆	パレット	フレスコ	モザイク	テンペラ																	
+122	お金用語	medium	硬貨	紙幣	通貨	ドル	ユーロ	円	ポンド	クレジット	デビット	富	予算	投資	金融	取引	借金																	
+123	世界の不思議	medium	ピラミッド	コロッセオ	マチュピチュ	万里の長城	ペトラ	タージマハル	ゼウス像	灯台	寺院	キリスト像	要塞	遺跡	記念碑	サイト	ランドマーク																	
+124	調理法	medium	揚げる	焼く	茹でる	グリル	ロースト	蒸す	炒める	炙る	煮込む	とろ火	ポーチ	レンジ	湯通し	スロークック	燻製																	
+125	ボート	medium	ヨット	帆船	カヌー	カヤック	手漕ぎボート	クルーズ船	貨物船	タグボート	潜水艦	ディンギー	スピードボート	カタマラン	はしけ	ゴンドラ	船																	
+126	コーヒー	medium	エスプレッソ	ラテ	カプチーノ	アメリカーノ	モカ	マキアート	コールドブリュー	ドリップ	フラットホワイト	フラッペ	リストレット	アフォガート	コルタード	ドッピオ	フィルター																	
+127	句読点	medium	ピリオド	カンマ	疑問符	感嘆符	セミコロン	コロン	引用符	アポストロフィ	ハイフン	ダッシュ	括弧	角括弧	省略記号	スラッシュ	アスタリスク																	
+128	オフィスの役割	medium	マネージャー	アシスタント	アナリスト	ディレクター	幹部	インターン	コンサルタント	事務員	受付	会計士	管理者	秘書	コーディネーター	副社長	CEO																	
+129	帽子	medium	フェドラ	ビーニー	野球帽	サンハット	トリルビー	ベレー	カウボーイハット	ソンブレロ	シルクハット	ボンネット	バイザー	ファシネーター	ホンブルグ	タム	フェズ																	
+130	超能力	medium	飛行	不可視	怪力	テレパシー	スピード	治癒	念力	伸縮	タイムトラベル	フォース	変身	エネルギー波	幻影	透過	透視																	
+131	心理学	medium	心	脳	治療	感情	行動	認知	ストレス	トラウマ	知覚	潜在意識	記憶	性格	不安	うつ	恐怖症																	
+132	PCパーツ	medium	CPU	モニター	キーボード	マウス	マザーボード	RAM	HDD	グラボ	電源	ファン	スピーカー	ウェブカメ	USB	ルーター	ケーブル																	
+133	架空の武器	medium	ライトセーバー	杖	フェイザー	エクスカリバー	ムジョルニア	バットラン	レーザー	剣	矢	スタッフ	斧	短剣	弓	ブラスター	盾																	
+134	医療器具	medium	聴診器	注射器	メス	鉗子	体温計	包帯	レントゲン	MRI	縫合	止血帯	マスク	手袋	除細動器	松葉杖	車椅子																	
+135	楽譜	medium	音符	休符	五線譜	音部記号	シャープ	フラット	ナチュラル	小節	リズム	テンポ	メロディ	ハーモニー	コード	拍子	調号																	
+136	架空の種族	medium	エルフ	ドワーフ	オーク	ホビット	人間	バルカン	クリンゴン	ウーキー	エイリアン	ゴブリン	ノーム	トロール	妖精	ケンタウルス	ロボット																	
+137	幾何学	medium	点	線	面	角度	線分	半直線	頂点	周囲	面積	体積	半径	直径	円周	平行	垂直																	
+138	写真用語	medium	絞り	シャッター速度	ISO	露出	フォーカス	被写界深度	構図	三脚	レンズ	フィルター	フラッシュ	ズーム	ホワイトバランス	センサー	画素数																	
+139	航空会社	medium	デルタ	ユナイテッド	アメリカン	ルフトハンザ	エミレーツ	カタール	ブリティッシュ	エールフランス	カンタス	シンガポール	ターキッシュ	ライアンエアー	サウスウエスト	ジェットブルー	アラスカ																	
+140	架空の物体	medium	指輪	石	ランプ	マント	剣	オーブ	聖杯	鏡	兜	本	鍵	ポーション	お守り	宝箱	地図																	
+141	ソフト	medium	Windows	macOS	Linux	ブラウザ	ワープロ	表計算	Photoshop	ウイルス対策	OS	アプリ	ドライバ	ユーティリティ	DB	ファイアウォール	コーデック																	
+142	お茶の種類	medium	緑茶	紅茶	ウーロン	白茶	ハーブ	アールグレイ	チャイ	ダージリン	ジャスミン	ペパーミント	カモミール	ルイボス	抹茶	イングリッシュ	煎じ茶																	
+143	付け合わせ	medium	パセリ	パクチー	ミント	チャイブ	バジル	レモン	ライム	オリーブ	チェリー	ホイップ	砂糖	スプレー	トッピング	クルトン	食用花																	
+144	臓器	medium	心臓	肺	脳	肝臓	腎臓	胃	腸	皮膚	脾臓	膵臓	胆嚢	膀胱	食道	気管	甲状腺																	
+145	中世	medium	城	騎士	王	女王	封建制	農民	疫病	十字軍	大聖堂	修道院	馬上槍試合	鎧	領地	領主	包囲																	
+146	木の種類	medium	オーク	カエデ	松	桜	クルミ	白樺	マホガニー	チーク	トネリコ	杉	モミ	トウヒ	バルサ	ポプラ	黒檀																	
+147	音楽用語	medium	テンポ	リズム	メロディ	ハーモニー	ピッチ	オクターブ	コード	スケール	クレシェンド	デクレシェンド	フォルテ	ピアノ	スタッカート	レガート	トーン																	
+148	体操	medium	宙返り	ひねり	跳馬	側転	逆立ち	開脚	タンブリング	平均台	段違い平行棒	つり輪	あん馬	前転	着地	プリエ	屈伸																	
+149	岩の種類	medium	火成岩	堆積岩	変成岩	花崗岩	玄武岩	石灰岩	大理石	珪岩	砂岩	頁岩	黒曜石	軽石	粘板岩	片麻岩	礫岩																	
+187	寿司	easy	マグロ	サーモン	エビ	イカ	タコ	ウニ	イクラ	玉子	アナゴ	ハマチ	カッパ巻き	鉄火巻き																				
+188	都道府県	easy	東京	大阪	京都	北海道	沖縄	福岡	広島	愛知	兵庫	神奈川	千葉	埼玉																				
+189	和食	medium	天ぷら	そば	うどん	ラーメン	味噌汁	納豆	おにぎり	すき焼き	しゃぶしゃぶ	焼き鳥	お好み焼き	たこ焼き																				
+190	忍者	medium	手裏剣	刀	クナイ	忍術	煙玉	隠れ身	スパイ	黒装束	城	任務	分身	屋敷																				
+191	侍	medium	刀	武士道	将軍	鎧	兜	名誉	切腹	主君	戦	城	馬	家紋																				
+192	アニメジャンル	medium	少年	少女	異世界	メカ	魔法少女	学園	スポーツ	ファンタジー	ホラー	日常	アイドル	ハーレム																				
+193	コンビニ	easy	おにぎり	弁当	パン	お茶	コーヒー	雑誌	アイス	おでん	肉まん	チキン	ATM	レジ																				
+194	文房具	easy	鉛筆	消しゴム	定規	ノート	ペン	はさみ	のり	ホッチキス	付箋	カッター	筆箱	修正テープ																				
+195	日本の祭り	medium	花火	神輿	浴衣	屋台	盆踊り	太鼓	金魚すくい	お面	綿飴	神社	提灯	法被																				
+196	ジブリ映画	medium	トトロ	ラピュタ	ナウシカ	千と千尋	ポニョ	もののけ姫	魔女の宅急便	ハウル	紅の豚	耳をすませば	アリエッティ	カオナシ																				
+197	ポケモンタイプ	medium	ノーマル	炎	水	草	電気	氷	格闘	毒	地面	飛行	エスパー	虫	岩	ゴースト	ドラゴン																	
+198	電化製品	easy	テレビ	冷蔵庫	洗濯機	エアコン	掃除機	炊飯器	電子レンジ	ドライヤー	アイロン	扇風機	こたつ	ストーブ																				
+199	干支	medium	子	丑	寅	卯	辰	巳	午	未	申	酉	戌	亥																				
+200	日本の伝統色	hard	藍色	朱色	山吹色	鶯色	浅葱色	藤色	小豆色	群青色	琥珀色	翡翠色	茜色	漆黒																				
+201	温泉	easy	露天風呂	サウナ	浴衣	タオル	石鹸	シャンプー	桶	のれん	効能	源泉	足湯	旅館																				
+202	花言葉	hard	愛	希望	純潔	情熱	嫉妬	感謝	平和	美	友情	誠実	幸福	永遠																				
+203	将棋	hard	王将	飛車	角行	金将	銀将	桂馬	香車	歩兵	成り金	竜王	竜馬	詰み																				
+204	相撲	medium	横綱	大関	関脇	小結	前頭	十両	土俵	まわし	行司	軍配	塩	四股																				
+205	武道	medium	柔道	剣道	空手	合気道	弓道	相撲	少林寺拳法	なぎなた	居合道	銃剣道	道場	黒帯																				
+206	妖怪	medium	河童	天狗	鬼	座敷わらし	ろくろ首	ぬりかべ	一反木綿	雪女	猫又	九尾の狐	のっぺらぼう	あずき洗い																				
+207	日本の城	medium	姫路城	大阪城	名古屋城	熊本城	松本城	二条城	天守閣	石垣	堀	門	櫓	城下町																				
+208	新幹線	medium	のぞみ	ひかり	こだま	はやぶさ	こまち	かがやき	とき	つばめ	さくら	みずほ	自由席	グリーン車																				
+209	調味料	easy	醤油	味噌	塩	砂糖	酢	みりん	マヨネーズ	ケチャップ	ソース	わさび	生姜	からし																				
+210	お正月	easy	おせち	お年玉	初詣	鏡餅	門松	凧揚げ	羽子板	かるた	すごろく	雑煮	年賀状	除夜の鐘																				
+211	桜	easy	花見	満開	つぼみ	花びら	散る	並木	公園	宴会	春	ピンク	夜桜	三色団子																				
+212	台風	easy	暴風	大雨	警報	避難	停電	洪水	傘	カッパ	土砂崩れ	高波	気圧	進路																				
+213	地震	easy	震度	マグニチュード	津波	余震	避難所	防災グッズ	ヘルメット	非常食	懐中電灯	ラジオ	速報	断層																				
+214	学校行事	easy	入学式	卒業式	運動会	文化祭	修学旅行	遠足	合唱コンクール	避難訓練	始業式	終業式	夏休み	冬休み																				
+215	部活動	easy	野球部	サッカー部	バスケ部	テニス部	吹奏楽部	美術部	演劇部	書道部	放送部	科学部	帰宅部	マネージャー																				
+216	日本の昔話	easy	桃太郎	浦島太郎	金太郎	かぐや姫	一寸法師	花咲か爺さん	鶴の恩返し	さるかに合戦	カチカチ山	笠地蔵	こぶとり爺さん	わらしべ長者																				
+217	敬語	hard	尊敬語	謙譲語	丁寧語	参る	おっしゃる	いただく	拝見する	存じる	伺う	申し上げる	差し上げる	な去る																				
+218	都道府県の名産	hard	りんご	みかん	お茶	メロン	牛肉	カニ	明太子	うどん	お好み焼き	たこ焼き	餃子	納豆																				
+219	焼肉	medium	カルビ	ロース	ハラミ	タン	ホルモン	レバー	ミノ	キムチ	ビビンバ	クッパ	冷麺	サンチュ																				
+220	居酒屋	medium	枝豆	唐揚げ	ポテト	刺身	焼き鳥	冷奴	ビール	ハイボール	サワー	日本酒	焼酎	梅酒																				
+221	掃除	easy	ほうき	ちりとり	雑巾	バケツ	掃除機	モップ	洗剤	ゴミ箱	分別	窓拭き	床磨き	片付け																				
+222	洗濯	easy	洗剤	柔軟剤	洗濯機	ハンガー	物干し竿	洗濯バサミ	乾燥機	アイロン	畳む	干す	カゴ	ネット																				
+223	お風呂	easy	湯船	シャワー	石鹸	シャンプー	リンス	タオル	洗面器	椅子	鏡	入浴剤	アヒル	垢すり																				
+224	睡眠	easy	枕	布団	毛布	シーツ	パジャマ	夢	いびき	目覚まし時計	寝坊	昼寝	夜更かし	早起き																				
+225	体調不良	medium	風邪	熱	咳	鼻水	頭痛	腹痛	吐き気	めまい	怪我	薬	病院	マスク																				
+226	天気予報	medium	晴れ	曇り	雨	雪	降水確率	気温	湿度	風速	注意報	警報	高気圧	低気圧																				
+227	交通ルール	medium	信号	横断歩道	一時停止	右折	左折	駐車禁止	一方通行	シートベルト	ヘルメット	免許証	標識	制限速度																				
+228	職業 2	medium	警察官	アイドル	声優	YouTuber	漫画家	作家	プログラマー	美容師	保育士	介護士	研究者	公務員																				
+229	パソコン用語	medium	クリック	ダブルクリック	ドラッグ	コピー	ペースト	保存	削除	フォルダ	ファイル	デスクトップ	アイコン	カーソル																				
+230	スマホアプリ	easy	LINE	Twitter	Instagram	TikTok	YouTube	カメラ	地図	カレンダー	電卓	天気	ニュース	ゲーム																				
+231	カフェ	easy	コーヒー	紅茶	ラテ	カプチーノ	ケーキ	サンドイッチ	トースト	パフェ	パンケーキ	クッキー	マフィン	スコーン																				
+232	パン屋	easy	食パン	フランスパン	クロワッサン	メロンパン	カレーパン	あんパン	クリームパン	ベーグル	サンドイッチ	ドーナツ	マフィン	ピザ																				
+233	果物 2	easy	みかん	メロン	柿	栗	イチジク	ザクロ	ライチ	パパイヤ	アボカド	グレープフルーツ	マスカット	巨峰																				
+234	野菜 2	easy	ナス	カボチャ	オクラ	レンコン	ゴボウ	サツマイモ	里芋	白菜	ニラ	小松菜	水菜	もやし																				
+235	海の生き物	medium	クジラ	イルカ	サメ	エイ	クラゲ	ヒトデ	ウミガメ	ペンギン	アザラシ	ラッコ	クリオネ	マンボウ																				
+236	昆虫 2	medium	カマキリ	セミ	クワガタ	ホタル	ダンゴムシ	ムカデ	クモ	ハエ	蚊	アブ	ブヨ	ノミ																				
+237	鳥 2	medium	ツバメ	ウグイス	メジロ	キツツキ	フクロウ	ミミズク	タカ	ワシ	トンビ	カモメ	ペリカン	フラミンゴ																				
+238	犬種	medium	柴犬	プードル	チワワ	ダックス	レトリバー	ポメラニアン	パグ	ブルドッグ	コーギー	ハスキー	秋田犬	テリア																				
+239	猫種	medium	三毛猫	黒猫	白猫	アメショー	マンチカン	ペルシャ	ロシアンブルー	シャム	スコティッシュ	ベンガル	メインクーン	ラグドール																				
+240	花	medium	バラ	チューリップ	ヒマワリ	アサガオ	コスモス	アジサイ	ユリ	キク	スミレ	タンポポ	シロツメクサ	彼岸花																				
+241	色 2	medium	水色	黄緑	深緑	紺色	ベージュ	クリーム色	カーキ	ボルドー	ターコイズ	ラベンダー	サーモンピンク	レモンイエロー																				
+242	宝石 2	hard	ルビー	サファイア	エメラルド	真珠	オパール	トパーズ	アクアマリン	ガーネット	アメジスト	ペリドット	ターコイズ	ラピスラズリ																				
+243	星座 2	hard	おひつじ座	おうし座	ふたご座	かに座	しし座	おとめ座	てんびん座	さそり座	いて座	やぎ座	みずがめ座	うお座																				
+244	RPG用語	medium	勇者	魔王	剣	魔法	盾	鎧	ポーション	経験値	レベルアップ	ダンジョン	宝箱	クエスト																				
+245	格闘ゲーム用語	hard	コンボ	必殺技	ガード	投げ	カウンター	ジャンプ	ダッシュ	体力ゲージ	タイムオーバー	KO	ラウンド	勝利																				
+246	音ゲー用語	hard	ノーツ	タップ	スライド	フリック	ホールド	コンボ	フルコンボ	パーフェクト	ミス	スコア	判定	難易度																				
+247	クリスマス	easy, image	c_christmas_g71.png	c_christmas_g82.png	c_christmas_g98.png	c_christmas_g111.png	c_christmas_g129.png	c_christmas_g154.png	c_christmas_g167.png	c_christmas_g247.png	c_christmas_g264.png	c_christmas_g286.png																						
+248	宇宙	easy, image	c_space_g646.png	c_space_g647.png	c_space_g648.png	c_space_g649.png	c_space_g650.png	c_space_g651.png	c_space_g652.png	c_space_g653.png	c_space_g654.png	c_space_g655.png	c_space_g656.png	c_space_g657.png	c_space_g658.png	c_space_g659.png	c_space_g660.png	c_space_g661.png																
+249	飲み物	easy, image	c_drinks_g26.png	c_drinks_g35.png	c_drinks_g41.png	c_drinks_g45.png	c_drinks_g58.png	c_drinks_g69.png	c_drinks_g75.png	c_drinks_g92.png	c_drinks_g109.png	c_drinks_g121.png																						
+250	動物	easy, image	c_animals_g216.png	c_animals_g217.png	c_animals_g218.png	c_animals_g219.png	c_animals_g220.png	c_animals_g221.png	c_animals_g222.png	c_animals_g223.png	c_animals_g224.png	c_animals_g225.png																						
+251	パスタ	medium, image	c_pastas_g425.png	c_pastas_g426.png	c_pastas_g427.png	c_pastas_g428.png	c_pastas_g429.png	c_pastas_g430.png	c_pastas_g431.png	c_pastas_g432.png	c_pastas_g433.png	c_pastas_g434.png	c_pastas_g435.png	c_pastas_g436.png	c_pastas_g437.png	c_pastas_g438.png	c_pastas_g439.png	c_pastas_g440.png																
+252	果物	medium, image	c_fruits_g801.png	c_fruits_g802.png	c_fruits_g803.png	c_fruits_g804.png	c_fruits_g805.png	c_fruits_g806.png	c_fruits_g807.png	c_fruits_g808.png	c_fruits_g809.png	c_fruits_g810.png	c_fruits_g811.png	c_fruits_g812.png	c_fruits_g813.png	c_fruits_g814.png	c_fruits_g815.png	c_fruits_g816.png		c_fruits_g818.png	c_fruits_g819.png	c_fruits_g820.png	c_fruits_g821.png	c_fruits_g822.png	c_fruits_g823.png	c_fruits_g824.png	c_fruits_g825.png	c_fruits_g826.png	c_fruits_g827.png	c_fruits_g828.png	c_fruits_g830.png	c_fruits_g831.png		
+253	日本	medium, image	c_japan_g2079.png	c_japan_g2080.png	c_japan_g2081.png	c_japan_g2083.png	c_japan_g2084.png	c_japan_g2085.png	c_japan_g2086.png	c_japan_g2087.png	c_japan_g2088.png	c_japan_g2089.png	c_japan_g2090.png	c_japan_g2091.png	c_japan_g2092.png	c_japan_g2093.png	c_japan_g2094.png	c_japan_g2095.png																
+254	フランス	easy, image	c_france_g10.png	c_france_g63.png	c_france_g69.png	c_france_g95.png	c_france_g153.png	c_france_g176.png	c_france_g183.png	c_france_g360.png	c_france_g625.png	c_france_g628.png	c_france_g705.png	c_france_g812.png	c_france_g854.png	c_france_g879.png																		
+255	眼鏡	easy, image	c_glasses_g11.png	c_glasses_g22.png	c_glasses_g29.png	c_glasses_g38.png	c_glasses_g48.png	c_glasses_g57.png	c_glasses_g66.png	c_glasses_g81.png																								
+256	禁止	medium, image	c_prohibitions_g33.png	c_prohibitions_g34.png	c_prohibitions_g35.png	c_prohibitions_g36.png	c_prohibitions_g37.png	c_prohibitions_g38.png	c_prohibitions_g39.png	c_prohibitions_g40.png	c_prohibitions_g41.png																							
+257	水	medium, image	c_water_g3.png	c_water_g18.png	c_water_g39.png	c_water_g67.png	c_water_g88.png	c_water_g143.png	c_water_g151.png	c_water_g185.png	c_water_g199.png	c_water_g214.png	c_water_g241.png	c_water_g256.png	c_water_g282.png	c_water_g286.png																		
+258	ゲーム	easy, image	c_games_g106.png	c_games_g178.png	c_games_g234.png	c_games_g257.png	c_games_g274.png	c_games_g297.png	c_games_g314.png	c_games_g354.png	c_games_g357.png	c_games_g385.png	c_games_g437.png	c_games_g519.png	c_games_g534.png	c_games_g575.png	c_games_g624.png	c_games_g736.png	c_games_g751.png	c_games_g829.png														
+259	椅子	easy, image	c_chairs_g23.png	c_chairs_g49.png	c_chairs_g105.png	c_chairs_g134.png	c_chairs_g173.png	c_chairs_g211.png	c_chairs_g232.png	c_chairs_g254.png																								
+260	魚	easy, image	c_fishs_g1022.png	c_fishs_g1023.png	c_fishs_g1024.png	c_fishs_g1025.png	c_fishs_g1026.png	c_fishs_g1027.png	c_fishs_g1028.png	c_fishs_g1029.png	c_fishs_g1030.png	c_fishs_g1031.png	c_fishs_g1032.png	c_fishs_g1033.png	c_fishs_g1034.png	c_fishs_g1035.png	c_fishs_g1036.png	c_fishs_g1037.png	c_fishs_g1038.png	c_fishs_g1039.png	c_fishs_g1040.png	c_fishs_g1041.png												
+261	惑星	medium, image	c_planets_g142.png	c_planets_g126.png	c_planets_g123.png	c_planets_g95.png	c_planets_g78.png	c_planets_g61.png	c_planets_g46.png	c_planets_g26.png	c_planets_g12.png																							
+262	葉	image, easy	c_leaves_g202.png	c_leaves_g189.png	c_leaves_g178.png	c_leaves_g166.png	c_leaves_g135.png	c_leaves_g122.png	c_leaves_g83.png	c_leaves_g71.png	c_leaves_g58.png	c_leaves_g50.png	c_leaves_g32.png	c_leaves_g12.png																				
+263	スポーツ	image, medium	c_sports_g11.png	c_sports_g10.png	c_sports_g9.png	c_sports_g8.png	c_sports_g7.png	c_sports_g6.png	c_sports_g5.png	c_sports_g4.png	c_sports_g3.png																							
+264	プール	image, medium	c_pools__x39_.png	c_pools__x37_.png	c_pools__x35_.png	c_pools__x34_.png	c_pools__x33_.png	c_pools__x32_.png	c_pools__x31_6.png	c_pools__x31_5.png	c_pools__x31_4.png	c_pools__x31_2.png	c_pools__x31_.png																					
+265	神話	image, medium	c_myth_g2147.png	c_myth_g1830.png	c_myth_g1590.png	c_myth_g1504.png	c_myth_g1380.png	c_myth_g1272.png	c_myth_g1141.png	c_myth_g995.png	c_myth_g939.png	c_myth_g848.png	c_myth_g689.png	c_myth_g489.png	c_myth_g381.png	c_myth_g234.png	c_myth_g111.png	c_myth_g57.png																
+266	音楽	image, medium	c_music_g712.png		c_music_g685.png	c_music_g646.png	c_music_g626.png	c_music_g474.png	c_music_g395.png	c_music_g363.png		c_music_g283.png	c_music_g269.png	c_music_g70.png	c_music_g35.png	c_music_g229.png	c_music_g176.png	c_music_g134.png																
+267	記念碑	image, medium	c_monuments_g16.png	c_monuments_g15.png	c_monuments_g14.png	c_monuments_g13.png	c_monuments_g12.png	c_monuments_g11.png	c_monuments_g10.png	c_monuments_g9.png	c_monuments_g8.png	c_monuments_g7.png	c_monuments_g6.png	c_monuments_g5.png	c_monuments_g4.png	c_monuments_g3.png	c_monuments_g2.png	c_monuments_g1.png																
+268	ロンドン	image, easy	c_london_g910.png	c_london_g895.png	c_london_g883.png	c_london_g862.png	c_london_g838.png	c_london_g666.png	c_london_g478.png	c_london_g473.png	c_london_g462.png	c_london_g331.png	c_london_g324.png	c_london_g305.png	c_london_g247.png	c_london_g214.png	c_london_g190.png	c_london_g68.png																
+269	帽子	image, easy	c_hats_g76.png	c_hats_g68.png	c_hats_g62.png	c_hats_g50.png	c_hats_g42.png	c_hats_g23.png	c_hats_g17.png	c_hats_g10.png	c_hats_g5.png																							
+270	犬	image, easy	c_dogs_g522.png	c_dogs_g484.png	c_dogs_g457.png	c_dogs_g438.png	c_dogs_g413.png	c_dogs_g383.png	c_dogs_g362.png	c_dogs_g326.png	c_dogs_g261.png	c_dogs_g231.png	c_dogs_g200.png	c_dogs_g163.png	c_dogs_g130.png	c_dogs_g99.png	c_dogs_g67.png	c_dogs_g36.png																
+271	映画	image, medium	c_cinema_g294.png	c_cinema_g276.png	c_cinema_g224.png	c_cinema_g203.png	c_cinema_g164.png	c_cinema_g138.png	c_cinema_g67.png	c_cinema_g16.png																								
+272	猫	image, easy	c_cats_g764.png	c_cats_g729.png	c_cats_g689.png	c_cats_g643.png	c_cats_g605.png	c_cats_g477.png	c_cats_g439.png	c_cats_g296.png	c_cats_g275.png	c_cats_g245.png	c_cats_g188.png	c_cats_g165.png	c_cats_g123.png	c_cats_g103.png	c_cats_g87.png	c_cats_g27.png																
+273	赤ちゃん	image, medium	c_baby_g169.png	c_baby_g136.png	c_baby_g122.png	c_baby_g109.png	c_baby_g74.png	c_baby_g61.png	c_baby_g48.png	c_baby_g35.png	c_baby_g15.png	c_baby_g9.png																						
+274	豪州	image, easy	c_australia_g378.png	c_australia_g370.png	c_australia_g332.png	c_australia_g270.png	c_australia_g247.png	c_australia_g216.png	c_australia_g120.png	c_australia_g86.png	c_australia_g46.png	c_australia_g27.png	c_australia_g11.png																					
+275	ヒーロー	image, hard	c_superheroes_g925.png	c_superheroes_g861.png	c_superheroes_g791.png	c_superheroes_g703.png	c_superheroes_g631.png	c_superheroes_g570.png	c_superheroes_g463.png	c_superheroes_g389.png	c_superheroes_g308.png	c_superheroes_g234.png	c_superheroes_g160.png	c_superheroes_g72.png																				
+276	サファリ	image, hard	c_safari_g1442.png	c_safari_g1337.png	c_safari_g1155.png	c_safari_g1030.png	c_safari_g967.png	c_safari_g860.png	c_safari_g822.png	c_safari_g768.png	c_safari_g696.png	c_safari_g614.png	c_safari_g544.png	c_safari_g494.png	c_safari_g353.png	c_safari_g271.png	c_safari_g190.png	c_safari_g90.png																
+277	サファリ	image, hard	c_safari_g1442.png	c_safari_g1337.png	c_safari_g1155.png	c_safari_g1030.png	c_safari_g967.png	c_safari_g860.png	c_safari_g822.png	c_safari_g768.png	c_safari_g696.png	c_safari_g614.png	c_safari_g544.png	c_safari_g494.png	c_safari_g353.png	c_safari_g271.png	c_safari_g190.png	c_safari_g90.png																
+278	怪獣	image, medium	c_monsters_g159.png	c_monsters_g316.png	c_monsters_g393.png	c_monsters_g475.png	c_monsters_g557.png	c_monsters_g685.png	c_monsters_g734.png	c_monsters_g809.png	c_monsters_g854.png	c_monsters_g923.png	c_monsters_g1013.png	c_monsters_g1078.png	c_monsters_g1171.png	c_monsters_g1262.png	c_monsters_g1335.png																	
+279	アメリカ	image, easy	c_unitedstates_g2255.png	c_unitedstates_g2085.png	c_unitedstates_g1914.png	c_unitedstates_g1551.png	c_unitedstates_g1467.png	c_unitedstates_g1420.png	c_unitedstates_g1350.png		c_unitedstates_g975.png	c_unitedstates_g966.png	c_unitedstates_g545.png	c_unitedstates_g84.png	c_unitedstates_g69.png	c_unitedstates_g57.png	c_unitedstates_g18.png																	
+280	木	image, easy	c_trees_g9978.png	c_trees_g9946.png	c_trees_g9923.png	c_trees_g9188.png	c_trees_g9099.png	c_trees_g8673.png	c_trees_g8505.png	c_trees_g7736.png	c_trees_g7503.png	c_trees_g13433.png	c_trees_g12305.png	c_trees_g12152.png	c_trees_g12055.png	c_trees_g11796.png	c_trees_g11703.png	c_trees_g7115.png	c_trees_g6599.png	c_trees_g6578.png	c_trees_g6428.png	c_trees_g6146.png	c_trees_g5328.png	c_trees_g4987.png	c_trees_g4589.png	c_trees_g4277.png	c_trees_g3928.png	c_trees_g3896.png	c_trees_g605.png	c_trees_g398.png	c_trees_g11278.png	c_trees_g10639.png	c_trees_g10549.png	c_trees_g10187.png
+281	ハロウィン	image, hard	c_halloween_g400.png	c_halloween_g300.png	c_halloween_g272.png	c_halloween_g223.png	c_halloween_g175.png	c_halloween_g139.png	c_halloween_g108.png	c_halloween_g90.png	c_halloween_g26.png																							
+282	神々	image, medium	c_gods_g1863.png	c_gods_g1698.png	c_gods_g1607.png	c_gods_g1507.png	c_gods_g1414.png	c_gods_g1312.png	c_gods_g1094.png	c_gods_g986.png	c_gods_g814.png	c_gods_g719.png	c_gods_g600.png	c_gods_g529.png	c_gods_g439.png	c_gods_g374.png	c_gods_g236.png	c_gods_g124.png																
+283	エジプト	image, medium	c_egypt_g1179.png	c_egypt_g1046.png	c_egypt_g946.png	c_egypt_g892.png	c_egypt_g853.png	c_egypt_g785.png	c_egypt_g763.png	c_egypt_g752.png	c_egypt_g694.png	c_egypt_g646.png	c_egypt_g366.png	c_egypt_g330.png	c_egypt_g287.png	c_egypt_g235.png	c_egypt_g199.png	c_egypt_g137.png	c_egypt_g12.png															
+284	武道	hard, image	c_martial_arts_g342.png	c_martial_arts_g341.png	c_martial_arts_g340.png	c_martial_arts_g339.png	c_martial_arts_g338.png	c_martial_arts_g337.png	c_martial_arts_g336.png	c_martial_arts_g335.png	c_martial_arts_g334.png	c_martial_arts_g333.png	c_martial_arts_g332.png	c_martial_arts_g331.png	c_martial_arts_g330.png	c_martial_arts_g329.png	c_martial_arts_g328.png	c_martial_arts_g327.png																
+285	バイク	easy, image	c_motos_g525.png	c_motos_g524.png	c_motos_g523.png	c_motos_g522.png	c_motos_g521.png	c_motos_g520.png	c_motos_g519.png	c_motos_g518.png	c_motos_g517.png	c_motos_g516.png	c_motos_g515.png	c_motos_g514.png																				
+286	仕事	medium, image	c_jobs_g675.png	c_jobs_g638.png	c_jobs_g580.png	c_jobs_g555.png	c_jobs_g502.png	c_jobs_g473.png	c_jobs_g444.png	c_jobs_g402.png	c_jobs_g360.png	c_jobs_g317.png	c_jobs_g288.png	c_jobs_g267.png	c_jobs_g222.png	c_jobs_g199.png	c_jobs_g174.png	c_jobs_g136.png	c_jobs_g109.png	c_jobs_g71.png	c_jobs_g54.png	c_jobs_g26.png												
+287	ケーキ	easy, image	c_cakes_g2204.png	c_cakes_g2114.png	c_cakes_g1865.png	c_cakes_g1453.png	c_cakes_g1277.png	c_cakes_g1058.png	c_cakes_g728.png	c_cakes_g694.png	c_cakes_g304.png	c_cakes_g155.png	c_cakes_g81.png	c_cakes_g12.png																				
+288	腕時計	medium, image	c_watches_g546.png	c_watches_g479.png	c_watches_g344.png	c_watches_g309.png	c_watches_g281.png	c_watches_g250.png	c_watches_g208.png	c_watches_g132.png	c_watches_g77.png	c_watches_g34.png																						
+289	サメ	medium, image	c_sharks_g1035.png	c_sharks_g1006.png	c_sharks_g970.png	c_sharks_g479.png	c_sharks_g450.png	c_sharks_g422.png	c_sharks_g385.png	c_sharks_g335.png	c_sharks_g303.png	c_sharks_g270.png	c_sharks_g78.png	c_sharks_g39.png																				
+290	西部劇	hard, image	c_western_g1433.png	c_western_g1364.png	c_western_g1330.png	c_western_g1223.png	c_western_g1149.png	c_western_g1096.png	c_western_g1008.png	c_western_g931.png	c_western_g846.png	c_western_g744.png	c_western_g347.png	c_western_g266.png	c_western_g93.png																			
+291	船	medium, image	c_ships_g11.png	c_ships_g10.png	c_ships_g9.png	c_ships_g8.png	c_ships_g7.png	c_ships_g6.png	c_ships_g5.png	c_ships_g4.png	c_ships_g3.png	c_ships_g2.png	c_ships_g1.png																					
+292	十二星座	medium, image	c_zodiac_g436.png	c_zodiac_g378.png	c_zodiac_g363.png	c_zodiac_g321.png	c_zodiac_g306.png	c_zodiac_g248.png	c_zodiac_g231.png	c_zodiac_g209.png	c_zodiac_g171.png	c_zodiac_g130.png	c_zodiac_g86.png	c_zodiac_g48.png																				
+293	恐竜	easy, image	c_dinosaurs_g921.png	c_dinosaurs_g738.png	c_dinosaurs_g614.png	c_dinosaurs_g4319.png	c_dinosaurs_g3995.png	c_dinosaurs_g3817.png	c_dinosaurs_g3701.png	c_dinosaurs_g3594.png	c_dinosaurs_g1754.png	c_dinosaurs_g1516.png	c_dinosaurs_g1372.png	c_dinosaurs_g1214.png	c_dinosaurs_g301.png																			
+294	チーズ	medium, image	c_cheeses_g2020.png	c_cheeses_g2019.png	c_cheeses_g2018.png	c_cheeses_g2017.png	c_cheeses_g2016.png	c_cheeses_g2015.png		c_cheeses_g2013.png	c_cheeses_g2012.png	c_cheeses_g2011.png	c_cheeses_g2010.png	c_cheeses_g2009.png	c_cheeses_g2008.png	c_cheeses_g2007.png	c_cheeses_g2006.png	c_cheeses_g2005.png																
+295	ヴァイキング	hard, image	c_vikings_g821.png	c_vikings_g792.png	c_vikings_g657.png	c_vikings_g567.png	c_vikings_g491.png	c_vikings_g371.png	c_vikings_g236.png	c_vikings_g103.png																								
+296	中世	medium, image	c_medieval_g5099.png	c_medieval_g2096.png	c_medieval_g1804.png	c_medieval_g1654.png	c_medieval_g1309.png	c_medieval_g1126.png	c_medieval_g810.png	c_medieval_g627.png	c_medieval_g406.png	c_medieval_g173.png																						
+297	海賊	hard, image	c_pirates_g957.png	c_pirates_g906.png	c_pirates_g823.png	c_pirates_g714.png	c_pirates_g631.png	c_pirates_g555.png	c_pirates_g510.png	c_pirates_g393.png	c_pirates_g317.png	c_pirates_g290.png	c_pirates_g233.png	c_pirates_g150.png	c_pirates_g68.png																			
+298	キノコ	easy, image	c_mushrooms_g13753.png	c_mushrooms_g13752.png	c_mushrooms_g13751.png	c_mushrooms_g13750.png	c_mushrooms_g13749.png	c_mushrooms_g13748.png	c_mushrooms_g13747.png	c_mushrooms_g13746.png	c_mushrooms_g13745.png	c_mushrooms_g13744.png	c_mushrooms_g13743.png	c_mushrooms_g13742.png	c_mushrooms_g13741.png	c_mushrooms_g13740.png	c_mushrooms_g13739.png	c_mushrooms_g13738.png	c_mushrooms_g13737.png	c_mushrooms_g13736.png	c_mushrooms_g13735.png	c_mushrooms_g13734.png	c_mushrooms_g13733.png	c_mushrooms_g13732.png	c_mushrooms_g13731.png									
+299	音楽家	easy, image	c_musicians_g204.png	c_musicians_g186.png	c_musicians_g163.png	c_musicians_g133.png	c_musicians_g113.png	c_musicians_g85.png	c_musicians_g68.png	c_musicians_g50.png	c_musicians_g18.png																							
+300	車	easy, image	c_cars_g557.png	c_cars_g516.png	c_cars_g477.png	c_cars_g439.png	c_cars_g378.png	c_cars_g334.png	c_cars_g296.png	c_cars_g244.png	c_cars_g200.png	c_cars_g148.png	c_cars_g96.png	c_cars_g51.png																				
+301	旗	easy, image	c_flags_vn.png	c_flags_us.png	c_flags_tr.png	c_flags_th.png	c_flags_so.png	c_flags_sn.png	c_flags_ru.png	c_flags_ro.png	c_flags_pr.png	c_flags_no.png	c_flags_nl.png	c_flags_ng.png	c_flags_ne.png	c_flags_ml.png	c_flags_mg.png	c_flags_jm.png	c_flags_it.png	c_flags_is.png	c_flags_iq.png	c_flags_in.png	c_flags_hn.png	c_flags_gb.png	c_flags_dk.png	c_flags_de.png	c_flags_cz.png	c_flags_cu.png	c_flags_cr.png	c_flags_co.png	c_flags_cn.png	c_flags_za.png		
+302	旗	easy, image	c_flags_ua.png	c_flags_tz.png	c_flags_sg.png	c_flags_se.png	c_flags_sd.png	c_flags_pl.png	c_flags_pa.png	c_flags_nz.png	c_flags_mc.png	c_flags_ma.png	c_flags_ly.png	c_flags_lu.png	c_flags_lt.png	c_flags_kr.png	c_flags_jp.png	c_flags_ie.png	c_flags_hu.png	c_flags_gr.png	c_flags_gn.png	c_flags_fr.png	c_flags_fi.png	c_flags_es.png	c_flags_ee.png	c_flags_ca.png	c_flags_br.png	c_flags_bj.png	c_flags_bg.png	c_flags_be.png	c_flags_at.png	c_flags_ar.png	c_flags_ae.png	
+303	火山	easy, image	c_volcanoes_g427.png	c_volcanoes_g409.png	c_volcanoes_g367.png	c_volcanoes_g336.png	c_volcanoes_g325.png	c_volcanoes_g283.png	c_volcanoes_g38.png	c_volcanoes_g1566.png	c_volcanoes_g1545.png	c_volcanoes_g1378.png	c_volcanoes_g1359.png	c_volcanoes_g1344.png	c_volcanoes_g1325.png	c_volcanoes_g267.png	c_volcanoes_g247.png	c_volcanoes_g215.png																
+304	道具	medium, image	c_tools_g260.png	c_tools_g251.png	c_tools_g246.png	c_tools_g215.png	c_tools_g210.png	c_tools_g176.png	c_tools_g167.png	c_tools_g164.png	c_tools_g150.png	c_tools_g116.png	c_tools_g110.png	c_tools_g103.png																				
+305	ジェットコースター	medium, image	c_rollercoasters_g2228.png	c_rollercoasters_g1842.png	c_rollercoasters_g1072.png	c_rollercoasters_g830.png	c_rollercoasters_g733.png	c_rollercoasters_g656.png	c_rollercoasters_g551.png	c_rollercoasters_g353.png	c_rollercoasters_g245.png	c_rollercoasters_g103.png																						
+306	ジェットコースター	medium, image	c_rollercoasters_g2228.png	c_rollercoasters_g1842.png	c_rollercoasters_g1072.png	c_rollercoasters_g830.png	c_rollercoasters_g733.png	c_rollercoasters_g656.png	c_rollercoasters_g551.png	c_rollercoasters_g353.png	c_rollercoasters_g245.png	c_rollercoasters_g103.png																						
+307	王女	medium, image	c_princesses_g463.png	c_princesses_g409.png	c_princesses_g357.png	c_princesses_g300.png	c_princesses_g233.png	c_princesses_g181.png	c_princesses_g133.png	c_princesses_g67.png																								
+308	ペンギン	medium, image	c_penguins_g473.png	c_penguins_g428.png	c_penguins_g390.png	c_penguins_g347.png	c_penguins_g296.png	c_penguins_g259.png	c_penguins_g218.png	c_penguins_g177.png	c_penguins_g142.png	c_penguins_g110.png	c_penguins_g77.png	c_penguins_g37.png																				
+309	鍵	hard, image	c_keys_g53.png	c_keys_g50.png	c_keys_g45.png	c_keys_g40.png	c_keys_g35.png	c_keys_g29.png	c_keys_g23.png	c_keys_g19.png	c_keys_g11.png	c_keys_g6.png																						
+310	イタリア	easy, image	c_italia_g1721.png	c_italia_g1711.png	c_italia_g1611.png	c_italia_g1390.png	c_italia_g1354.png	c_italia_g1258.png	c_italia_g1199.png	c_italia_g685.png	c_italia_g334.png	c_italia_g64.png	c_italia_g1.png	c_italia_g1769.png																				
+311	インド	medium, image	c_india__x39_.png	c_india__x38_.png	c_india__x36_.png	c_india__x34_.png	c_india__x33_.png	c_india__x31_4.png	c_india__x31_3.png	c_india__x31_2.png	c_india__x31_1.png	c_india__x31_0.png																						
+312	馬	easy, image	c_horses_g514.png	c_horses_g480.png	c_horses_g446.png	c_horses_g387.png	c_horses_g347.png	c_horses_g307.png	c_horses_g272.png	c_horses_g239.png	c_horses_g179.png	c_horses_g143.png	c_horses_g104.png	c_horses_g46.png																				
+313	ギリシャ	easy, image	c_greece_g18.png	c_greece_g10.png	c_greece_g9.png	c_greece_g8.png	c_greece_g7.png	c_greece_g6.png	c_greece_g5.png	c_greece_g4.png	c_greece_g3.png	c_greece_g2.png	c_greece_g1.png																					
+314	ドイツ	easy, image	c_germany_g1325.png	c_germany_g1228.png	c_germany_g736.png	c_germany_g546.png	c_germany_g492.png	c_germany_g360.png	c_germany_g281.png	c_germany_g137.png	c_germany_g103.png																							
+315	農場	medium, image	c_farming_layer_16.png	c_farming_layer_15.png	c_farming_layer_13.png	c_farming_layer_12.png	c_farming_layer_11.png	c_farming_layer_9.png	c_farming_layer_7.png	c_farming_layer_6.png	c_farming_layer_5.png	c_farming_layer_4.png	c_farming_layer_3.png	c_farming_layer_1.png																				
+316	絵文字	easy, image	c_emojis_2_g306.png	c_emojis_2_g284.png		c_emojis_2_g248.png	c_emojis_2_g238.png	c_emojis_2_g231.png	c_emojis_2_g224.png	c_emojis_2_g208.png	c_emojis_2_g201.png	c_emojis_2_g193.png	c_emojis_2_g175.png	c_emojis_2_g168.png	c_emojis_2_g159.png	c_emojis_2_g143.png	c_emojis_2_g92.png	c_emojis_2_g85.png																
+317	絵文字	easy, image	c_emojis_1_g298.png	c_emojis_1_g291.png	c_emojis_1_g259.png	c_emojis_1_g186.png	c_emojis_1_g152.png	c_emojis_1_g121.png	c_emojis_1_g110.png	c_emojis_1_g99.png	c_emojis_1_g76.png	c_emojis_1_g65.png	c_emojis_1_g59.png	c_emojis_1_g49.png	c_emojis_1_g40.png	c_emojis_1_g32.png	c_emojis_1_g24.png	c_emojis_1_g16.png	c_emojis_1_g8.png															
+318	コーヒー	hard, image	c_coffees_g1802.png	c_coffees_g1726.png	c_coffees_g1706.png	c_coffees_g1624.png	c_coffees_g1583.png	c_coffees_g1325.png	c_coffees_g1217.png	c_coffees_g1072.png	c_coffees_g1052.png	c_coffees_g776.png	c_coffees_g539.png	c_coffees_g406.png	c_coffees_g322.png	c_coffees_g232.png	c_coffees_g78.png	c_coffees_g43.png																
+319	サーカス	easy, image	c_circus_g892.png	c_circus_g831.png	c_circus_g759.png	c_circus_g692.png	c_circus_g618.png	c_circus_g484.png	c_circus_g352.png	c_circus_g247.png	c_circus_g138.png	c_circus_g81.png																						
+320	カナダ	easy, image	c_canada_g885.png	c_canada_g866.png	c_canada_g848.png	c_canada_g816.png	c_canada_g641.png	c_canada_g572.png	c_canada_g505.png	c_canada_g465.png	c_canada_g423.png	c_canada_g80.png																						
+321	蝶	medium, image	c_butterflies_g315.png	c_butterflies_g282.png	c_butterflies_g259.png	c_butterflies_g209.png	c_butterflies_g184.png	c_butterflies_g142.png	c_butterflies_g78.png	c_butterflies_g36.png																								
+322	鳥	easy, image	c_birds_g8221.png	c_birds_g7582.png	c_birds_g7517.png	c_birds_g7311.png	c_birds_g6906.png	c_birds_g6763.png	c_birds_g6709.png	c_birds_g6377.png	c_birds_g5649.png	c_birds_g5377.png	c_birds_g5244.png	c_birds_g5144.png	c_birds_g3341.png	c_birds_g3206.png	c_birds_g2948.png	c_birds_g2896.png	c_birds_g2265.png	c_birds_g534.png	c_birds_g433.png	c_birds_g2174.png	c_birds_g1423.png	c_birds_g1227.png	c_birds_g185.png									
+323	自転車	easy, image	c_bicycles_bike_10.png	c_bicycles_bike_9.png	c_bicycles_bike_8.png	c_bicycles_bike_7.png	c_bicycles_bike_6.png	c_bicycles_bike_5.png	c_bicycles_bike_4.png	c_bicycles_bike_3.png	c_bicycles_bike_2.png	c_bicycles_bike_1.png																						
+324	蜂	easy, image	c_bees_g590.png	c_bees_g564.png	c_bees_g303.png	c_bees_g276.png	c_bees_g225.png	c_bees_g184.png	c_bees_g90.png	c_bees_g64.png	c_bees_g26.png	c_bees_g143.png	c_bees_g123.png																					
+325	熊	easy, image	c_bears_g502.png	c_bears_g459.png	c_bears_g404.png	c_bears_g338.png	c_bears_g242.png	c_bears_g199.png	c_bears_g156.png	c_bears_g106.png	c_bears_g56.png																							
+326	鞄	medium, image	c_bags_g115.png	c_bags_g98.png	c_bags_g82.png	c_bags_g72.png	c_bags_g53.png	c_bags_g46.png	c_bags_g38.png	c_bags_g28.png	c_bags_g19.png																							
+327	おもちゃ	medium, image	c_toys_g236.png	c_toys_g219.png	c_toys_g204.png	c_toys_g189.png	c_toys_g161.png	c_toys_g143.png	c_toys_g114.png	c_toys_g67.png	c_toys_g45.png	c_toys_g25.png	c_toys_g19.png	c_toys_g12.png																				
+328	バレエ	hard, image	c_ballet_g493.png	c_ballet_g492.png	c_ballet_g444.png	c_ballet_g429.png	c_ballet_g394.png	c_ballet_g332.png	c_ballet_g316.png	c_ballet_g264.png	c_ballet_g206.png	c_ballet_g178.png	c_ballet_g135.png	c_ballet_g118.png	c_ballet_g98.png	c_ballet_g46.png	c_ballet_g31.png																	
+329	飴	easy, image	c_candies_g196.png	c_candies_g186.png	c_candies_g177.png	c_candies_g145.png	c_candies_g136.png	c_candies_g122.png	c_candies_g114.png	c_candies_g84.png	c_candies_g73.png	c_candies_g45.png	c_candies_g25.png																					
+330	ピザ	easy, image	c_pizzas_g3443.png	c_pizzas_g3227.png	c_pizzas_g2758.png	c_pizzas_g2179.png	c_pizzas_g1673.png	c_pizzas_g1515.png	c_pizzas_g1007.png	c_pizzas_g718.png	c_pizzas_g331.png																							
+331	空港	hard, image	c_airport_g2489.png	c_airport_g1923.png	c_airport_g1871.png	c_airport_g1737.png	c_airport_g1586.png	c_airport_g1513.png	c_airport_g1225.png	c_airport_g1050.png	c_airport_g903.png	c_airport_g723.png	c_airport_g513.png																					
+332	橋	medium, image	c_bridges_g1763.png	c_bridges_g1617.png	c_bridges_g1460.png	c_bridges_g1243.png	c_bridges_g998.png	c_bridges_g802.png	c_bridges_g679.png	c_bridges_g509.png	c_bridges_g259.png	c_bridges_g110.png																						
+333	灯台	easy, image	c_lighthouses_g354.png	c_lighthouses_g306.png	c_lighthouses_g285.png	c_lighthouses_g174.png	c_lighthouses_g165.png	c_lighthouses_g118.png	c_lighthouses_g80.png	c_lighthouses_g53.png	c_lighthouses_g37.png																							
+334	市場	medium, image	c_market_g9364.png	c_market_g8575.png	c_market_g8276.png	c_market_g7712.png	c_market_g7251.png	c_market_g5635.png	c_market_g4009.png	c_market_g1616.png	c_market_g836.png																							
+335	電車	easy, image	c_trains_g609.png	c_trains_g577.png	c_trains_g543.png	c_trains_g507.png	c_trains_g459.png	c_trains_g418.png	c_trains_g368.png	c_trains_g228.png	c_trains_g106.png																							
+336	天気	medium, image	c_weather_g237.png	c_weather_g202.png	c_weather_g75.png	c_weather_g37.png	c_weather_g192.png	c_weather_g188.png	c_weather_g171.png	c_weather_g163.png	c_weather_g143.png	c_weather_g133.png	c_weather_g122.png	c_weather_g118.png																				
+337	宝石	hard, image	c_jewels__x39_.png	c_jewels__x38_.png	c_jewels__x37_.png	c_jewels__x36_.png	c_jewels__x35_.png	c_jewels__x34_.png	c_jewels__x33_.png	c_jewels__x32_.png	c_jewels__x31_6.png	c_jewels__x31_5.png	c_jewels__x31_4.png	c_jewels__x31_3.png	c_jewels__x31_2.png	c_jewels__x31_1.png	c_jewels__x31_0.png	c_jewels__x31_.png																
+338	刺青	medium, image	c_tatoos_g404.png	c_tatoos_g390.png	c_tatoos_g384.png	c_tatoos_g338.png	c_tatoos_g334.png	c_tatoos_g305.png	c_tatoos_g254.png	c_tatoos_g180.png	c_tatoos_g152.png	c_tatoos_g115.png	c_tatoos_g102.png	c_tatoos_g77.png																				
+339	宇宙人	image,medium	c_aliens_g134.png	c_aliens_g263.png	c_aliens_g340.png	c_aliens_g474.png	c_aliens_g550.png	c_aliens_g622.png	c_aliens_g653.png	c_aliens_g709.png	c_aliens_g751.png	c_aliens_g834.png	c_aliens_g933.png																					
+340	鐘	image,medium	c_bells_g56.png	c_bells_g82.png	c_bells_g94.png	c_bells_g103.png	c_bells_g125.png	c_bells_g139.png	c_bells_g151.png	c_bells_g165.png	c_bells_g190.png																							
+341	ブーツ	image,medium	c_boots_g7.png	c_boots_g13.png	c_boots_g33.png	c_boots_g69.png	c_boots_g82.png	c_boots_g116.png	c_boots_g174.png	c_boots_g222.png	c_boots_g254.png																							
+342	城	image,medium	c_castles_g453.png	c_castles_g558.png	c_castles_g672.png	c_castles_g943.png	c_castles_g1082.png	c_castles_g1264.png	c_castles_g1377.png	c_castles_g1576.png	c_castles_g1717.png	c_castles_g1816.png	c_castles_g1817.png	c_castles_g1818.png																				
+343	チョコ	image,medium	c_chocolate_g1123.png	c_chocolate_g1253.png	c_chocolate_g241.png	c_chocolate_g313.png	c_chocolate_g1279.png	c_chocolate_g2245.png	c_chocolate_g2322.png	c_chocolate_g2389.png	c_chocolate_g2420.png	c_chocolate_g2429.png	c_chocolate_g6907.png																					
+344	卵	image,medium	c_eggs_g17.png	c_eggs_g22.png	c_eggs_g54.png	c_eggs_g231.png	c_eggs_g409.png	c_eggs_g547.png	c_eggs_g985.png	c_eggs_g1008.png	c_eggs_g1142.png	c_eggs_g1197.png																						
+345	妖精	image,medium	c_fairies_g94.png	c_fairies_g282.png	c_fairies_g361.png	c_fairies_g426.png	c_fairies_g516.png	c_fairies_g623.png	c_fairies_g752.png	c_fairies_g865.png	c_fairies_g964.png	c_fairies_g1083.png	c_fairies_g1227.png	c_fairies_g1315.png	c_fairies_g1439.png	c_fairies_g1533.png	c_fairies_g1635.png	c_fairies_g1712.png	c_fairies_g1833.png	c_fairies_g1938.png	c_fairies_g2030.png	c_fairies_g2146.png	c_fairies_g2250.png	c_fairies_g2330.png	c_fairies_g2422.png	c_fairies_g2519.png	c_fairies_g2630.png							
+346	噴水	image,medium	c_fountain_g189.png	c_fountain_g269.png	c_fountain_g1022.png	c_fountain_g354.png	c_fountain_g439.png	c_fountain_g598.png	c_fountain_g695.png	c_fountain_g779.png	c_fountain_g925.png																							
+347	園芸	image,medium	c_gardening_g1813.png	c_gardening_g1814.png	c_gardening_g1815.png	c_gardening_g1817.png	c_gardening_g1818.png	c_gardening_g1819.png	c_gardening_g1820.png	c_gardening_g1821.png	c_gardening_g1822.png	c_gardening_g1823.png	c_gardening_g1824.png	c_gardening_g1816.png																				
+348	手袋	image,medium	c_gloves_baseball.png	c_gloves_boxing_gloves.png	c_gloves_convertible_mittens.png	c_gloves_cuffs.png	c_gloves_cycling_gloves.png	c_gloves_dress_gloves.png	c_gloves_driving_gloves.png	c_gloves_garden_gloves.png	c_gloves_knitted_gloves.png	c_gloves_leather_gloves.png	c_gloves_medical.png	c_gloves_mittens.png	c_gloves_oven_mitten.png	c_gloves_rubber_gloves.png																		
+349	ヘリ	image,medium	c_helicopter_g104.png	c_helicopter_g124.png	c_helicopter_g162.png	c_helicopter_g203.png	c_helicopter_g23.png	c_helicopter_g65.png	c_helicopter_g242.png	c_helicopter_g279.png	c_helicopter_g331.png																							
+350	病院	image,medium	c_hospital_g10.png	c_hospital_g35.png	c_hospital_g52.png	c_hospital_g70.png	c_hospital_g310.png	c_hospital_g380.png	c_hospital_g388.png	c_hospital_g400.png	c_hospital_g455.png	c_hospital_g488.png	c_hospital_g489.png																					
+351	島	image,medium	c_island_g87.png	c_island_g151.png	c_island_g266.png	c_island_g437.png	c_island_g522.png	c_island_g712.png	c_island_g834.png	c_island_g922.png	c_island_g1024.png																							
+352	洗濯	image,medium	c_laundry_g37.png	c_laundry_g90.png	c_laundry_g114.png	c_laundry_g149.png	c_laundry_g167.png	c_laundry_g183.png	c_laundry_g198.png	c_laundry_g213.png	c_laundry_g222.png																							
+353	図書館	image,medium	c_library_g1000.png	c_library_g259.png	c_library_g404.png	c_library_g471.png	c_library_g574.png	c_library_g615.png	c_library_g751.png	c_library_g823.png	c_library_g947.png	c_library_g1105.png	c_library_g1128.png	c_library_g1259.png	c_library_g1327.png	c_library_g1463.png	c_library_g1745.png																	
+354	雷	image,medium	c_lightning_g2.png	c_lightning_g4.png	c_lightning_g7.png	c_lightning_g8.png	c_lightning_g11.png	c_lightning_g20.png	c_lightning_g21.png	c_lightning_g23.png	c_lightning_g30.png	c_lightning_g36.png	c_lightning_g37.png																					
+355	牛乳	image,medium	c_milk_g40.png	c_milk_g80.png	c_milk_g91.png	c_milk_g109.png	c_milk_g144.png	c_milk_g145.png																										
+356	猿	image,medium	c_monkeys_g117.png	c_monkeys_g186.png	c_monkeys_g281.png	c_monkeys_g402.png	c_monkeys_g624.png	c_monkeys_g712.png	c_monkeys_g844.png	c_monkeys_g938.png	c_monkeys_g1029.png																							
+357	忍者	image,medium	c_ninjas_g47.png	c_ninjas_g89.png	c_ninjas_g126.png	c_ninjas_g168.png	c_ninjas_g236.png	c_ninjas_g295.png	c_ninjas_g362.png	c_ninjas_g403.png	c_ninjas_g453.png	c_ninjas_g510.png	c_ninjas_g595.png	c_ninjas_g630.png																				
+358	薬局	image,medium	c_pharmacy_g60.png	c_pharmacy_g110.png	c_pharmacy_g236.png	c_pharmacy_g252.png	c_pharmacy_g309.png	c_pharmacy_g390.png	c_pharmacy_g854.png	c_pharmacy_g1045.png	c_pharmacy_g1226.png	c_pharmacy_g1265.png	c_pharmacy_g1343.png																					
+359	ラジオ	image,medium	c_radio_g71.png	c_radio_g105.png	c_radio_g126.png	c_radio_g195.png	c_radio_g226.png	c_radio_g246.png	c_radio_g285.png	c_radio_g332.png	c_radio_g344.png	c_radio_g409.png	c_radio_g490.png	c_radio_g491.png																				
+360	虹	image,medium	c_rainbow_g60.png	c_rainbow_g88.png	c_rainbow_g123.png	c_rainbow_g167.png	c_rainbow_g203.png	c_rainbow_g239.png	c_rainbow_g259.png	c_rainbow_g296.png	c_rainbow_g331.png	c_rainbow_g362.png	c_rainbow_g391.png	c_rainbow_g426.png	c_rainbow_g462.png	c_rainbow_g482.png	c_rainbow_g524.png	c_rainbow_g538.png																
+361	裁縫	image,medium	c_sewing_g15.png	c_sewing_g25.png	c_sewing_g32.png	c_sewing_g45.png	c_sewing_g66.png	c_sewing_g68.png	c_sewing_g74.png	c_sewing_g128.png	c_sewing_g131.png	c_sewing_g137.png	c_sewing_g185.png	c_sewing_g201.png	c_sewing_g219.png																			
+362	スケート	image,medium	c_skating_g164.png	c_skating_g314.png	c_skating_g441.png	c_skating_g610.png	c_skating_g786.png	c_skating_g950.png	c_skating_g1041.png	c_skating_g1186.png	c_skating_g1281.png	c_skating_g1384.png	c_skating_g1522.png	c_skating_g1697.png																				
+363	超高層	image,medium	c_skyscraper_g231.png	c_skyscraper_g530.png	c_skyscraper_g1018.png	c_skyscraper_g1137.png	c_skyscraper_g1394.png	c_skyscraper_g1424.png	c_skyscraper_g1520.png	c_skyscraper_g1972.png	c_skyscraper_g2076.png	c_skyscraper_g79.png	c_skyscraper_g708.png	c_skyscraper_g940.png																				
+364	雪だるま	image,medium	c_snowman_g177.png	c_snowman_g275.png	c_snowman_g404.png	c_snowman_g557.png	c_snowman_g683.png	c_snowman_g842.png	c_snowman_g928.png	c_snowman_g1067.png	c_snowman_g1190.png	c_snowman_g1298.png																						
+365	靴下	image,medium	c_socks_g9.png	c_socks_g40.png	c_socks_g78.png	c_socks_g107.png	c_socks_g140.png	c_socks_g202.png	c_socks_g228.png	c_socks_g266.png	c_socks_g721.png	c_socks_g745.png	c_socks_g768.png	c_socks_g795.png	c_socks_g813.png	c_socks_g844.png	c_socks_g862.png																	
+366	風船	image,medium	c_sport_balls_g3589.png	c_sport_balls_g3590.png	c_sport_balls_g3591.png	c_sport_balls_g3592.png	c_sport_balls_g3593.png	c_sport_balls_g3594.png	c_sport_balls_g3595.png	c_sport_balls_g3596.png	c_sport_balls_g3597.png	c_sport_balls_g3598.png	c_sport_balls_g3599.png	c_sport_balls_g3600.png	c_sport_balls_g3601.png	c_sport_balls_g3602.png	c_sport_balls_g3603.png																	
+367	茶	image,medium	c_tea_g20.png	c_tea_g46.png	c_tea_g60.png	c_tea_g111.png	c_tea_g119.png	c_tea_g362.png	c_tea_g373.png	c_tea_g388.png	c_tea_g411.png	c_tea_g438.png	c_tea_g458.png	c_tea_g476.png	c_tea_g496.png	c_tea_g511.png	c_tea_g529.png																	
+368	テント	image,medium	c_tent_g16.png	c_tent_g32.png	c_tent_g49.png	c_tent_g70.png	c_tent_g81.png	c_tent_g103.png	c_tent_g123.png	c_tent_g136.png	c_tent_g148.png																							
+369	劇場	image,medium	c_theater__x31_.png	c_theater__x31_1.png	c_theater__x31_2.png	c_theater__x31_3.png	c_theater__x31_4.png	c_theater__x31_5.png	c_theater__x31_6.png	c_theater__x33_.png	c_theater__x35_.png	c_theater__x37__2_.png	c_theater__x38_.png																					
+370	ヨガ	image,medium	c_yoga_g79.png	c_yoga_g540.png	c_yoga_g493.png	c_yoga_g415.png	c_yoga_g377.png	c_yoga_g335.png	c_yoga_g250.png	c_yoga_g168.png																								
+371	ワインメーカー / 醸造家	image,medium	c_winemaker_g929.png	c_winemaker_g836.png	c_winemaker_g797.png	c_winemaker_g733.png	c_winemaker_g690.png	c_winemaker_g603.png	c_winemaker_g549.png	c_winemaker_g511.png	c_winemaker_g373.png	c_winemaker_g346.png	c_winemaker_g273.png	c_winemaker_g195.png																				
+372	火山学	image,hard	c_volcanology_g1149.png	c_volcanology_g1148.png	c_volcanology_g1147.png	c_volcanology_g1146.png	c_volcanology_g1145.png	c_volcanology_g1144.png	c_volcanology_g1143.png	c_volcanology_g842.png	c_volcanology_g710.png	c_volcanology_g569.png																						
+373	椅子張り職人	image,medium	c_upholsterer_g940.png	c_upholsterer_g905.png	c_upholsterer_g874.png	c_upholsterer_g748.png	c_upholsterer_g630.png	c_upholsterer_g550.png	c_upholsterer_g416.png	c_upholsterer_g334.png	c_upholsterer_g245.png	c_upholsterer_g135.png																						
+374	地震学	image,hard	c_seismology_g3957.png	c_seismology_g3704.png	c_seismology_g3305.png	c_seismology_g2897.png	c_seismology_g2196.png	c_seismology_g1704.png	c_seismology_g1294.png	c_seismology_g1096.png	c_seismology_g450.png	c_seismology_g394.png	c_seismology_g128.png																					
+375	陶芸	image,medium	c_pottery_g517.png	c_pottery_g478.png	c_pottery_g423.png	c_pottery_g375.png	c_pottery_g312.png	c_pottery_g254.png	c_pottery_g172.png	c_pottery_g117.png	c_pottery_g85.png																							
+376	警察	image,easy	c_police_g720.png	c_police_g699.png	c_police_g672.png	c_police_g576.png	c_police_g456.png	c_police_g353.png	c_police_g185.png	c_police_g146.png	c_police_g127.png	c_police_g54.png																						
+377	配管工	image,easy	c_plumber_g693.png	c_plumber_g642.png	c_plumber_g604.png	c_plumber_g532.png	c_plumber_g460.png	c_plumber_g403.png	c_plumber_g348.png	c_plumber_g304.png	c_plumber_g227.png	c_plumber_g184.png	c_plumber_g91.png	c_plumber_g44.png																				
+378	写真撮影	image,easy	c_photography_g547.png	c_photography_g494.png	c_photography_g419.png	c_photography_g389.png	c_photography_g338.png	c_photography_g273.png	c_photography_g214.png	c_photography_g177.png	c_photography_g110.png	c_photography_g51.png																						
+379	眼鏡店 / オプティシャン	image,easy	c_optician_g648.png	c_optician_g544.png	c_optician_g433.png	c_optician_g325.png	c_optician_g197.png	c_optician_g87.png																										
+380	コインランドリー	image,easy	c_laundromat__x39_.png	c_laundromat__x37__1_.png	c_laundromat__x36_.png	c_laundromat__x35_.png	c_laundromat__x34_.png	c_laundromat__x33_.png	c_laundromat__x32_.png	c_laundromat__x31_6.png	c_laundromat__x31_5.png	c_laundromat__x31_4.png	c_laundromat__x31_3.png	c_laundromat__x31_2.png	c_laundromat__x31_1.png	c_laundromat__x31_0.png	c_laundromat__x31_.png																	
+381	アイスクリーム屋	image,easy	c_ice_cream_shop_g2983.png	c_ice_cream_shop_g2890.png	c_ice_cream_shop_g2598.png	c_ice_cream_shop_g2434.png	c_ice_cream_shop_g1959.png	c_ice_cream_shop_g1344.png	c_ice_cream_shop_g1199.png	c_ice_cream_shop_g983.png	c_ice_cream_shop_g829.png	c_ice_cream_shop_g499.png																						
+382	消防士	image,easy	c_firefighter_g1896.png	c_firefighter_g1773.png	c_firefighter_g864.png	c_firefighter_g800.png	c_firefighter_g619.png	c_firefighter_g467.png	c_firefighter_g367.png	c_firefighter_g302.png	c_firefighter_g229.png	c_firefighter_g145.png	c_firefighter_g67.png																					
+383	フェンシング	image,medium	c_fencing_g1767.png	c_fencing_g1644.png	c_fencing_g1544.png	c_fencing_g1485.png	c_fencing_g1373.png	c_fencing_g1318.png	c_fencing_g1199.png	c_fencing_g1071.png	c_fencing_g960.png	c_fencing_g827.png	c_fencing_g714.png	c_fencing_g595.png	c_fencing_g481.png	c_fencing_g362.png	c_fencing_g249.png	c_fencing_g123.png																
+384	遊園地 / 催し物会場	image,easy	c_fairground_g927.png	c_fairground_g850.png	c_fairground_g787.png	c_fairground_g706.png	c_fairground_g639.png	c_fairground_g560.png	c_fairground_g461.png	c_fairground_g1112.png	c_fairground_g1057.png	c_fairground_g1004.png	c_fairground_g378.png	c_fairground_g310.png	c_fairground_g258.png	c_fairground_g196.png	c_fairground_g122.png																	
+385	ダイバー / 潜水士	image,hard	c_diver_g710.png	c_diver_g709.png	c_diver_g708.png	c_diver_g707.png	c_diver_g706.png	c_diver_g705.png	c_diver_g704.png	c_diver_g295.png	c_diver_g215.png																							
+386	キャンピングカー	image,easy	c_camper_van_g448.png	c_camper_van_g414.png	c_camper_van_g353.png	c_camper_van_g307.png	c_camper_van_g271.png	c_camper_van_g214.png	c_camper_van_g150.png	c_camper_van_g113.png	c_camper_van_g72.png	c_camper_van_g46.png																						
+387	建設	image,easy	c_construction_g961.png	c_construction_g835.png	c_construction_g790.png	c_construction_g730.png	c_construction_g663.png	c_construction_g609.png	c_construction_g550.png	c_construction_g500.png	c_construction_g461.png	c_construction_g393.png	c_construction_g168.png	c_construction_g99.png	c_construction_g53.png																			
+388	ボクシング	image,easy	c_boxing_g431.png	c_boxing_g398.png	c_boxing_g364.png	c_boxing_g301.png	c_boxing_g257.png	c_boxing_g203.png	c_boxing_g177.png	c_boxing_g152.png	c_boxing_g106.png	c_boxing_g71.png	c_boxing_g34.png																					
+389	ボウリング	image,easy	c_bowling_g2199.png	c_bowling_g2198.png	c_bowling_g2197.png	c_bowling_g2196.png	c_bowling_g2195.png	c_bowling_g2194.png	c_bowling_g2193.png	c_bowling_g2192.png																								
+390	製本	image,hard	c_bookbinding_g2068.png	c_bookbinding_g1996.png	c_bookbinding_g1950.png	c_bookbinding_g1796.png	c_bookbinding_g1755.png	c_bookbinding_g1548.png	c_bookbinding_g1489.png	c_bookbinding_g1439.png	c_bookbinding_g1288.png	c_bookbinding_g1138.png	c_bookbinding_g565.png	c_bookbinding_g296.png	c_bookbinding_g158.png																			
+391	鍛冶屋	image,medium	c_blacksmith_g302.png	c_blacksmith_g271.png	c_blacksmith_g228.png	c_blacksmith_g187.png	c_blacksmith_g125.png	c_blacksmith_g68.png																										
+392	バスケット作り / 籠編み	image,medium	c_basketry_g5564.png	c_basketry_g4994.png	c_basketry_g4903.png	c_basketry_g4721.png	c_basketry_g4561.png	c_basketry_g4218.png	c_basketry_g4155.png	c_basketry_g4085.png	c_basketry_g3790.png	c_basketry_g3601.png	c_basketry_g2934.png	c_basketry_g2515.png	c_basketry_g2210.png	c_basketry_g1958.png	c_basketry_g1827.png	c_basketry_g1625.png	c_basketry_g1263.png	c_basketry_g611.png	c_basketry_g248.png	c_basketry_g99.png												
+393	天文学	image,medium	c_astronomy_g805.png	c_astronomy_g735.png	c_astronomy_g660.png	c_astronomy_g554.png	c_astronomy_g434.png	c_astronomy_g372.png	c_astronomy_g302.png	c_astronomy_g226.png	c_astronomy_g200.png	c_astronomy_g144.png	c_astronomy_g111.png	c_astronomy_g57.png	c_astronomy_g23.png																			
+394	アーチェリー	image,medium	c_archery_g917.png	c_archery_g584.png	c_archery_g569.png	c_archery_g498.png	c_archery_g422.png	c_archery_g400.png	c_archery_g334.png	c_archery_g265.png	c_archery_g250.png	c_archery_g244.png	c_archery_g221.png	c_archery_g204.png	c_archery_g174.png	c_archery_g13.png																		
+395	水族館	image,easy	c_aquarium_g9109.png	c_aquarium_g9024.png	c_aquarium_g5237.png	c_aquarium_g2998.png	c_aquarium_g2147.png	c_aquarium_g2133.png	c_aquarium_g1115.png	c_aquarium_g812.png	c_aquarium_g808.png	c_aquarium_g803.png	c_aquarium_g720.png	c_aquarium_g682.png	c_aquarium_g635.png																			
+396	ビリヤード	image,easy	c_billiard_g239.png	c_billiard_g226.png	c_billiard_g220.png	c_billiard_g214.png	c_billiard_g194.png	c_billiard_g184.png	c_billiard_g115.png	c_billiard_g102.png	c_billiard_g90.png	c_billiard_g88.png	c_billiard_g76.png	c_billiard_g45.png																				
+397	パン屋	image,easy	c_bakery_g755.png	c_bakery_g685.png	c_bakery_g607.png	c_bakery_g519.png	c_bakery_g500.png	c_bakery_g492.png	c_bakery_g472.png	c_bakery_g448.png	c_bakery_g389.png	c_bakery_g375.png	c_bakery_g322.png	c_bakery_g260.png	c_bakery_g154.png	c_bakery_g117.png	c_bakery_g44.png	c_bakery_g33.png																
+398	養蜂家	image,medium	c_beekeeper_g6573.png	c_beekeeper_g6572.png	c_beekeeper_g5974.png	c_beekeeper_g5920.png	c_beekeeper_g4401.png	c_beekeeper_g3576.png	c_beekeeper_g3331.png	c_beekeeper_g376.png	c_beekeeper_g357.png	c_beekeeper_g307.png	c_beekeeper_g287.png	c_beekeeper_g196.png	c_beekeeper_g170.png																			
+399	中国	image,medium	c_china_g1.png	c_china_g57.png	c_china_g58.png	c_china_g59.png	c_china_g60.png	c_china_g61.png	c_china_g62.png	c_china_g63.png	c_china_g64.png	c_china_g65.png	c_china_g66.png	c_china_g67.png	c_china_g68.png	c_china_g69.png	c_china_g70.png	c_china_g71.png	c_china_g72.png	c_china_g73.png	c_china_g74.png	c_china_g75.png	c_china_g76.png	c_china_g77.png	c_china_g78.png									
+400	野菜	image,medium	c_vegetables2_g1115.png	c_vegetables2_g1118.png	c_vegetables2_g1119.png	c_vegetables2_g1120.png	c_vegetables2_g1125.png	c_vegetables2_g1126.png	c_vegetables2_g1127.png	c_vegetables2_g1129.png	c_vegetables2_g1131.png	c_vegetables2_g1132.png	c_vegetables2_g1133.png	c_vegetables2_g1134.png	c_vegetables2_g1136.png	c_vegetables2_g1137.png	c_vegetables2_g1138.png	c_vegetables2_g1139.png																
+401	爬虫類	image,medium	c_reptiles_g87.png	c_reptiles_g138.png	c_reptiles_g257.png	c_reptiles_g464.png	c_reptiles_g529.png	c_reptiles_g582.png	c_reptiles_g754.png	c_reptiles_g772.png	c_reptiles_g858.png																							
+402	スペイン	image,medium	c_spain_g13.png	c_spain_g55.png	c_spain_g115.png	c_spain_g170.png	c_spain_g182.png	c_spain_g202.png	c_spain_g249.png	c_spain_g275.png	c_spain_g334.png	c_spain_g355.png	c_spain_g470.png	c_spain_g589.png	c_spain_g710.png	c_spain_g839.png	c_spain_g893.png	c_spain_g1296.png	c_spain_g1361.png															
+403	時計	image,hard	c_clocks_g115.png	c_clocks_g6.png	c_clocks_g13.png	c_clocks_g34.png	c_clocks_g40.png	c_clocks_g54.png	c_clocks_g63.png	c_clocks_g71.png	c_clocks_g89.png	c_clocks_g143.png	c_clocks_g151.png	c_clocks_g162.png	c_clocks_g185.png																			
+404	騎士	image,easy	c_knights_g77.png	c_knights_g162.png	c_knights_g235.png	c_knights_g323.png	c_knights_g384.png	c_knights_g461.png	c_knights_g517.png	c_knights_g648.png																								
+405	レモン	image,easy	c_lemon_g13152.png	c_lemon_g18931.png	c_lemon_g23413.png	c_lemon_g28153.png	c_lemon_g33293.png	c_lemon_g34431.png	c_lemon_g7436.png	c_lemon_g42508.png	c_lemon_g46985.png																							
+406	マヤ	image,hard	c_mayans_g921.png	c_mayans_g1146.png	c_mayans_g1242.png	c_mayans_g1873.png	c_mayans_g2097.png	c_mayans_g2369.png	c_mayans_g2541.png	c_mayans_g2593.png	c_mayans_g2808.png	c_mayans_g2839.png	c_mayans_g2939.png																					
+407	銀行 / お金	image,medium	c_banking_g17.png	c_banking_g38.png	c_banking_g75.png	c_banking_g94.png	c_banking_g220.png	c_banking_g324.png	c_banking_g346.png	c_banking_g411.png	c_banking_g430.png	c_banking_g467.png	c_banking_g495.png	c_banking_g563.png	c_banking_g598.png	c_banking_g694.png	c_banking_g739.png	c_banking_g781.png																
+408	バーベキュー	image,easy	c_barbecue_g242.png	c_barbecue_g569.png	c_barbecue_g789.png	c_barbecue_g1031.png	c_barbecue_g1087.png	c_barbecue_g1289.png																										
+409	誕生日	image,easy	c_birthday_g14.png	c_birthday_g23.png	c_birthday_g42.png	c_birthday_g80.png	c_birthday_g122.png	c_birthday_g183.png	c_birthday_g235.png	c_birthday_g302.png	c_birthday_g349.png	c_birthday_g432.png	c_birthday_g487.png	c_birthday_g514.png	c_birthday_g534.png	c_birthday_g555.png	c_birthday_g579.png																	
+410	パン	image,medium	c_bread_g6155.png	c_bread_g6156.png	c_bread_g6157.png	c_bread_g6158.png	c_bread_g6159.png	c_bread_g6160.png	c_bread_g6161.png	c_bread_g6162.png	c_bread_g6163.png	c_bread_g6164.png	c_bread_g6165.png	c_bread_g6166.png	c_bread_g6167.png	c_bread_g6168.png	c_bread_g6169.png	c_bread_g6170.png																
+411	キャンプ	image,medium	c_camping_g101.png	c_camping_g179.png	c_camping_g293.png	c_camping_g387.png	c_camping_g439.png	c_camping_g486.png	c_camping_g569.png	c_camping_g595.png	c_camping_g622.png	c_camping_g649.png	c_camping_g681.png	c_camping_g732.png	c_camping_g751.png	c_camping_g769.png																		
+412	ろうそく	image,easy	c_candles_g14.png	c_candles_g31.png	c_candles_g44.png	c_candles_g704.png	c_candles_g727.png	c_candles_g773.png	c_candles_g789.png	c_candles_g797.png	c_candles_g834.png	c_candles_g847.png	c_candles_g1047.png	c_candles_g1062.png	c_candles_g1109.png																			
+413	掃除	image,easy	c_cleaning__x31_.png	c_cleaning__x31_0.png	c_cleaning__x31_1.png	c_cleaning__x31_4.png	c_cleaning__x32_.png	c_cleaning__x33_.png	c_cleaning__x34_.png	c_cleaning__x35_.png	c_cleaning__x36_.png	c_cleaning__x37_.png	c_cleaning__x38_.png	c_cleaning__x39_.png																				
+414	時計	image,hard	c_clock_g6.png	c_clock_g13.png	c_clock_g34.png	c_clock_g40.png	c_clock_g54.png	c_clock_g63.png	c_clock_g71.png	c_clock_g89.png	c_clock_g115.png	c_clock_g143.png	c_clock_g151.png	c_clock_g162.png	c_clock_g185.png																			
+415	歯科医	image,medium	c_dentist_g2018.png	c_dentist_g2019.png	c_dentist_g2020.png	c_dentist_g2021.png	c_dentist_g2022.png	c_dentist_g2023.png	c_dentist_g2024.png	c_dentist_g2025.png	c_dentist_g2026.png	c_dentist_g2027.png	c_dentist_g2028.png	c_dentist_g2029.png	c_dentist_g2030.png	c_dentist_g2031.png	c_dentist_g2032.png	c_dentist_g2033.png																
+416	電気	image,easy	c_electricity_g9.png	c_electricity_g32.png	c_electricity_g108.png	c_electricity_g133.png	c_electricity_g134.png	c_electricity_g150.png	c_electricity_g165.png	c_electricity_g196.png	c_electricity_g259.png	c_electricity_g342.png	c_electricity_g419.png																					
+417	ゴルフ	image,medium	c_golf_g508.png	c_golf_g573.png	c_golf_g582.png	c_golf_g762.png	c_golf_g905.png	c_golf_g956.png	c_golf_g1071.png	c_golf_g1212.png	c_golf_g1295.png	c_golf_g1407.png	c_golf_g1496.png	c_golf_g1527.png	c_golf_g1642.png																			
+418	アイス	image,easy	c_ice_creams_g677.png	c_ice_creams_g678.png	c_ice_creams_g679.png	c_ice_creams_g680.png	c_ice_creams_g681.png	c_ice_creams_g682.png	c_ice_creams_g683.png	c_ice_creams_g684.png																								
+419	研究室	image,medium	c_laboratory_g46.png	c_laboratory_g110.png	c_laboratory_g187.png	c_laboratory_g239.png	c_laboratory_g297.png	c_laboratory_g347.png	c_laboratory_g398.png	c_laboratory_g437.png	c_laboratory_g478.png																							
+420	メキシコ料理	image,easy	c_mexican_food_g323.png	c_mexican_food_g367.png	c_mexican_food_g1296.png	c_mexican_food_g1899.png	c_mexican_food_g3265.png	c_mexican_food_g3303.png	c_mexican_food_g3625.png	c_mexican_food_g3669.png	c_mexican_food_g3952.png	c_mexican_food_g4012.png	c_mexican_food_g4351.png	c_mexican_food_g4632.png	c_mexican_food_g4873.png																			
+421	美術館	image,easy	c_museum_g6.png	c_museum_g26.png	c_museum_g88.png	c_museum_g124.png	c_museum_g138.png	c_museum_g147.png	c_museum_g200.png	c_museum_g244.png	c_museum_g267.png	c_museum_g295.png	c_museum_g307.png	c_museum_g322.png																				
+422	オペラ	image,medium	c_opera_g38.png	c_opera_g69.png	c_opera_g83.png	c_opera_g96.png	c_opera_g119.png	c_opera_g127.png	c_opera_g147.png	c_opera_g170.png	c_opera_g207.png	c_opera_g218.png	c_opera_g231.png	c_opera_g246.png	c_opera_g447.png																			
+423	ピクニック	image,easy	c_picnic_g763.png	c_picnic_g1162.png	c_picnic_g1371.png	c_picnic_g2025.png	c_picnic_g2684.png	c_picnic_g3262.png																										
+424	郵便	image,medium	c_post_g26.png	c_post_g44.png	c_post_g77.png	c_post_g106.png	c_post_g139.png	c_post_g169.png	c_post_g205.png	c_post_g231.png	c_post_g285.png	c_post_g300.png																						
+425	先史時代	image,easy	c_prehistory_g81.png	c_prehistory_g110.png	c_prehistory_g165.png	c_prehistory_g207.png	c_prehistory_g254.png	c_prehistory_g298.png	c_prehistory_g350.png	c_prehistory_g387.png	c_prehistory_g406.png	c_prehistory_g567.png																						
+426	ローマ帝国	image,easy	c_roman_empire_g117.png	c_roman_empire_g315.png	c_roman_empire_g410.png	c_roman_empire_g514.png	c_roman_empire_g611.png	c_roman_empire_g842.png	c_roman_empire_g913.png	c_roman_empire_g926.png	c_roman_empire_g963.png	c_roman_empire_g982.png	c_roman_empire_g990.png	c_roman_empire_g1142.png	c_roman_empire_g1188.png	c_roman_empire_g1216.png	c_roman_empire_g1363.png	c_roman_empire_g1454.png																
+427	彫刻	image,easy	c_sculpture_g32.png	c_sculpture_g68.png	c_sculpture_g91.png	c_sculpture_g115.png	c_sculpture_g136.png	c_sculpture_g160.png	c_sculpture_g225.png	c_sculpture_g257.png	c_sculpture_g290.png	c_sculpture_g321.png	c_sculpture_g362.png	c_sculpture_g382.png	c_sculpture_g396.png	c_sculpture_g419.png	c_sculpture_g446.png	c_sculpture_g473.png	c_sculpture_g493.png	c_sculpture_g504.png	c_sculpture_g512.png	c_sculpture_g572.png	c_sculpture_g617.png	c_sculpture_g660.png	c_sculpture_g722.png	c_sculpture_g781.png	c_sculpture_g798.png	c_sculpture_g836.png	c_sculpture_g879.png	c_sculpture_g902.png	c_sculpture_g914.png	c_sculpture_g963.png		
+428	石鹸	image,easy	c_soap_g2734.png	c_soap_g2735.png	c_soap_g2736.png	c_soap_g2737.png	c_soap_g2738.png	c_soap_g2739.png	c_soap_g2740.png	c_soap_g2741.png																								
+429	像	image,easy	c_statue_g1.png	c_statue_g2.png	c_statue_g3.png	c_statue_g4.png	c_statue_g5.png	c_statue_g6.png	c_statue_g7.png	c_statue_g8.png																								
+430	サーフィン	image,medium	c_surfing_g42.png	c_surfing_g83.png	c_surfing_g127.png	c_surfing_g170.png	c_surfing_g217.png	c_surfing_g252.png	c_surfing_g297.png	c_surfing_g344.png	c_surfing_g386.png	c_surfing_g426.png	c_surfing_g470.png	c_surfing_g509.png	c_surfing_g549.png	c_surfing_g590.png	c_surfing_g633.png	c_surfing_g663.png	c_surfing_g701.png	c_surfing_g737.png	c_surfing_g774.png	c_surfing_g815.png	c_surfing_g853.png	c_surfing_g888.png	c_surfing_g918.png	c_surfing_g948.png								
+431	結婚式	image,easy	c_wedding_g40.png	c_wedding_g63.png	c_wedding_g86.png	c_wedding_g117.png	c_wedding_g145.png	c_wedding_g180.png	c_wedding_g206.png	c_wedding_g289.png	c_wedding_g317.png																							
+432	昆虫	image,hard	c_insects_g29.png	c_insects_g54.png	c_insects_g91.png	c_insects_g121.png	c_insects_g228.png	c_insects_g265.png	c_insects_g302.png	c_insects_g342.png	c_insects_g377.png	c_insects_g408.png	c_insects_g448.png	c_insects_g516.png	c_insects_g568.png	c_insects_g596.png	c_insects_g641.png	c_insects_g709.png																
+433	寿司	image,easy	c_sushi_g26.png	c_sushi_g63.png	c_sushi_g80.png	c_sushi_g96.png	c_sushi_g125.png	c_sushi_g161.png	c_sushi_g229.png	c_sushi_g253.png	c_sushi_g280.png	c_sushi_g324.png	c_sushi_g349.png																					
+434	イルカ	image,easy	c_dolphins_g40.png	c_dolphins_g78.png	c_dolphins_g93.png	c_dolphins_g197.png	c_dolphins_g232.png	c_dolphins_g257.png	c_dolphins_g286.png	c_dolphins_g322.png	c_dolphins_g365.png	c_dolphins_g400.png	c_dolphins_g433.png	c_dolphins_g478.png																				
+435	バーガー	image,medium	c_burgers_g354.png	c_burgers_g667.png	c_burgers_g907.png	c_burgers_g1145.png	c_burgers_g1465.png	c_burgers_g1689.png	c_burgers_g1975.png	c_burgers_g2194.png	c_burgers_g2367.png	c_burgers_g2697.png	c_burgers_g3096.png	c_burgers_g3470.png																				
+436	学校	image,medium	c_school_g149.png	c_school_g164.png	c_school_g181.png	c_school_g194.png	c_school_g208.png	c_school_g245.png	c_school_g261.png	c_school_g295.png	c_school_g322.png	c_school_g346.png	c_school_g374.png	c_school_g382.png	c_school_g406.png	c_school_g420.png	c_school_g430.png	c_school_g458.png	c_school_g464.png	c_school_g511.png	c_school_g480.png	c_school_g491.png	c_school_g500.png	c_school_g510.png										
+437	山	image,easy	c_mountain_g59.png	c_mountain_g88.png	c_mountain_g125.png	c_mountain_g156.png	c_mountain_g189.png	c_mountain_g219.png	c_mountain_g280.png	c_mountain_g312.png	c_mountain_g339.png																							
+438	吸血鬼	image,easy	c_vampires_g59.png	c_vampires_g76.png	c_vampires_g106.png	c_vampires_g180.png	c_vampires_g206.png	c_vampires_g257.png	c_vampires_g290.png	c_vampires_g324.png	c_vampires_g342.png	c_vampires_g378.png	c_vampires_g405.png	c_vampires_g433.png	c_vampires_g479.png																			
+439	スケートボード	image,easy	c_skateboard_g6.png	c_skateboard_g33.png	c_skateboard_g45.png	c_skateboard_g53.png	c_skateboard_g74.png	c_skateboard_g120.png	c_skateboard_g127.png	c_skateboard_g140.png	c_skateboard_g153.png	c_skateboard_g165.png	c_skateboard_g174.png	c_skateboard_g251.png	c_skateboard_g302.png																			
+440	ストリートアート	image,easy	c_street_art_g3936.png	c_street_art_g6106.png	c_street_art_g11469.png	c_street_art_g14133.png	c_street_art_g15675.png	c_street_art_g17436.png	c_street_art_g19226.png	c_street_art_g23898.png	c_street_art_g26480.png	c_street_art_g29777.png																						
+441	カーニバル	image,medium	c_carnival_g70.png	c_carnival_g137.png	c_carnival_g205.png	c_carnival_g264.png	c_carnival_g350.png	c_carnival_g454.png	c_carnival_g527.png	c_carnival_g637.png	c_carnival_g730.png	c_carnival_g784.png																						
+442	ブランチ	image,hard	c_brunch_g435.png	c_brunch_g545.png	c_brunch_g830.png	c_brunch_g936.png	c_brunch_g958.png	c_brunch_g1009.png	c_brunch_g1204.png	c_brunch_g1282.png	c_brunch_g1431.png																							
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		

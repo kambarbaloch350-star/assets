@@ -1,0 +1,8 @@
+spine_card.png
+size:456,308
+filter:Linear,Linear
+pma:true
+img_card_back
+bounds:2,2,225,304
+img_card_master
+bounds:229,2,225,304

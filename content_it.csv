@@ -1,0 +1,963 @@
+Id	Category	Tags	Words																															
+0	Bussola	easy	Nord	Est	Sud	Ovest	Nord-ovest	Nord-est	Sud-ovest	Sud-est	Rilevamento	Azimut	Ago	Magnete	Quadrante	Punto	Orientamento																	
+1	Lavoro	easy	Infermiere	Autista	Insegnante	Ingegnere	Idraulico	Avvocato	Chef	Dottore	Artista	Manager	Pompiere	Pilota	Contabile	Meccanico	Elettricista																	
+2	Colori	easy	Rosso	Blu	Giallo	Verde	Arancione	Viola	Nero	Bianco	Grigio	Marrone	Rosa	Oro	Argento	Ciano	Magenta																	
+3	Strumenti Musicali	easy	Chitarra	Pianoforte	Violino	Batteria	Tromba	Violoncello	Flauto	Sassofono	Arpa	Clarinetto	Oboe	Tuba	Banjo	Marimba	Fisarmonica																	
+4	Pianeti	easy	Mercurio	Venere	Terra	Marte	Giove	Saturno	Urano	Nettuno	Plutone	Esopianeta	Orbita	Cometa	Asteroide	Galassia	Sistema Solare																	
+5	Utensili da Cucina	easy	Forchetta	Cucchiaio	Coltello	Frusta	Spatola	Mestolo	Mattarello	Scolapasta	Pelaverdure	Pinze	Misurino	Grattugia	Padella	Pentola	Frullatore																	
+6	Meteo	easy	Pioggia	Neve	Nuvola	Vento	Nebbia	Tempesta	Sole	Tuono	Fulmine	Grandine	Brezza	Pioggerellina	Bufera	Uragano	Tornado																	
+7	Forme	easy	Cerchio	Quadrato	Triangolo	Rettangolo	Ovale	Stella	Rombo	Esagono	Pentagono	Ottagono	Sfera	Cubo	Piramide	Cono	Cilindro																	
+8	Sport	easy	Calcio	Basket	Tennis	Golf	Baseball	Corsa	Nuoto	Pallavolo	Hockey	Pugilato	Ciclismo	Sci	Rugby	Scherma	Cricket																	
+9	Frutta	easy	Mela	Banana	Ciliegia	Arancia	Fragola	Mango	Ananas	Anguria	Limone	Mirtillo	Lampone	Kiwi	Pesca	Uva	Pera																	
+10	Verdure	easy	Carota	Patata	Pomodoro	Lattuga	Broccoli	Cipolla	Peperone	Mais	Spinaci	Cavolo	Cetriolo	Zucchina	Fungo	Asparago	Ravanello																	
+11	Parti del Corpo	easy	Testa	Braccio	Gamba	Mano	Piede	Occhio	Orecchio	Naso	Bocca	Collo	Spalla	Dito	Dito del piede	Petto	Stomaco																	
+12	Emozioni	easy	Gioia	Rabbia	Paura	Tristezza	Sorpresa	Disgusto	Eccitazione	Calma	Amore	Ansia	Vergogna	Colpa	Invidia	Speranza	Orgoglio																	
+13	Trasporti	easy	Auto	Autobus	Treno	Aereo	Bicicletta	Barca	Nave	Moto	Scooter	Metropolitana	Taxi	Elicottero	Traghetto	Camion	Razzo																	
+14	Musica	easy	Disco	Pop	Jazz	Classica	Blues	Country	Hip Hop	Elettronica	Reggae	Folk	Metal	Soul	Rock	Gospel	Opera																	
+15	Materie Scolastiche	easy	Matematica	Scienze	Storia	Inglese	Arte	Geografia	Musica	Fisica	Chimica	Biologia	Letteratura	Economia	Psicologia	Lingua Straniera	Teatro																	
+16	Giardino	easy	Fiore	Albero	Cespuglio	Pala	Rastrello	Terreno	Erba	Tubo	Annaffiatoio	Recinto	Panchina	Casetta per uccelli	Seme	Compost	Buca																	
+17	Mobili	easy	Sedia	Tavolo	Divano	Letto	Scrivania	Lampada	Scaffale	Armadietto	Cassettiera	Sgabello	Ottomana	Tappeto	Specchio	Orologio	Armadio																	
+18	Dessert	easy	Torta	Crostata	Cheesecake	Gelato	Budino	Brownie	Ciambella	Muffin	Tortina	Biscotto	Sorbetto	Crema	Semifreddo	Waffle	Soufflé																	
+19	Giochi da Tavolo	easy	Scacchi	Dama	Monopoly	Scarabeo	Cluedo	Risiko	Go	Backgammon	Domino	Poker	Bingo	Dadi	Pedina	Carta	Strategia																	
+20	Uccelli	easy	Pettirosso	Passero	Aquila	Falco	Piccione	Gufo	Pinguino	Pappagallo	Canarino	Corvo	Cigno	Anatra	Oca	Avvoltoio	Albatros																	
+21	Mammiferi	easy	Elefante	Leone	Tigre	Scimmia	Orso	Lupo	Cervo	Volpe	Coniglio	Topo	Balena	Pipistrello	Canguro	Cavallo	Zebra																	
+22	Tecnologia	easy	Computer	Telefono	Internet	Software	Hardware	Rete	Chip	Pixel	Dati	Server	Cloud	Tablet	Router	Tastiera	Algoritmo																	
+23	Calzature	easy	Scarpa	Stivale	Sandalo	Sneaker	Tacco	Pantofola	Mocassino	Scarpa bassa	Zoccolo	Scarpa da ginnastica	Infradito	Stivale di gomma	Décolleté	Tacchetti	Oxford																	
+24	Forniture per Ufficio	easy	Penna	Carta	Cucitrice	Cartella	Pennarello	Stampante	Busta	Forbici	Evidenziatore	Graffetta	Raccoglitore	Lavagna	Post-it	Calcolatrice	Nastro adesivo																	
+25	Parco Divertimenti	easy	Montagne russe	Ruota panoramica	Giostra	Biglietto	Attrazione	Fila	Zucchero filato	Gioco	Luna Park	Stand	Brivido	Ingresso	Parco	Mascotte	Souvenir																	
+26	Paesi	easy	Brasile	Inghilterra	India	Russia	Canada	Messico	Egitto	Nigeria	Giappone	Corea	Australia	Germania	Francia	Finlandia	Argentina																	
+27	Fast Food	easy	Hamburger	Patatine	Pizza	Taco	Panino	Hot Dog	Pollo	Frullato	Bibita	Ciambella	Wrap	Nuggets	Anelli di cipolla	Drive-Thru	Ketchup																	
+28	Nomi	easy	Michael	Jessica	Chris	Emily	David	Sarah	James	Anna	Robert	Laura	John	Maria	William	Nicole	Thomas																	
+29	Festività	easy	Natale	Pasqua	Halloween	Ringraziamento	Diwali	Hanukkah	Capodanno	San Valentino	Compleanno	Anniversario	Festival	Vacanza	Celebrazione	Parata	Festa																	
+30	Insetti	easy	Formica	Ape	Mosca	Zanzara	Scarafaggio	Farfalla	Falena	Grillo	Cavalletta	Vespa	Locusta	Coccinella	Termite	Libellula	Bruco																	
+31	Aggettivi	easy	Felice	Triste	Alto	Basso	Veloce	Lento	Grande	Piccolo	Rosso	Blu	Rumoroso	Silenzioso	Luminoso	Buio	Liscio																	
+32	Verbi	easy	Correre	Saltare	Camminare	Mangiare	Dormire	Parlare	Pensare	Scrivere	Leggere	Guidare	Cantare	Ballare	Volare	Nuotare	Costruire																	
+33	Materiali	easy	Legno	Metallo	Plastica	Vetro	Gomma	Carta	Ceramica	Cemento	Mattone	Tessuto	Schiuma	Resina	Argilla	Pietra	Cera																	
+34	Attrezzi	easy	Martello	Trapano	Sega	Chiave inglese	Pinze	Livella	Cacciavite	Scalpello	Ascia	Metro	Morsa	Lima	Morsetto	Sparapunti	Scala																	
+35	Abbigliamento	easy	Camicia	Pantaloni	Abito	Gonna	Giacca	Maglione	Cappotto	Calzini	Scarpe	Cappello	Sciarpa	Guanti	Cintura	Cravatta	Jeans																	
+36	Giochi di Carte	easy	Poker	Bridge	Ramino	Solitario	Blackjack	Go Fish	Hearts	Cribbage	Euchre	Pinochle	Mazzo	Mano	Mischiare	Dare	Briscola																	
+37	Eventi Meteorologici	easy	Pioggia	Neve	Grandine	Temporale	Bufera	Uragano	Tornado	Siccità	Nebbia	Vento	Ciclone	Nevischio	Arcobaleno	Nubifragio	Monsone																	
+38	Elettrodomestici	easy	Forno	Fornello	Microonde	Tostapane	Frullatore	Frigorifero	Lavastoviglie	Caffettiera	Mixer	Griglia	Bollitore	Robot da cucina	Friggitrice	Piano cottura	Cappa																	
+39	Generi Musicali	easy	Pop	Rock	Jazz	Blues	Classica	Folk	Metal	Hip-Hop	Reggae	EDM	Soul	Country	Opera	Punk	Disco																	
+40	Preposizioni	easy	A	Su	In	Per	Con	Sotto	Sopra	Attraverso	Circa	Tra	Fra	Dietro	Prima	Dopo																		
+41	Animali della Fattoria	easy	Mucca	Maiale	Pollo	Pecora	Cavallo	Capra	Anatra	Tacchino	Oca	Asino	Lama	Alpaca	Coniglio	Gallo	Vitello																	
+42	Attrezzatura Sportiva	easy	Palla	Mazza	Racchetta	Bastone	Rete	Casco	Guanto	Protezioni	Pattini	Occhiali	Cerchio	Tacchetti	Porta	Volano																		
+43	Parti dell'Edificio	easy	Muro	Pavimento	Soffitto	Tetto	Porta	Finestra	Fondamenta	Trave	Colonna	Scala	Camino	Balcone	Soffitta	Seminterrato	Grondaia																	
+44	Stati USA	easy	California	Texas	Florida	New York	Alaska	Hawaii	Illinois	Ohio	Pennsylvania	Michigan	Georgia	North Carolina	Washington	Virginia	Arizona																	
+45	Attrezzi da Giardinaggio	easy	Paletta	Rastrello	Pala	Zappa	Cesoie	Tagliasiepi	Cariola	Guanti	Forca	Bordatore	Irrigatore	Sarchiatore	Seminatrice	Piantatoio	Troncarami																	
+46	Segnali Stradali	easy	Stop	Precedenza	Limite di velocità	Attenzione	Curva	Deviazione	Zona scolastica	Passaggio a livello	Immissione	Senso unico	Divieto di accesso	Pedoni	Lavori in corso	Ospedale	Parcheggio																	
+47	Bevande	easy	Acqua	Latte	Succo	Tè	Caffè	Bibita	Birra	Vino	Cocktail	Frullato	Limonata	Cacao	Energy Drink	Sidro	Acqua frizzante																	
+48	Strumenti di Scrittura	easy	Penna	Matita	Tastiera	Carta	Inchiostro	Piuma	Macchina da scrivere	Pennarello	Gesso	Gomma	Quaderno	Tablet	Stilo	Calligrafia	Pennello																	
+49	Azioni del Corpo	easy	Respirare	Ingoiare	Sbattere le palpebre	Tossire	Starnutire	Sbadigliare	Accigliarsi	Sorridere	Rabbrividire	Sudare	Digerire	Camminare	Correre	Sentire	Vedere																	
+50	Forme 2D	easy	Cerchio	Quadrato	Triangolo	Rettangolo	Ovale	Esagono	Pentagono	Ottagono	Rombo	Trapezio	Parallelogramma	Poligono	Aquilone	Settore	Ellisse																	
+51	Marche Auto	easy	Toyota	Honda	Ford	Chevrolet	BMW	Mercedes	Audi	Volkswagen	Hyundai	Kia	Nissan	Jeep	Tesla	Ferrari	Porsche																	
+52	Veicoli Stradali	easy	Auto	Camion	Autobus	Moto	Furgone	Scooter	Bicicletta	TIR	SUV	Berlina	Coupé	Due volumi	Decappottabile	Monovolume	Rimorchio																	
+53	Squadre Sportive	easy	Lakers	Yankees	Cowboys	Celtics	Barcelona	Real Madrid	Packers	Patriots	Bulls	Heat	Dodgers	Giants	Chiefs	Raptors	Arsenal																	
+54	Valute	easy	Dollaro	Euro	Yen	Sterlina	Franco	Rupia	Peso	Yuan	Real	Rublo	Dinaro	Shekel	Ringgit	Won	Scellino																	
+55	Acconciature	easy	Treccia	Chignon	Coda di cavallo	Caschetto	Pixie	Permanente	Dreadlocks	Afro	Sfumatura	Frangetta	Acconciatura alta	Rasatura	Treccine	Scalati	Meches																	
+56	Gusti Gelato	easy	Vaniglia	Cioccolato	Fragola	Menta	Caramello	Caffè	Pistacchio	Mango	Noci	Biscotto	Panna	Amarena	Limone	Lampone	Sorbetto																	
+57	Animali dello Zoo	easy	Leone	Tigre	Scimmia	Elefante	Giraffa	Panda	Orso	Zebra	Pinguino	Rinoceronte	Ippopotamo	Gorilla	Serpente	Fenicottero	Struzzo																	
+58	Elementi Chimici	hard	Ossigeno	Carbonio	Oro	Argento	Ferro	Idrogeno	Azoto	Neon	Elio	Calcio	Rame	Sodio	Cloro	Zolfo	Alluminio																	
+59	Metalli Preziosi	hard	Oro	Argento	Platino	Palladio	Rodio	Iridio	Osmio	Rutenio	Lega	Minerale	Lingotto	Carati	Barra	Placcatura	Saggio																	
+60	Gradi Militari	hard	Generale	Colonnello	Maggiore	Capitano	Tenente	Sergente	Caporale	Ammiraglio	Comandante	Cadetto	Soldato	Capo	Ufficiale	Maresciallo	Guardiamarina																	
+61	Stili di Scrittura	hard	Narrativa	Saggistica	Saggio	Poesia	Memorie	Giornalismo	Biografia	Tecnico	Creativo	Accademico	Narrativo	Persuasivo	Descrittivo	Espositivo	Prosa																	
+62	Mari	hard	Mediterraneo	Caraibi	Baltico	Mar Nero	Caspio	Egeo	Mare del Nord	Adriatico	Mar Rosso	Mar Arabico	Mar di Tasman	Mar dei Coralli	Bering	Sargassi	Ionio																	
+63	Oggetti Galattici	hard	Stella	Nebulosa	Buco Nero	Quasar	Pulsar	Supernova	Materia Oscura	Andromeda	Via Lattea	Ammasso	Cometa	Singolarità	Globulare	Alone	Luce																	
+64	Predatori Marini	hard	Squalo	Orca	Barracuda	Murena	Calamaro Gigante	Pesce serra	Piranha	Grande Bianco	Pesce Leone	Leone Marino	Foca Leopardo	Capodoglio	Polpo	Rana Pescatrice	Coccodrillo																	
+65	Sistemi Corporei	hard	Scheletrico	Muscolare	Nervoso	Circolatorio	Respiratorio	Digerente	Endocrino	Immunitario	Urinario	Linfatico	Organo	Cellula	Tessuto	Cuore	Cervello																	
+66	Forme 3D	hard	Sfera	Cubo	Piramide	Cilindro	Cono	Prisma	Toro	Dodecaedro	Tetraedro	Vertice	Spigolo	Faccia	Volume	Solido	Esaedro																	
+67	Legami Chimici	hard	Covalente	Ionico	Metallico	Idrogeno	Van Der Waals	Atomo	Elettrone	Molecola	Composto	Nucleo	Valenza	Orbitale	Polarità	Condivisione	Trasferimento																	
+68	Pittori Famosi	hard	Picasso	Van Gogh	Monet	Leonardo	Rembrandt	Michelangelo	Dalì	Raffaello	Warhol	Klimt	Renoir	Degas	Gauguin	Tiziano	Bosch																	
+69	Città Fittizie	hard	Gotham	Atlantide	Hogwarts	Metropolis	Narnia	Terra di Mezzo	Oz	Paese delle Meraviglie	Springfield	Starfleet	Gran Burrone	Pandora	Camelot	Xanadu	Shangri-La																	
+70	Costellazioni	hard	Orione	Orsa Maggiore	Cassiopea	Andromeda	Lira	Cigno	Leone	Gemelli	Toro	Scorpione	Grande Carro	Croce del Sud	Pegaso	Drago	Centauro																	
+71	Generi Letterari	hard	Dramma	Commedia	Tragedia	Satira	Epica	Romance	Gotico	Western	Horror	Romanzo di formazione	Parodia	Favola	Allegoria	Giallo	Thriller																	
+72	Paesi Africani	hard	Nigeria	Egitto	Sudafrica	Kenya	Marocco	Ghana	Algeria	Etiopia	Tanzania	Sudan	Uganda	Libia	Zambia	Zimbabwe	Senegal																	
+73	Strati dell'Oceano	hard	Zona epipelagica	Zona mesopelagica	Zona batipelagica	Abissale	Adale	Superficie	Oceano profondo	Fossa	Zona	Fotica	Afotica	Termoclino	Bentonico	Pelagico	Piattaforma continentale																	
+74	Stili Architettonici	hard	Gotico	Barocco	Romanico	Rinascimentale	Moderno	Classico	Art Deco	Neoclassico	Contemporaneo	Vittoriano	Brutalista	Astratto	Bizantino	Minimalista	Coloniale																	
+75	Tipi di Ponti	hard	Trave	Arco	Reticolare	Sospeso	Strallato	A sbalzo	Viadotto	Ponte levatoio	Passerella	Pontone	Campata	Pilone	Spalla	Impalcato	Trave maestra																	
+76	Antichi Imperi	hard	Romano	Greco	Egizio	Persiano	Ottomano	Azteco	Maya	Inca	Mongolo	Cinese	Babilonese	Cartaginese	Kush	Impero	Civiltà																	
+77	Filosofi	hard	Platone	Aristotele	Socrate	Kant	Nietzsche	Cartesio	Confucio	Locke	Hume	Tommaso d'Aquino	Marx	Foucault	Rousseau	Epicuro	Buddha																	
+78	Laboratorio Chimico	hard	Becher	Provetta	Betruta	Pipetta	Bunsen	Microscopio	Occhiali protettivi	Centrifuga	Bilancia	Filtro	Soluzione	Reagente	Esperimento	Titolazione	Imbuto																	
+79	Accordi Musicali	hard	Maggiore	Minore	Settima	Diminuito	Aumentato	Sospeso	Tonica	Rivolto	Triade	Arpeggio	Progressione	Accordo	Voicing	Intervallo	Tetracordo																	
+80	Tipi di Vetro	hard	Temperato	Laminato	Borosilicato	Cristallo	Fibra	Colorato	Sicurezza	Lastra	Float	Pannello	Foglio	Lente	Prisma	Ossidiana	Silice																	
+81	Strumenti Meteo	hard	Termometro	Barometro	Anemometro	Pluviometro	Igrometro	Satellite	Radar	Banderuola	Radiosonda	Previsione	Isobara	Clima	Meteorologo	Sensore	Mappa																	
+82	Tipi di Ponti 2	hard	Arco	Reticolare	Sospeso	Trave	Strallato	A sbalzo	Viadotto	Ponte levatoio	Passerella	Pontone	Campata	Pilone	Spalla	Impalcato	Trave maestra																	
+83	Battaglie Famose	hard	Hastings	Waterloo	Gettysburg	Maratona	Stalingrado	Midway	Termopili	Canne	Bunker Hill	Azincourt	Normandia	Trafalgar	Sarajevo	Somme	Yorktown																	
+84	Animali Domestici Fittizi	hard	Edvige	Snoopy	Pikachu	Sdentato	Chewbacca	Garfield	Pluto	Lassie	Toto	Dobby	E.T.	Baloo	R2-D2	Falkor	Gizmo																	
+85	Figure Retoriche	hard	Metafora	Similitudine	Allitterazione	Iperbole	Personificazione	Ironia	Simbolismo	Immagini	Onomatopea	Allusione	Tema	Motivo	Presagio	Ossimoro	Gioco di parole																	
+86	Tipi di Vulcano	hard	A scudo	Composito	Cono di scorie	Duomo di lava	Caldera	Stratovulcano	Dormiente	Attivo	Estinto	Magma	Eruzione	Cratere	Cenere	Tettonico	Fessura																	
+87	Tecniche Artistiche	hard	Schizzo	Ombreggiatura	Sfumatura	Prospettiva	Impressionismo	Astrattismo	Puntinismo	Collage	Disegno	Pittura	Scultura	Incisione	Graffito	Velatura	Tratteggio																	
+88	Stili Fotografici	hard	Ritratto	Paesaggio	Macro	Strada	Astratto	Documentario	Moda	Natura morta	Belle arti	Spontaneo	Fauna selvatica	Time-lapse	Architettonico	Astrofotografia	Composito																	
+89	Tipi di Ponti 3	hard	Trave	Arco	Reticolare	Sospeso	Strallato	A sbalzo	Viadotto	Ponte levatoio	Passerella	Pontone	Campata	Pilone	Spalla	Impalcato	Trave maestra																	
+90	Animali Fantastici	medium	Drago	Unicorno	Grifone	Fenice	Sfinge	Sirena	Lupo Mannaro	Vampiro	Yeti	Idra	Chimera	Basilisco	Centauro	Goblin	Troll																	
+91	Libri	medium	Romanzo	Biografia	Manuale	Giallo	Thriller	Fantasy	Fantascienza	Poesia	Enciclopedia	Ricettario	Storia	Memorie	Fumetto	Antologia	Dizionario																	
+92	Paesi Europei	medium	Francia	Germania	Italia	Spagna	Regno Unito	Grecia	Polonia	Svezia	Norvegia	Irlanda	Portogallo	Svizzera	Belgio	Austria	Paesi Bassi																	
+93	Vita Oceanica	medium	Balena	Delfino	Squalo	Corallo	Pesce	Polpo	Calamaro	Granchio	Foca	Tartaruga	Stella marina	Medusa	Alga	Manta	Plancton																	
+94	Alberi	medium	Quercia	Acero	Pino	Salice	Betulla	Cedro	Olmo	Sequoia	Abete	Frassino	Agrifoglio	Palma	Fico	Cipresso	Magnolia																	
+95	Architettura	medium	Edificio	Patio	Torre	Cattedrale	Castello	Grattacielo	Piramide	Cupola	Arco	Colonna	Facciata	Fondamenta	Guglia	Ponte	Progetto																	
+96	Gemme	medium	Diamante	Rubino	Zaffiro	Smeraldo	Ametista	Topazio	Perla	Opale	Granato	Acquamarina	Peridoto	Tormalina	Zircone	Giada	Quarzo																	
+97	Fotografia	medium	Fotocamera	Obiettivo	Otturatore	Diaframma	Flash	Treppiede	Messa a fuoco	Esposizione	Pellicola	Digitale	Ritratto	Paesaggio	Filtro	Zoom	Sensore																	
+98	Verbi di Cucina	medium	Tagliare	Affettare	Tritare	Bollire	Friggere	Cuocere al forno	Grigliare	Arrostire	Saltare	Mescolare	Sbattere	Frullare	Marinare	Sobbollire	Cuocere a vapore																	
+99	Astronomia	medium	Stella	Luna	Sole	Pianeta	Galassia	Nebulosa	Cometa	Meteora	Telescopio	Costellazione	Buco Nero	Anno luce	Orbita	Universo	Asteroide																	
+100	Attrezzi Manuali	medium	Martello	Cacciavite	Pinze	Chiave inglese	Sega	Trapano	Metro a nastro	Livella	Scalpello	Morsetto	Lima	Morsa	Ascia	Pala	Scala																	
+101	Tessuti	medium	Cotone	Seta	Lana	Lino	Poliestere	Nylon	Rayon	Denim	Velluto	Pile	Raso	Pelle	Tela	Juta	Microfibra																	
+102	Capitali	medium	Londra	Parigi	Roma	Berlino	Tokyo	Il Cairo	Pechino	Mosca	Sydney	Ottawa	Vienna	Madrid	Dublino	Seoul	Buenos Aires																	
+103	Religioni	medium	Cristianesimo	Islam	Ebraismo	Induismo	Buddismo	Sikhismo	Shintoismo	Taoismo	Fede	Culto	Preghiera	Tempio	Chiesa	Scrittura	Divinità																	
+104	Unità di Misura	medium	Metro	Litro	Grammo	Secondo	Watt	Volt	Ampere	Ohm	Joule	Piede	Libbra	Oncia	Grado	Miglio	Gallone																	
+105	Rettili	medium	Serpente	Lucertola	Tartaruga	Coccodrillo	Alligatore	Camaleonte	Geco	Testuggine	Vipera	Cobra	Iguana	Drago di Komodo	Pitone	Scinco	Tuatara																	
+106	Periodi di Tempo	medium	Secolo	Decennio	Era	Epoca	Millennio	Età	Anno	Mese	Settimana	Giorno	Ora	Minuto	Secondo	Antichità	Moderno																	
+107	Disastri Naturali	medium	Terremoto	Vulcano	Tsunami	Uragano	Inondazione	Tornado	Incendio	Siccità	Frana	Valanga	Ciclone	Bufera	Carestia	Epidemia	Ondata di caldo																	
+108	Fiumi	medium	Nilo	Rio delle Amazzoni	Mississippi	Danubio	Yangtze	Gange	Reno	Volga	Tamigi	Senna	Colorado	Murray	Congo	Missouri	Eufrate																	
+109	Deserto	medium	Sahara	Gobi	Atacama	Namib	Arabico	Kalahari	Mojave	Sabbia	Duna	Cactus	Oasi	Calore	Arido	Cammello	Erosione																	
+110	Sistema Solare	medium	Sole	Asteroide	Cometa	Meteoroide	Fascia di Kuiper	Nube di Oort	Pianeta nano	Terrestre	Gigante gassoso	Satellite	Anello	Orbita	Inclinazione	Asse	Gravità																	
+111	Attrezzatura Spaziale	medium	Astronauta	Tuta spaziale	Casco	Ossigeno	Razzo	Shuttle	Satellite	Rover	Modulo	Attracco	Controllo	Telescopio	Forza G	Propulsore	Piattaforma di lancio																	
+112	Cucina Mondiale	medium	Pasta	Sushi	Taco	Curry	Pizza	Pho	Hummus	Paella	Burrito	Goulash	Ravioli	Stufato	Kebab	Ramen	Bistecca																	
+113	Montagne	medium	Everest	K2	Kilimangiaro	Denali	Alpi	Ande	Montagne Rocciose	Fuji	Vetta	Picco	Catena montuosa	Ghiacciaio	Altitudine	Trekking	Ascesa																	
+114	Avverbi	medium	Velocemente	Lentamente	Rumorosamente	Delicatamente	Felicemente	Tristemente	Sempre	Mai	Spesso	A volte	Qui	Là	Su	Giù	Attentamente																	
+115	Fiabe	medium	Cenerentola	Biancaneve	Tremotino	Omino di Pan di Zenzero	Riccioli d'Oro	Cappuccetto Rosso	Bella Addormentata	Principe	Principessa	Strega	Castello	Magia	Foresta	Cattivo	Eroe																	
+116	I Sensi	medium	Vista	Udito	Olfatto	Gusto	Tatto	Sentire	Vedere	Annusare	Gustare	Toccare	Percezione	Sensoriale	Nervo	Cervello	Stimoli																	
+117	Dinosauri	medium	T-Rex	Triceratopo	Velociraptor	Brontosauro	Stegosauro	Fossile	Estinto	Giurassico	Cretaceo	Erbivoro	Carnivoro	Rettile	Paleontologia	Uovo	Artiglio																	
+118	Mitologia	medium	Zeus	Era	Poseidone	Ade	Atena	Apollo	Ares	Loki	Thor	Odino	Drago	Dio	Eroe	Leggenda	Profezia																	
+119	Spezie	medium	Sale	Pepe	Cannella	Chiodi di garofano	Noce moscata	Basilico	Origano	Timo	Rosmarino	Zenzero	Aglio	Curcuma	Cumino	Zafferano	Paprica																	
+120	Danza	medium	Balletto	Jazz	Tip Tap	Hip Hop	Valzer	Salsa	Tango	Moderno	Ballo da sala	Coreografia	Palcoscenico	Routine	Passo	Ritmo	Piroetta																	
+121	Mezzi Artistici	medium	Olio	Acrilico	Acquerello	Pastello	Carboncino	Matita	Inchiostro	Scultura	Argilla	Tela	Pennello	Tavolozza	Affresco	Mosaico	Tempera																	
+122	Termini Finanziari	medium	Moneta	Banconota	Valuta	Dollaro	Euro	Yen	Sterlina	Credito	Debito	Ricchezza	Budget	Investimento	Finanza	Transazione	Prestito																	
+123	Meraviglie del Mondo	medium	Piramide	Colosseo	Machu Picchu	Grande Muraglia	Petra	Taj Mahal	Statua di Zeus	Faro	Tempio	Cristo Redentore	Cittadella	Rovine	Monumento	Sito	Punto di riferimento																	
+124	Metodi di Cottura	medium	Frittura	Cottura al forno	Bollitura	Grigliatura	Arrostitura	Cottura a vapore	Saltare in padella	Gratinare	Brasare	Sobbollire	Affogare	Microonde	Sbollentare	Cottura lenta	Affumicatura																	
+125	Barche	medium	Yacht	Barca a vela	Canoa	Kayak	Barca a remi	Nave da crociera	Mercantile	Rimorchiatore	Sottomarino	Gommone	Motoscafo	Catamarano	Chiatta	Gondola	Vascello																	
+126	Bevande al Caffè	medium	Espresso	Latte	Cappuccino	Americano	Mocaccino	Macchiato	Cold Brew	Caffè filtro	Flat White	Frappé	Ristretto	Affogato	Cortado	Doppio	Filtro																	
+127	Punteggiatura	medium	Punto	Virgola	Punto interrogativo	Punto esclamativo	Punto e virgola	Due punti	Virgolette	Apostrofo	Trattino	Linea	Parentesi	Parentesi quadre	Puntini di sospensione	Barra	Asterisco																	
+128	Ruoli d'Ufficio	medium	Manager	Assistente	Analista	Direttore	Esecutivo	Stagista	Consulente	Impiegato	Receptionist	Contabile	Amministratore	Segretario	Coordinatore	Vicepresidente	AD																	
+129	Tipi di Cappelli	medium	Fedora	Berretto	Cappellino da baseball	Cappello da sole	Trilby	Basco	Cappello da cowboy	Sombrero	Cilindro	Cuffia	Visiera	Fascinator	Homburg	Tam	Fez																	
+130	Superpoteri	medium	Volo	Invisibilità	Forza	Telepatia	Velocità	Guarigione	Telecinesi	Elasticità	Viaggio nel tempo	Campo di forza	Mutaforma	Raggio di energia	Illusione	Intangibilità	Vista a raggi X																	
+131	Psicologia	medium	Mente	Cervello	Terapia	Emozione	Comportamento	Cognizione	Stress	Trauma	Percezione	Subconscio	Memoria	Personalità	Ansia	Depressione	Fobia																	
+132	Parti del Computer	medium	CPU	Monitor	Tastiera	Mouse	Scheda madre	RAM	Hard Disk	Scheda grafica	Alimentatore	Ventola	Altoparlante	Webcam	USB	Router	Cavo																	
+133	Armi Fittizie	medium	Spada laser	Bacchetta	Phaser	Excalibur	Mjolnir	Batarang	Laser	Spade	Frecce	Bastone	Ascia	Pugnale	Arco	Blaster	Scudo																	
+134	Strumenti Medici	medium	Stetoscopio	Siringa	Bisturi	Forcipe	Termometro	Benda	Raggi X	Risonanza magnetica	Punti	Laccio emostatico	Mascherina	Guanti	Defibrillatore	Stampelle	Sedia a rotelle																	
+135	Notazione Musicale	medium	Nota	Pausa	Pentagramma	Chiave	Diesis	Bemolle	Naturale	Battuta	Ritmo	Tempo	Melodia	Armonia	Accordo	Misura	Armatura di chiave																	
+136	Razze Fittizie	medium	Elfo	Nano	Orco	Hobbit	Umano	Vulcaniano	Klingon	Wookiee	Alieno	Goblin	Gnomo	Troll	Fata	Centauro	Robot																	
+137	Termini Geometrici	medium	Punto	Linea	Piano	Angolo	Segmento	Raggio	Vertice	Perimetro	Area	Volume	Raggio	Diametro	Circonferenza	Parallelo	Perpendicolare																	
+138	Termini Fotografici	medium	Diaframma	Tempo di scatto	ISO	Esposizione	Fuoco	Profondità di campo	Composizione	Treppiede	Obiettivo	Filtro	Flash	Zoom	Bilanciamento del bianco	Sensore	Megapixel																	
+139	Compagnie Aeree	medium	Delta	United	American	Lufthansa	Emirates	Qatar	British Airways	Air France	Qantas	Singapore	Turkish	Ryanair	Southwest	JetBlue	Alaska																	
+140	Oggetti Fittizi	medium	Anello	Pietra	Lampada	Mantello	Spada	Sfera	Graal	Specchio	Elmo	Libro	Chiave	Pozione	Amuleto	Forziere	Mappa																	
+141	Software	medium	Windows	macOS	Linux	Browser	Elaboratore testi	Foglio di calcolo	Photoshop	Antivirus	Sistema operativo	Applicazione	Driver	Utility	Database	Firewall	Codec																	
+142	Tipi di Tè	medium	Verde	Nero	Oolong	Bianco	Erbe	Earl Grey	Chai	Darjeeling	Gelsomino	Menta piperita	Camomilla	Rooibos	Matcha	English Breakfast	Infuso																	
+143	Guarnizioni	medium	Prezzemolo	Coriandolo	Menta	Erba cipollina	Basilico	Limone	Lime	Oliva	Ciliegia	Panna montata	Zucchero	Codette	Topping	Crostino	Fiore commestibile																	
+144	Organi Umani	medium	Cuore	Polmoni	Cervello	Fegato	Reni	Stomaco	Intestino	Pelle	Milza	Pancreas	Cistifellea	Vescica	Esofago	Trachea	Tiroide																	
+145	Il Medioevo	medium	Castello	Cavaliere	Re	Regina	Feudalesimo	Contadino	Peste	Crociata	Cattedrale	Monastero	Giostra	Armatura	Feudo	Signore	Assedio																	
+146	Tipi di Legno	medium	Quercia	Acero	Pino	Ciliegio	Noce	Betulla	Mogano	Teak	Frassino	Cedro	Abete	Picea	Balsa	Pioppo	Ebano																	
+147	Termini Musicali	medium	Tempo	Ritmo	Melodia	Armonia	Tono	Ottava	Accordo	Scala	Crescendo	Diminuendo	Forte	Piano	Staccato	Legato	Timbro																	
+148	Ginnastica	medium	Salto	Avvitamento	Volteggio	Ruota	Verticale	Spaccata	Capriola	Trave	Parallele	Anelli	Cavallo con maniglie	Salto mortale	Uscita	Plié	Carpiato																	
+149	Tipi di Rocce	medium	Ignee	Sedimentarie	Metamorfiche	Granito	Basalto	Calcare	Marmo	Quarzite	Arenaria	Scisto	Ossidiana	Pomice	Ardesia	Gneiss	Conglomerato																	
+187	Fiori	easy	Rosa	Tulipano	Margherita	Girasole	Orchidea	Giglio	Viola	Papavero	Loto	Gelsomino	Lavanda	Peonia																				
+188	Razze Canine	easy	Labrador	Pastore Tedesco	Bulldog	Barboncino	Beagle	Chihuahua	Boxer	Husky	Dalmata	Rottweiler	Carlino	Bassotto																				
+189	Bagno	easy	Doccia	Vasca	Gabinetto	Lavandino	Asciugamano	Sapone	Specchio	Spazzolino	Dentifricio	Shampoo	Carta igienica	Tappetino																				
+190	Camera da Letto	easy	Letto	Cuscino	Coperta	Armadio	Lampada	Comodino	Sveglia	Materasso	Cassettiera	Lenzuola	Pigiama	Gruccia																				
+191	Soggiorno	easy	Divano	Poltrona	Televisione	Tavolino	Tappeto	Libreria	Camino	Quadro	Telecomando	Cuscino	Tenda	Vaso																				
+192	Pulizia	easy	Scopa	Mocio	Secchio	Spugna	Straccio	Aspirapolvere	Detersivo	Guanti	Spazzola	Piumino	Pattumiera	Sacchetto																				
+193	Bucato	easy	Lavatrice	Asciugatrice	Cesto	Molletta	Ferro da stiro	Asse da stiro	Detersivo	Ammorbidente	Stendibiancheria	Gruccia	Piega	Macchia																				
+194	Trucco	medium	Rossetto	Mascara	Fondotinta	Ombretto	Cipria	Eyeliner	Fard	Pennello	Smalto	Struccante	Specchietto	Lucidalabbra																				
+195	Gioielli	easy	Anello	Collana	Bracciale	Orecchini	Diamante	Oro	Argento	Perla	Ciondolo	Spilla	Orologio	Gemma																				
+196	Accessori	easy	Borsa	Cintura	Cappello	Sciarpa	Guanti	Occhiali da sole	Portafoglio	Zaino	Ombrello	Cravatta	Orologio	Fazzoletto																				
+197	Spiaggia	easy	Sabbia	Mare	Onde	Ombrellone	Asciugamano	Costume da bagno	Crema solare	Conchiglia	Secchiello	Paletta	Bagnino	Surf																				
+198	Campeggio	easy	Tenda	Sacco a pelo	Falò	Zaino	Torcia	Bussola	Coltellino	Borraccia	Materassino	Fiammiferi	Natura	Escursione																				
+199	Teatro	medium	Palcoscenico	Attore	Pubblico	Sipario	Copione	Maschera	Applauso	Biglietto	Poltrona	Luci	Costume	Scena																				
+200	Circo	easy	Pagliaccio	Acrobata	Tendone	Elefante	Leone	Prestigiatore	Trapezio	Giocoliere	Monociclo	Spettacolo	Pubblico	Applausi																				
+201	Ospedale	easy	Dottore	Infermiere	Paziente	Letto	Ambulanza	Medicina	Siringa	Benda	Stetoscopio	Operazione	Raggi X	Gesso																				
+202	Aeroporto	easy	Aereo	Pilota	Passaporto	Valigia	Biglietto	Gate	Decollo	Atterraggio	Controllo	Bagaglio	Pista	Hostess																				
+203	Stazione Ferroviaria	easy	Treno	Binario	Biglietteria	Controllore	Passeggero	Valigia	Orario	Ritardo	Fischio	Vagone	Locomotiva	Sedile																				
+204	Supermercato	easy	Carrello	Cassa	Scaffale	Spesa	Scontrino	Sacchetto	Codice a barre	Prezzo	Bilancia	Commesso	Prodotto	Reparto																				
+205	Panificio	easy	Pane	Panino	Focaccia	Croissant	Farina	Forno	Pasticcino	Biscotto	Torta	Lievito	Impasto	Fornaio																				
+206	Ristorante	easy	Cameriere	Menu	Tavolo	Piatto	Bicchiere	Posate	Conto	Mancia	Cuoco	Ordinazione	Tovagliolo	Prenotazione																				
+207	Hotel	easy	Reception	Chiave	Camera	Ascensore	Bagaglio	Ospite	Prenotazione	Hall	Portiere	Letto	Colazione	Check-in																				
+208	Oggetti Scolastici	easy	Zaino	Libro	Quaderno	Astuccio	Matita	Penna	Gomma	Temperino	Righello	Lavagna	Banco	Diario																				
+209	Università	medium	Laurea	Professore	Studente	Esame	Tesi	Campus	Lezione	Aula	Biblioteca	Ricerca	Dottorato	Seminario																				
+210	Termini Matematici	medium	Addizione	Sottrazione	Moltiplicazione	Divisione	Numero	Equazione	Frazione	Percentuale	Totale	Calcolo	Algebra	Geometria																				
+211	Fisica	hard	Atomo	Energia	Forza	Gravità	Massa	Velocità	Luce	Suono	Elettricità	Magnetismo	Calore	Movimento																				
+212	Chimica	hard	Molecola	Elemento	Reazione	Acido	Base	Laboratorio	Provetta	Atomo	Soluzione	Esperimento	Formula	Tavola periodica																				
+213	Biologia	hard	Cellula	DNA	Gene	Evoluzione	Specie	Organismo	Batterio	Virus	Pianta	Animale	Ecosistema	Microscopio																				
+214	Geografia	medium	Mappa	Continente	Oceano	Isola	Montagna	Fiume	Vulcano	Città	Nazione	Confine	Capitale	Clima																				
+215	Continenti	easy	Africa	Antartide	Asia	Europa	Nord America	Sud America	Oceania	Mondo	Globo	Emisfero	Terra	Pianeta																				
+216	Paesi Asiatici	medium	Cina	Giappone	India	Corea del Sud	Thailandia	Vietnam	Indonesia	Filippine	Malesia	Singapore	Pakistan	Iran																				
+217	Paesi Sudamericani	medium	Brasile	Argentina	Colombia	Perù	Cile	Venezuela	Ecuador	Bolivia	Paraguay	Uruguay	Guyana	Suriname																				
+218	Città Italiane	medium	Roma	Milano	Napoli	Torino	Firenze	Venezia	Bologna	Genova	Palermo	Verona	Bari	Catania																				
+219	Regioni Italiane	hard	Lombardia	Lazio	Campania	Sicilia	Veneto	Toscana	Piemonte	Puglia	Emilia-Romagna	Calabria	Sardegna	Liguria																				
+220	Lingue	medium	Italiano	Inglese	Spagnolo	Francese	Tedesco	Cinese	Giapponese	Russo	Arabo	Portoghese	Latino	Greco																				
+221	Famiglia	easy	Madre	Padre	Fratello	Sorella	Nonna	Nonno	Zio	Zia	Cugino	Figlio	Figlia	Nipote																				
+222	Fasi della Vita	easy	Neonato	Bambino	Adolescente	Adulto	Anziano	Nascita	Morte	Infanzia	Giovinezza	Vecchiaia	Matrimonio	Pensione																				
+223	Professioni 2	medium	Poliziotto	Giornalista	Veterinario	Farmacista	Architetto	Scienziato	Soldato	Giudice	Sarto	Falegname	Barbiere	Contadino																				
+224	Hobby	easy	Leggere	Disegnare	Cucinare	Viaggiare	Fotografia	Pesca	Giardinaggio	Collezionismo	Scacchi	Danza	Scrittura	Cucito																				
+225	Verbi Sportivi	easy	Lanciare	Prendere	Calciare	Correre	Saltare	Nuotare	Segnare	Vincere	Perdere	Allenarsi	Tifare	Arbitrare																				
+226	Termini Calcistici	medium	Gol	Rigore	Fuorigioco	Corner	Arbitro	Cartellino	Portiere	Difensore	Attaccante	Centrocampista	Stadio	Partita																				
+227	Sport Olimpici	medium	Atletica	Ginnastica	Nuoto	Scherma	Judo	Ciclismo	Canottaggio	Tuffi	Pugilato	Tiro con l'arco	Sollevamento pesi	Triathlon																				
+228	Sport Invernali	medium	Sci	Snowboard	Pattinaggio	Hockey su ghiaccio	Bob	Slittino	Curling	Biathlon	Salto con gli sci	Slalom	Discesa	Ghiaccio																				
+229	Videogiochi	medium	Console	Controller	Livello	Boss	Punteggio	Giocatore	Joystick	Schermo	Avatar	Missione	Salvataggio	Game Over																				
+230	Giocattoli	easy	Bambola	Macchinina	Costruzioni	Peluche	Pallone	Robot	Puzzle	Yo-yo	Trottole	Aquilone	Trenino	Marionetta																				
+231	Personaggi delle Fiabe	easy	Cenerentola	Pinocchio	Biancaneve	Peter Pan	Cappuccetto Rosso	Gatto con gli Stivali	Sirenetta	Pollicino	Aladino	Raperonzolo	Hansel	Gretel																				
+232	Cattivi	medium	Strega	Orco	Lupo Cattivo	Matrigna	Capitan Uncino	Voldemort	Joker	Darth Vader	Thanos	Dracula	Frankenstein	Mummia																				
+233	Harry Potter	medium	Bacchetta	Hogwarts	Mago	Pozione	Incantesimo	Boccino	Quidditch	Mantello	Gufo	Grifondoro	Serpeverde	Cicatrice																				
+234	Guerre Stellari	medium	Jedi	Spada laser	Forza	Impero	Ribelli	Droide	Astronave	Galassia	Clone	Maestro	Lato Oscuro	Yoda																				
+235	Cartoni Animati	easy	Topolino	Paperino	Tom	Jerry	Bugs Bunny	SpongeBob	Scooby-Doo	Simpson	Pikachu	Goku	Doraemon	Peppa Pig																				
+236	Strumenti a Corda	medium	Violino	Chitarra	Violoncello	Contrabbasso	Arpa	Banjo	Mandolino	Ukulele	Liuto	Viola	Sitar	Basso																				
+237	Strumenti a Fiato	medium	Flauto	Clarinetto	Sassofono	Tromba	Trombone	Oboe	Fagotto	Armonica	Cornamusa	Tuba	Corno	Ottavino																				
+238	Band Musicali	medium	Beatles	Queen	Rolling Stones	Nirvana	Pink Floyd	U2	Metallica	AC/DC	Coldplay	Abba	Doors	Led Zeppelin																				
+239	Cantanti	medium	Madonna	Michael Jackson	Elvis Presley	Beyoncé	Eminem	Rihanna	Adele	Freddie Mercury	Frank Sinatra	Lady Gaga	Prince	Bowie																				
+240	Motivi	hard	Strisce	Pois	Quadri	Scozzese	Floreale	Maculato	Zebrato	Tinta unita	Geometrico	Astratto	Mimetico	Zigzag																				
+241	Cucito	hard	Ago	Filo	Spillo	Ditale	Forbici	Bottone	Cerniera	Macchina da cucire	Metro	Cartamodello	Punto	Orlo																				
+242	Fiori da Giardino	medium	Geranio	Ortensia	Begonia	Petunia	Dalia	Crisantemo	Azalea	Camelia	Glicine	Mimosa	Primula	Ciclamino																				
+243	Verdure Verdi	easy	Spinaci	Lattuga	Zucchina	Broccoli	Piselli	Fagiolini	Cetriolo	Asparagi	Carciofo	Sedano	Verza	Rucola																				
+244	Agrumi	easy	Arancia	Limone	Mandarino	Pompelmo	Lime	Cedro	Bergamotto	Clementina	Kumquat	Chinotto	Mapo	Succo																				
+245	Frutta Secca	medium	Noci	Mandorle	Nocciole	Pistacchi	Arachidi	Anacardi	Pinoli	Noci pecan	Castagne	Datteri	Fichi secchi	Uvetta																				
+246	Latticini	medium	Latte	Formaggio	Burro	Yogurt	Panna	Mozzarella	Ricotta	Mascarpone	Parmigiano	Gorgonzola	Gelato	Kefir																				
+247	Carne	medium	Manzo	Maiale	Pollo	Tacchino	Agnello	Vitello	Salsiccia	Prosciutto	Pancetta	Bistecca	Hamburger	Salame																				
+248	Frutti di Mare	medium	Gambero	Cozza	Vongola	Ostrica	Granchio	Aragosta	Calamaro	Polpo	Scampo	Capasanta	Riccio	Seppia																				
+249	Pane	easy	Baguette	Ciabatta	Focaccia	Pagnotta	Rosetta	Integrale	Segale	Pita	Toast	Grissini	Cracker	Mollica																				
+250	Dolci	easy	Torta	Biscotto	Gelato	Cioccolato	Caramella	Budino	Crostata	Muffin	Ciambella	Mousse	Crema	Pasticcino																				
+251	Colazione	easy	Caffè	Latte	Biscotti	Cereali	Cornetto	Marmellata	Burro	Fetta biscottata	Yogurt	Succo	Frutta	Miele																				
+252	Pranzo	easy	Pasta	Insalata	Panino	Pizza	Riso	Carne	Pesce	Verdura	Frutta	Acqua	Vino	Caffè																				
+253	Cena	easy	Zuppa	Minestra	Arrosto	Pesce	Purè	Verdure	Formaggio	Affettati	Uova	Frittata	Tisana	Dolce																				
+254	Spuntini	easy	Patatine	Popcorn	Noccioline	Barretta	Frutta	Yogurt	Cracker	Biscotto	Cioccolatino	Merendina	Tramezzino	Olive																				
+255	Vini	hard	Rosso	Bianco	Rosato	Spumante	Prosecco	Chianti	Barolo	Brunello	Pinot	Merlot	Chardonnay	Cabernet																				
+256	Formaggi	medium	Parmigiano	Mozzarella	Gorgonzola	Pecorino	Ricotta	Provolone	Taleggio	Fontina	Mascarpone	Brie	Camembert	Cheddar																				
+257	Formati di Pasta	medium	Spaghetti	Penne	Fusilli	Rigatoni	Farfalle	Tagliatelle	Lasagne	Ravioli	Tortellini	Gnocchi	Linguine	Maccheroni																				
+258	Ingredienti Pizza	medium	Pomodoro	Mozzarella	Basilico	Salame	Prosciutto	Funghi	Carciofi	Olive	Acciughe	Tonno	Cipolla	Wurstel																				
+259	Salse	medium	Maionese	Ketchup	Senape	Salsa rosa	Pesto	Besciamella	Ragù	Salsa di soia	Tabasco	Barbecue	Vinaigrette	Tzatziki																				
+260	Zuppe	medium	Minestrone	Vellutata	Brodo	Zuppa di cipolle	Gazpacho	Ramen	Zuppa di pesce	Crema di funghi	Zuppa di legumi	Ribollita	Pappa al pomodoro	Cacciucco																				
+261	Panini	easy	Hamburger	Hot Dog	Toast	Tramezzino	Panino col prosciutto	Panino col salame	Piadina	Kebab	Club sandwich	Bruschetta	Crostino	Baguette																				
+262	Catene Fast Food	easy	McDonald's	Burger King	KFC	Subway	Pizza Hut	Domino's	Starbucks	Dunkin' Donuts	Taco Bell	Wendy's	Hard Rock Cafe	Autogrill																				
+263	Social Media	medium	Facebook	Instagram	Twitter	TikTok	YouTube	Snapchat	WhatsApp	LinkedIn	Pinterest	Telegram	Reddit	Skype																				
+264	Brand Tecnologici	medium	Apple	Samsung	Google	Microsoft	Amazon	Sony	Nintendo	HP	Dell	Canon	Nokia	Huawei																				
+265	Feste Italiane	medium	Ferragosto	Epifania	Carnevale	Festa della Repubblica	Liberazione	Ognissanti	Immacolata	Santo Stefano	Pasquetta	Capodanno	Vigilia	Festa del Papà																				
+266	Città d'Arte	medium	Firenze	Venezia	Roma	Siena	Pisa	Verona	Mantova	Ravenna	Assisi	Padova	Urbino	Lecce																				
+267	Laghi Italiani	hard	Garda	Maggiore	Como	Trasimeno	Bolsena	Iseo	Bracciano	Orta	Varese	Lugano	Albano	Nemi																				
+268	Isole Italiane	medium	Sicilia	Sardegna	Elba	Capri	Ischia	Ponza	Lipari	Lampedusa	Pantelleria	Procida	Giglio	Vulcano																				
+269	Marche di Moda	medium	Gucci	Prada	Armani	Versace	Dolce & Gabbana	Valentino	Fendi	Moschino	Ferragamo	Benetton	Diesel	Max Mara																				
+270	Auto Italiane	medium	Fiat	Ferrari	Lamborghini	Maserati	Alfa Romeo	Lancia	Pagani	Bugatti	Abarth	Iveco	Ducati	Vespa																				
+271	Caffè Italiani	medium	Espresso	Macchiato	Cappuccino	Caffè latte	Lungo	Ristretto	Corretto	Decaffeinato	Shakerato	Marocchino	Ginseng	Orzo																				
+272	Dolci Natalizi	medium	Panettone	Pandoro	Torrone	Struffoli	Panforte	Ricciarelli	Cannoli	Cassata	Mostaccioli	Cartellate	Zewppole	Tronchetto																				
+273	Maschere di Carnevale	hard	Arlecchino	Pulcinella	Colombina	Pantalone	Balanzone	Brighella	Gianduja	Meneghino	Rugantino	Pierrot	Bauta	Moretta																				
+274	Vulcani Italiani	medium	Etna	Vesuvio	Stromboli	Vulcano	Campi Flegrei	Marsili	Vulture	Amiata	Roccamonfina	Pantelleria	Lipari	Ischia																				
+275	Opera Lirica	hard	Verdi	Puccini	Rossini	Donizetti	Bellini	Aida	Traviata	Tosca	Bohème	Barbiere di Siviglia	Turandot	Rigoletto																				
+276	Rinascimento	hard	Michelangelo	Leonardo da Vinci	Raffaello	Donatello	Botticelli	Tiziano	Brunelleschi	Medici	Umanesimo	Prospettiva	Firenze	Cupola																				
+277	Impero Romano	hard	Cesare	Augusto	Colosseo	Foro	Legione	Gladiatore	Senato	Toga	Latino	Acquedotto	Strada	Imperatore																				
+278	Scienziati Italiani	hard	Galileo	Volta	Marconi	Fermi	Meucci	Torricelli	Lagrange	Avogadro	Fibonacci	Montalcini	Rubbia	Pacinotti																				
+279	Esploratori	medium	Colombo	Marco Polo	Vespucci	Magellano	Caboto	Verrazzano	Cook	Armstrong	Gagarin	Cousteau	Livingstone	Amundsen																				
+280	Papi	hard	Francesco	Benedetto	Giovanni Paolo	Paolo	Giovanni	Pio	Leone	Gregorio	Clemente	Urbano	Innocenzo	Alessandro																				
+281	Santi	hard	Francesco	Pietro	Paolo	Giovanni	Giuseppe	Antonio	Rita	Chiara	Agostino	Benedetto	Caterina	Gennaro																				
+282	Carte da Gioco	easy	Asso	Re	Donna	Fante	Cuori	Quadri	Fiori	Picche	Jolly	Mazzo	Seme	Briscola																				
+283	Giochi da Spiaggia	easy	Racchettoni	Pallavolo	Bocce	Frisbee	Castelli di sabbia	Aquilone	Materassino	Pistola ad acqua	Biglie	Secchiello	Palette	Tuffi																				
+284	Simboli della Pace	medium	Colomba	Ramoscello d'ulivo	Arcobaleno	Bandiera bianca	V	Cuore	Mano	Abbraccio	Fiore	Cerchio	Yin Yang	Smile																				
+285	Elementi della Fiaba	easy	C																															
+286	Natale	easy, image	c_christmas_g71.png	c_christmas_g82.png	c_christmas_g98.png	c_christmas_g111.png	c_christmas_g129.png	c_christmas_g154.png	c_christmas_g167.png	c_christmas_g247.png	c_christmas_g264.png	c_christmas_g286.png																						
+287	Spazio	easy, image	c_space_g646.png	c_space_g647.png	c_space_g648.png	c_space_g649.png	c_space_g650.png	c_space_g651.png	c_space_g652.png	c_space_g653.png	c_space_g654.png	c_space_g655.png	c_space_g656.png	c_space_g657.png	c_space_g658.png	c_space_g659.png	c_space_g660.png	c_space_g661.png																
+288	Bevande	easy, image	c_drinks_g26.png	c_drinks_g35.png	c_drinks_g41.png	c_drinks_g45.png	c_drinks_g58.png	c_drinks_g69.png	c_drinks_g75.png	c_drinks_g92.png	c_drinks_g109.png	c_drinks_g121.png																						
+289	Animali	easy, image	c_animals_g216.png	c_animals_g217.png	c_animals_g218.png	c_animals_g219.png	c_animals_g220.png	c_animals_g221.png	c_animals_g222.png	c_animals_g223.png	c_animals_g224.png	c_animals_g225.png																						
+290	Pasta	medium, image	c_pastas_g425.png	c_pastas_g426.png	c_pastas_g427.png	c_pastas_g428.png	c_pastas_g429.png	c_pastas_g430.png	c_pastas_g431.png	c_pastas_g432.png	c_pastas_g433.png	c_pastas_g434.png	c_pastas_g435.png	c_pastas_g436.png	c_pastas_g437.png	c_pastas_g438.png	c_pastas_g439.png	c_pastas_g440.png																
+291	Frutta	medium, image	c_fruits_g801.png	c_fruits_g802.png	c_fruits_g803.png	c_fruits_g804.png	c_fruits_g805.png	c_fruits_g806.png	c_fruits_g807.png	c_fruits_g808.png	c_fruits_g809.png	c_fruits_g810.png	c_fruits_g811.png	c_fruits_g812.png	c_fruits_g813.png	c_fruits_g814.png	c_fruits_g815.png	c_fruits_g816.png		c_fruits_g818.png	c_fruits_g819.png	c_fruits_g820.png	c_fruits_g821.png	c_fruits_g822.png	c_fruits_g823.png	c_fruits_g824.png	c_fruits_g825.png	c_fruits_g826.png	c_fruits_g827.png	c_fruits_g828.png	c_fruits_g830.png	c_fruits_g831.png		
+292	Giappone	medium, image	c_japan_g2079.png	c_japan_g2080.png	c_japan_g2081.png	c_japan_g2083.png	c_japan_g2084.png	c_japan_g2085.png	c_japan_g2086.png	c_japan_g2087.png	c_japan_g2088.png	c_japan_g2089.png	c_japan_g2090.png	c_japan_g2091.png	c_japan_g2092.png	c_japan_g2093.png	c_japan_g2094.png	c_japan_g2095.png																
+293	Francia	easy, image	c_france_g10.png	c_france_g63.png	c_france_g69.png	c_france_g95.png	c_france_g153.png	c_france_g176.png	c_france_g183.png	c_france_g360.png	c_france_g625.png	c_france_g628.png	c_france_g705.png	c_france_g812.png	c_france_g854.png	c_france_g879.png																		
+294	Occhiali	easy, image	c_glasses_g11.png	c_glasses_g22.png	c_glasses_g29.png	c_glasses_g38.png	c_glasses_g48.png	c_glasses_g57.png	c_glasses_g66.png	c_glasses_g81.png																								
+295	Divieti	medium, image	c_prohibitions_g33.png	c_prohibitions_g34.png	c_prohibitions_g35.png	c_prohibitions_g36.png	c_prohibitions_g37.png	c_prohibitions_g38.png	c_prohibitions_g39.png	c_prohibitions_g40.png	c_prohibitions_g41.png																							
+296	Acqua	medium, image	c_water_g3.png	c_water_g18.png	c_water_g39.png	c_water_g67.png	c_water_g88.png	c_water_g143.png	c_water_g151.png	c_water_g185.png	c_water_g199.png	c_water_g214.png	c_water_g241.png	c_water_g256.png	c_water_g282.png	c_water_g286.png																		
+297	Giochi	easy, image	c_games_g106.png	c_games_g178.png	c_games_g234.png	c_games_g257.png	c_games_g274.png	c_games_g297.png	c_games_g314.png	c_games_g354.png	c_games_g357.png	c_games_g385.png	c_games_g437.png	c_games_g519.png	c_games_g534.png	c_games_g575.png	c_games_g624.png	c_games_g736.png	c_games_g751.png	c_games_g829.png														
+298	Sedie	easy, image	c_chairs_g23.png	c_chairs_g49.png	c_chairs_g105.png	c_chairs_g134.png	c_chairs_g173.png	c_chairs_g211.png	c_chairs_g232.png	c_chairs_g254.png																								
+299	Pesci	easy, image	c_fishs_g1022.png	c_fishs_g1023.png	c_fishs_g1024.png	c_fishs_g1025.png	c_fishs_g1026.png	c_fishs_g1027.png	c_fishs_g1028.png	c_fishs_g1029.png	c_fishs_g1030.png	c_fishs_g1031.png	c_fishs_g1032.png	c_fishs_g1033.png	c_fishs_g1034.png	c_fishs_g1035.png	c_fishs_g1036.png	c_fishs_g1037.png	c_fishs_g1038.png	c_fishs_g1039.png	c_fishs_g1040.png	c_fishs_g1041.png												
+300	Pianeti	medium, image	c_planets_g142.png	c_planets_g126.png	c_planets_g123.png	c_planets_g95.png	c_planets_g78.png	c_planets_g61.png	c_planets_g46.png	c_planets_g26.png	c_planets_g12.png																							
+301	Foglie	image, easy	c_leaves_g202.png	c_leaves_g189.png	c_leaves_g178.png	c_leaves_g166.png	c_leaves_g135.png	c_leaves_g122.png	c_leaves_g83.png	c_leaves_g71.png	c_leaves_g58.png	c_leaves_g50.png	c_leaves_g32.png	c_leaves_g12.png																				
+302	Sport	image, medium	c_sports_g11.png	c_sports_g10.png	c_sports_g9.png	c_sports_g8.png	c_sports_g7.png	c_sports_g6.png	c_sports_g5.png	c_sports_g4.png	c_sports_g3.png																							
+303	Piscina	image, medium	c_pools__x39_.png	c_pools__x37_.png	c_pools__x35_.png	c_pools__x34_.png	c_pools__x33_.png	c_pools__x32_.png	c_pools__x31_6.png	c_pools__x31_5.png	c_pools__x31_4.png	c_pools__x31_2.png	c_pools__x31_.png																					
+304	Mito	image, medium	c_myth_g2147.png	c_myth_g1830.png	c_myth_g1590.png	c_myth_g1504.png	c_myth_g1380.png	c_myth_g1272.png	c_myth_g1141.png	c_myth_g995.png	c_myth_g939.png	c_myth_g848.png	c_myth_g689.png	c_myth_g489.png	c_myth_g381.png	c_myth_g234.png	c_myth_g111.png	c_myth_g57.png																
+305	Musica	image, medium	c_music_g712.png		c_music_g685.png	c_music_g646.png	c_music_g626.png	c_music_g474.png	c_music_g395.png	c_music_g363.png		c_music_g283.png	c_music_g269.png	c_music_g70.png	c_music_g35.png	c_music_g229.png	c_music_g176.png	c_music_g134.png																
+306	Monumenti	image, medium	c_monuments_g16.png	c_monuments_g15.png	c_monuments_g14.png	c_monuments_g13.png	c_monuments_g12.png	c_monuments_g11.png	c_monuments_g10.png	c_monuments_g9.png	c_monuments_g8.png	c_monuments_g7.png	c_monuments_g6.png	c_monuments_g5.png	c_monuments_g4.png	c_monuments_g3.png	c_monuments_g2.png	c_monuments_g1.png																
+307	Londra	image, easy	c_london_g910.png	c_london_g895.png	c_london_g883.png	c_london_g862.png	c_london_g838.png	c_london_g666.png	c_london_g478.png	c_london_g473.png	c_london_g462.png	c_london_g331.png	c_london_g324.png	c_london_g305.png	c_london_g247.png	c_london_g214.png	c_london_g190.png	c_london_g68.png																
+308	Cappelli	image, easy	c_hats_g76.png	c_hats_g68.png	c_hats_g62.png	c_hats_g50.png	c_hats_g42.png	c_hats_g23.png	c_hats_g17.png	c_hats_g10.png	c_hats_g5.png																							
+309	Cani	image, easy	c_dogs_g522.png	c_dogs_g484.png	c_dogs_g457.png	c_dogs_g438.png	c_dogs_g413.png	c_dogs_g383.png	c_dogs_g362.png	c_dogs_g326.png	c_dogs_g261.png	c_dogs_g231.png	c_dogs_g200.png	c_dogs_g163.png	c_dogs_g130.png	c_dogs_g99.png	c_dogs_g67.png	c_dogs_g36.png																
+310	Cinema	image, medium	c_cinema_g294.png	c_cinema_g276.png	c_cinema_g224.png	c_cinema_g203.png	c_cinema_g164.png	c_cinema_g138.png	c_cinema_g67.png	c_cinema_g16.png																								
+311	Gatti	image, easy	c_cats_g764.png	c_cats_g729.png	c_cats_g689.png	c_cats_g643.png	c_cats_g605.png	c_cats_g477.png	c_cats_g439.png	c_cats_g296.png	c_cats_g275.png	c_cats_g245.png	c_cats_g188.png	c_cats_g165.png	c_cats_g123.png	c_cats_g103.png	c_cats_g87.png	c_cats_g27.png																
+312	Neonato	image, medium	c_baby_g169.png	c_baby_g136.png	c_baby_g122.png	c_baby_g109.png	c_baby_g74.png	c_baby_g61.png	c_baby_g48.png	c_baby_g35.png	c_baby_g15.png	c_baby_g9.png																						
+313	Australia	image, easy	c_australia_g378.png	c_australia_g370.png	c_australia_g332.png	c_australia_g270.png	c_australia_g247.png	c_australia_g216.png	c_australia_g120.png	c_australia_g86.png	c_australia_g46.png	c_australia_g27.png	c_australia_g11.png																					
+314	Supereroi	image, hard	c_superheroes_g925.png	c_superheroes_g861.png	c_superheroes_g791.png	c_superheroes_g703.png	c_superheroes_g631.png	c_superheroes_g570.png	c_superheroes_g463.png	c_superheroes_g389.png	c_superheroes_g308.png	c_superheroes_g234.png	c_superheroes_g160.png	c_superheroes_g72.png																				
+315	Safari	image, hard	c_safari_g1442.png	c_safari_g1337.png	c_safari_g1155.png	c_safari_g1030.png	c_safari_g967.png	c_safari_g860.png	c_safari_g822.png	c_safari_g768.png	c_safari_g696.png	c_safari_g614.png	c_safari_g544.png	c_safari_g494.png	c_safari_g353.png	c_safari_g271.png	c_safari_g190.png	c_safari_g90.png																
+316	Safari	image, hard	c_safari_g1442.png	c_safari_g1337.png	c_safari_g1155.png	c_safari_g1030.png	c_safari_g967.png	c_safari_g860.png	c_safari_g822.png	c_safari_g768.png	c_safari_g696.png	c_safari_g614.png	c_safari_g544.png	c_safari_g494.png	c_safari_g353.png	c_safari_g271.png	c_safari_g190.png	c_safari_g90.png																
+317	Mostri	image, medium	c_monsters_g159.png	c_monsters_g316.png	c_monsters_g393.png	c_monsters_g475.png	c_monsters_g557.png	c_monsters_g685.png	c_monsters_g734.png	c_monsters_g809.png	c_monsters_g854.png	c_monsters_g923.png	c_monsters_g1013.png	c_monsters_g1078.png	c_monsters_g1171.png	c_monsters_g1262.png	c_monsters_g1335.png																	
+318	USA	image, easy	c_unitedstates_g2255.png	c_unitedstates_g2085.png	c_unitedstates_g1914.png	c_unitedstates_g1551.png	c_unitedstates_g1467.png	c_unitedstates_g1420.png	c_unitedstates_g1350.png		c_unitedstates_g975.png	c_unitedstates_g966.png	c_unitedstates_g545.png	c_unitedstates_g84.png	c_unitedstates_g69.png	c_unitedstates_g57.png	c_unitedstates_g18.png																	
+319	Alberi	image, easy	c_trees_g9978.png	c_trees_g9946.png	c_trees_g9923.png	c_trees_g9188.png	c_trees_g9099.png	c_trees_g8673.png	c_trees_g8505.png	c_trees_g7736.png	c_trees_g7503.png	c_trees_g13433.png	c_trees_g12305.png	c_trees_g12152.png	c_trees_g12055.png	c_trees_g11796.png	c_trees_g11703.png	c_trees_g7115.png	c_trees_g6599.png	c_trees_g6578.png	c_trees_g6428.png	c_trees_g6146.png	c_trees_g5328.png	c_trees_g4987.png	c_trees_g4589.png	c_trees_g4277.png	c_trees_g3928.png	c_trees_g3896.png	c_trees_g605.png	c_trees_g398.png	c_trees_g11278.png	c_trees_g10639.png	c_trees_g10549.png	c_trees_g10187.png
+320	Halloween	image, hard	c_halloween_g400.png	c_halloween_g300.png	c_halloween_g272.png	c_halloween_g223.png	c_halloween_g175.png	c_halloween_g139.png	c_halloween_g108.png	c_halloween_g90.png	c_halloween_g26.png																							
+321	Dei	image, medium	c_gods_g1863.png	c_gods_g1698.png	c_gods_g1607.png	c_gods_g1507.png	c_gods_g1414.png	c_gods_g1312.png	c_gods_g1094.png	c_gods_g986.png	c_gods_g814.png	c_gods_g719.png	c_gods_g600.png	c_gods_g529.png	c_gods_g439.png	c_gods_g374.png	c_gods_g236.png	c_gods_g124.png																
+322	Egitto	image, medium	c_egypt_g1179.png	c_egypt_g1046.png	c_egypt_g946.png	c_egypt_g892.png	c_egypt_g853.png	c_egypt_g785.png	c_egypt_g763.png	c_egypt_g752.png	c_egypt_g694.png	c_egypt_g646.png	c_egypt_g366.png	c_egypt_g330.png	c_egypt_g287.png	c_egypt_g235.png	c_egypt_g199.png	c_egypt_g137.png	c_egypt_g12.png															
+323	A. marziali	hard, image	c_martial_arts_g342.png	c_martial_arts_g341.png	c_martial_arts_g340.png	c_martial_arts_g339.png	c_martial_arts_g338.png	c_martial_arts_g337.png	c_martial_arts_g336.png	c_martial_arts_g335.png	c_martial_arts_g334.png	c_martial_arts_g333.png	c_martial_arts_g332.png	c_martial_arts_g331.png	c_martial_arts_g330.png	c_martial_arts_g329.png	c_martial_arts_g328.png	c_martial_arts_g327.png																
+324	Moto	easy, image	c_motos_g525.png	c_motos_g524.png	c_motos_g523.png	c_motos_g522.png	c_motos_g521.png	c_motos_g520.png	c_motos_g519.png	c_motos_g518.png	c_motos_g517.png	c_motos_g516.png	c_motos_g515.png	c_motos_g514.png																				
+325	Lavori	medium, image	c_jobs_g675.png	c_jobs_g638.png	c_jobs_g580.png	c_jobs_g555.png	c_jobs_g502.png	c_jobs_g473.png	c_jobs_g444.png	c_jobs_g402.png	c_jobs_g360.png	c_jobs_g317.png	c_jobs_g288.png	c_jobs_g267.png	c_jobs_g222.png	c_jobs_g199.png	c_jobs_g174.png	c_jobs_g136.png	c_jobs_g109.png	c_jobs_g71.png	c_jobs_g54.png	c_jobs_g26.png												
+326	Torte	easy, image	c_cakes_g2204.png	c_cakes_g2114.png	c_cakes_g1865.png	c_cakes_g1453.png	c_cakes_g1277.png	c_cakes_g1058.png	c_cakes_g728.png	c_cakes_g694.png	c_cakes_g304.png	c_cakes_g155.png	c_cakes_g81.png	c_cakes_g12.png																				
+327	Orologi	medium, image	c_watches_g546.png	c_watches_g479.png	c_watches_g344.png	c_watches_g309.png	c_watches_g281.png	c_watches_g250.png	c_watches_g208.png	c_watches_g132.png	c_watches_g77.png	c_watches_g34.png																						
+328	Squali	medium, image	c_sharks_g1035.png	c_sharks_g1006.png	c_sharks_g970.png	c_sharks_g479.png	c_sharks_g450.png	c_sharks_g422.png	c_sharks_g385.png	c_sharks_g335.png	c_sharks_g303.png	c_sharks_g270.png	c_sharks_g78.png	c_sharks_g39.png																				
+329	Western	hard, image	c_western_g1433.png	c_western_g1364.png	c_western_g1330.png	c_western_g1223.png	c_western_g1149.png	c_western_g1096.png	c_western_g1008.png	c_western_g931.png	c_western_g846.png	c_western_g744.png	c_western_g347.png	c_western_g266.png	c_western_g93.png																			
+330	Navi	medium, image	c_ships_g11.png	c_ships_g10.png	c_ships_g9.png	c_ships_g8.png	c_ships_g7.png	c_ships_g6.png	c_ships_g5.png	c_ships_g4.png	c_ships_g3.png	c_ships_g2.png	c_ships_g1.png																					
+331	Zodiaco	medium, image	c_zodiac_g436.png	c_zodiac_g378.png	c_zodiac_g363.png	c_zodiac_g321.png	c_zodiac_g306.png	c_zodiac_g248.png	c_zodiac_g231.png	c_zodiac_g209.png	c_zodiac_g171.png	c_zodiac_g130.png	c_zodiac_g86.png	c_zodiac_g48.png																				
+332	Dinosauri	easy, image	c_dinosaurs_g921.png	c_dinosaurs_g738.png	c_dinosaurs_g614.png	c_dinosaurs_g4319.png	c_dinosaurs_g3995.png	c_dinosaurs_g3817.png	c_dinosaurs_g3701.png	c_dinosaurs_g3594.png	c_dinosaurs_g1754.png	c_dinosaurs_g1516.png	c_dinosaurs_g1372.png	c_dinosaurs_g1214.png	c_dinosaurs_g301.png																			
+333	Formaggi	medium, image	c_cheeses_g2020.png	c_cheeses_g2019.png	c_cheeses_g2018.png	c_cheeses_g2017.png	c_cheeses_g2016.png	c_cheeses_g2015.png		c_cheeses_g2013.png	c_cheeses_g2012.png	c_cheeses_g2011.png	c_cheeses_g2010.png	c_cheeses_g2009.png	c_cheeses_g2008.png	c_cheeses_g2007.png	c_cheeses_g2006.png	c_cheeses_g2005.png																
+334	Vichinghi	hard, image	c_vikings_g821.png	c_vikings_g792.png	c_vikings_g657.png	c_vikings_g567.png	c_vikings_g491.png	c_vikings_g371.png	c_vikings_g236.png	c_vikings_g103.png																								
+335	Medievale	medium, image	c_medieval_g5099.png	c_medieval_g2096.png	c_medieval_g1804.png	c_medieval_g1654.png	c_medieval_g1309.png	c_medieval_g1126.png	c_medieval_g810.png	c_medieval_g627.png	c_medieval_g406.png	c_medieval_g173.png																						
+336	Pirati	hard, image	c_pirates_g957.png	c_pirates_g906.png	c_pirates_g823.png	c_pirates_g714.png	c_pirates_g631.png	c_pirates_g555.png	c_pirates_g510.png	c_pirates_g393.png	c_pirates_g317.png	c_pirates_g290.png	c_pirates_g233.png	c_pirates_g150.png	c_pirates_g68.png																			
+337	Funghi	easy, image	c_mushrooms_g13753.png	c_mushrooms_g13752.png	c_mushrooms_g13751.png	c_mushrooms_g13750.png	c_mushrooms_g13749.png	c_mushrooms_g13748.png	c_mushrooms_g13747.png	c_mushrooms_g13746.png	c_mushrooms_g13745.png	c_mushrooms_g13744.png	c_mushrooms_g13743.png	c_mushrooms_g13742.png	c_mushrooms_g13741.png	c_mushrooms_g13740.png	c_mushrooms_g13739.png	c_mushrooms_g13738.png	c_mushrooms_g13737.png	c_mushrooms_g13736.png	c_mushrooms_g13735.png	c_mushrooms_g13734.png	c_mushrooms_g13733.png	c_mushrooms_g13732.png	c_mushrooms_g13731.png									
+338	Musicisti	easy, image	c_musicians_g204.png	c_musicians_g186.png	c_musicians_g163.png	c_musicians_g133.png	c_musicians_g113.png	c_musicians_g85.png	c_musicians_g68.png	c_musicians_g50.png	c_musicians_g18.png																							
+339	Auto	easy, image	c_cars_g557.png	c_cars_g516.png	c_cars_g477.png	c_cars_g439.png	c_cars_g378.png	c_cars_g334.png	c_cars_g296.png	c_cars_g244.png	c_cars_g200.png	c_cars_g148.png	c_cars_g96.png	c_cars_g51.png																				
+340	Bandiere	easy, image	c_flags_vn.png	c_flags_us.png	c_flags_tr.png	c_flags_th.png	c_flags_so.png	c_flags_sn.png	c_flags_ru.png	c_flags_ro.png	c_flags_pr.png	c_flags_no.png	c_flags_nl.png	c_flags_ng.png	c_flags_ne.png	c_flags_ml.png	c_flags_mg.png	c_flags_jm.png	c_flags_it.png	c_flags_is.png	c_flags_iq.png	c_flags_in.png	c_flags_hn.png	c_flags_gb.png	c_flags_dk.png	c_flags_de.png	c_flags_cz.png	c_flags_cu.png	c_flags_cr.png	c_flags_co.png	c_flags_cn.png	c_flags_za.png		
+341	Bandiere	easy, image	c_flags_ua.png	c_flags_tz.png	c_flags_sg.png	c_flags_se.png	c_flags_sd.png	c_flags_pl.png	c_flags_pa.png	c_flags_nz.png	c_flags_mc.png	c_flags_ma.png	c_flags_ly.png	c_flags_lu.png	c_flags_lt.png	c_flags_kr.png	c_flags_jp.png	c_flags_ie.png	c_flags_hu.png	c_flags_gr.png	c_flags_gn.png	c_flags_fr.png	c_flags_fi.png	c_flags_es.png	c_flags_ee.png	c_flags_ca.png	c_flags_br.png	c_flags_bj.png	c_flags_bg.png	c_flags_be.png	c_flags_at.png	c_flags_ar.png	c_flags_ae.png	
+342	Vulcani	easy, image	c_volcanoes_g427.png	c_volcanoes_g409.png	c_volcanoes_g367.png	c_volcanoes_g336.png	c_volcanoes_g325.png	c_volcanoes_g283.png	c_volcanoes_g38.png	c_volcanoes_g1566.png	c_volcanoes_g1545.png	c_volcanoes_g1378.png	c_volcanoes_g1359.png	c_volcanoes_g1344.png	c_volcanoes_g1325.png	c_volcanoes_g267.png	c_volcanoes_g247.png	c_volcanoes_g215.png																
+343	Strumento	medium, image	c_tools_g260.png	c_tools_g251.png	c_tools_g246.png	c_tools_g215.png	c_tools_g210.png	c_tools_g176.png	c_tools_g167.png	c_tools_g164.png	c_tools_g150.png	c_tools_g116.png	c_tools_g110.png	c_tools_g103.png																				
+344	Ottovolante	medium, image	c_rollercoasters_g2228.png	c_rollercoasters_g1842.png	c_rollercoasters_g1072.png	c_rollercoasters_g830.png	c_rollercoasters_g733.png	c_rollercoasters_g656.png	c_rollercoasters_g551.png	c_rollercoasters_g353.png	c_rollercoasters_g245.png	c_rollercoasters_g103.png																						
+345	Ottovolante	medium, image	c_rollercoasters_g2228.png	c_rollercoasters_g1842.png	c_rollercoasters_g1072.png	c_rollercoasters_g830.png	c_rollercoasters_g733.png	c_rollercoasters_g656.png	c_rollercoasters_g551.png	c_rollercoasters_g353.png	c_rollercoasters_g245.png	c_rollercoasters_g103.png																						
+346	Principesse	medium, image	c_princesses_g463.png	c_princesses_g409.png	c_princesses_g357.png	c_princesses_g300.png	c_princesses_g233.png	c_princesses_g181.png	c_princesses_g133.png	c_princesses_g67.png																								
+347	Pinguini	medium, image	c_penguins_g473.png	c_penguins_g428.png	c_penguins_g390.png	c_penguins_g347.png	c_penguins_g296.png	c_penguins_g259.png	c_penguins_g218.png	c_penguins_g177.png	c_penguins_g142.png	c_penguins_g110.png	c_penguins_g77.png	c_penguins_g37.png																				
+348	Chiavi	hard, image	c_keys_g53.png	c_keys_g50.png	c_keys_g45.png	c_keys_g40.png	c_keys_g35.png	c_keys_g29.png	c_keys_g23.png	c_keys_g19.png	c_keys_g11.png	c_keys_g6.png																						
+349	Italia	easy, image	c_italia_g1721.png	c_italia_g1711.png	c_italia_g1611.png	c_italia_g1390.png	c_italia_g1354.png	c_italia_g1258.png	c_italia_g1199.png	c_italia_g685.png	c_italia_g334.png	c_italia_g64.png	c_italia_g1.png	c_italia_g1769.png																				
+350	India	medium, image	c_india__x39_.png	c_india__x38_.png	c_india__x36_.png	c_india__x34_.png	c_india__x33_.png	c_india__x31_4.png	c_india__x31_3.png	c_india__x31_2.png	c_india__x31_1.png	c_india__x31_0.png																						
+351	Cavalli	easy, image	c_horses_g514.png	c_horses_g480.png	c_horses_g446.png	c_horses_g387.png	c_horses_g347.png	c_horses_g307.png	c_horses_g272.png	c_horses_g239.png	c_horses_g179.png	c_horses_g143.png	c_horses_g104.png	c_horses_g46.png																				
+352	Grecia	easy, image	c_greece_g18.png	c_greece_g10.png	c_greece_g9.png	c_greece_g8.png	c_greece_g7.png	c_greece_g6.png	c_greece_g5.png	c_greece_g4.png	c_greece_g3.png	c_greece_g2.png	c_greece_g1.png																					
+353	Germania	easy, image	c_germany_g1325.png	c_germany_g1228.png	c_germany_g736.png	c_germany_g546.png	c_germany_g492.png	c_germany_g360.png	c_germany_g281.png	c_germany_g137.png	c_germany_g103.png																							
+354	Fattoria	medium, image	c_farming_layer_16.png	c_farming_layer_15.png	c_farming_layer_13.png	c_farming_layer_12.png	c_farming_layer_11.png	c_farming_layer_9.png	c_farming_layer_7.png	c_farming_layer_6.png	c_farming_layer_5.png	c_farming_layer_4.png	c_farming_layer_3.png	c_farming_layer_1.png																				
+355	Emoji	easy, image	c_emojis_2_g306.png	c_emojis_2_g284.png		c_emojis_2_g248.png	c_emojis_2_g238.png	c_emojis_2_g231.png	c_emojis_2_g224.png	c_emojis_2_g208.png	c_emojis_2_g201.png	c_emojis_2_g193.png	c_emojis_2_g175.png	c_emojis_2_g168.png	c_emojis_2_g159.png	c_emojis_2_g143.png	c_emojis_2_g92.png	c_emojis_2_g85.png																
+356	Emoji	easy, image	c_emojis_1_g298.png	c_emojis_1_g291.png	c_emojis_1_g259.png	c_emojis_1_g186.png	c_emojis_1_g152.png	c_emojis_1_g121.png	c_emojis_1_g110.png	c_emojis_1_g99.png	c_emojis_1_g76.png	c_emojis_1_g65.png	c_emojis_1_g59.png	c_emojis_1_g49.png	c_emojis_1_g40.png	c_emojis_1_g32.png	c_emojis_1_g24.png	c_emojis_1_g16.png	c_emojis_1_g8.png															
+357	Caffè	hard, image	c_coffees_g1802.png	c_coffees_g1726.png	c_coffees_g1706.png	c_coffees_g1624.png	c_coffees_g1583.png	c_coffees_g1325.png	c_coffees_g1217.png	c_coffees_g1072.png	c_coffees_g1052.png	c_coffees_g776.png	c_coffees_g539.png	c_coffees_g406.png	c_coffees_g322.png	c_coffees_g232.png	c_coffees_g78.png	c_coffees_g43.png																
+358	Circo	easy, image	c_circus_g892.png	c_circus_g831.png	c_circus_g759.png	c_circus_g692.png	c_circus_g618.png	c_circus_g484.png	c_circus_g352.png	c_circus_g247.png	c_circus_g138.png	c_circus_g81.png																						
+359	Canada	easy, image	c_canada_g885.png	c_canada_g866.png	c_canada_g848.png	c_canada_g816.png	c_canada_g641.png	c_canada_g572.png	c_canada_g505.png	c_canada_g465.png	c_canada_g423.png	c_canada_g80.png																						
+360	Farfalle	medium, image	c_butterflies_g315.png	c_butterflies_g282.png	c_butterflies_g259.png	c_butterflies_g209.png	c_butterflies_g184.png	c_butterflies_g142.png	c_butterflies_g78.png	c_butterflies_g36.png																								
+361	Uccelli	easy, image	c_birds_g8221.png	c_birds_g7582.png	c_birds_g7517.png	c_birds_g7311.png	c_birds_g6906.png	c_birds_g6763.png	c_birds_g6709.png	c_birds_g6377.png	c_birds_g5649.png	c_birds_g5377.png	c_birds_g5244.png	c_birds_g5144.png	c_birds_g3341.png	c_birds_g3206.png	c_birds_g2948.png	c_birds_g2896.png	c_birds_g2265.png	c_birds_g534.png	c_birds_g433.png	c_birds_g2174.png	c_birds_g1423.png	c_birds_g1227.png	c_birds_g185.png									
+362	Biciclette	easy, image	c_bicycles_bike_10.png	c_bicycles_bike_9.png	c_bicycles_bike_8.png	c_bicycles_bike_7.png	c_bicycles_bike_6.png	c_bicycles_bike_5.png	c_bicycles_bike_4.png	c_bicycles_bike_3.png	c_bicycles_bike_2.png	c_bicycles_bike_1.png																						
+363	Api	easy, image	c_bees_g590.png	c_bees_g564.png	c_bees_g303.png	c_bees_g276.png	c_bees_g225.png	c_bees_g184.png	c_bees_g90.png	c_bees_g64.png	c_bees_g26.png	c_bees_g143.png	c_bees_g123.png																					
+364	Orsi	easy, image	c_bears_g502.png	c_bears_g459.png	c_bears_g404.png	c_bears_g338.png	c_bears_g242.png	c_bears_g199.png	c_bears_g156.png	c_bears_g106.png	c_bears_g56.png																							
+365	Borse	medium, image	c_bags_g115.png	c_bags_g98.png	c_bags_g82.png	c_bags_g72.png	c_bags_g53.png	c_bags_g46.png	c_bags_g38.png	c_bags_g28.png	c_bags_g19.png																							
+366	Giocatt.	medium, image	c_toys_g236.png	c_toys_g219.png	c_toys_g204.png	c_toys_g189.png	c_toys_g161.png	c_toys_g143.png	c_toys_g114.png	c_toys_g67.png	c_toys_g45.png	c_toys_g25.png	c_toys_g19.png	c_toys_g12.png																				
+367	Balletto	hard, image	c_ballet_g493.png	c_ballet_g492.png	c_ballet_g444.png	c_ballet_g429.png	c_ballet_g394.png	c_ballet_g332.png	c_ballet_g316.png	c_ballet_g264.png	c_ballet_g206.png	c_ballet_g178.png	c_ballet_g135.png	c_ballet_g118.png	c_ballet_g98.png	c_ballet_g46.png	c_ballet_g31.png																	
+368	Caramelle	easy, image	c_candies_g196.png	c_candies_g186.png	c_candies_g177.png	c_candies_g145.png	c_candies_g136.png	c_candies_g122.png	c_candies_g114.png	c_candies_g84.png	c_candies_g73.png	c_candies_g45.png	c_candies_g25.png																					
+369	Pizza	easy, image	c_pizzas_g3443.png	c_pizzas_g3227.png	c_pizzas_g2758.png	c_pizzas_g2179.png	c_pizzas_g1673.png	c_pizzas_g1515.png	c_pizzas_g1007.png	c_pizzas_g718.png	c_pizzas_g331.png																							
+370	Aerop.	hard, image	c_airport_g2489.png	c_airport_g1923.png	c_airport_g1871.png	c_airport_g1737.png	c_airport_g1586.png	c_airport_g1513.png	c_airport_g1225.png	c_airport_g1050.png	c_airport_g903.png	c_airport_g723.png	c_airport_g513.png																					
+371	Ponti	medium, image	c_bridges_g1763.png	c_bridges_g1617.png	c_bridges_g1460.png	c_bridges_g1243.png	c_bridges_g998.png	c_bridges_g802.png	c_bridges_g679.png	c_bridges_g509.png	c_bridges_g259.png	c_bridges_g110.png																						
+372	Fari	easy, image	c_lighthouses_g354.png	c_lighthouses_g306.png	c_lighthouses_g285.png	c_lighthouses_g174.png	c_lighthouses_g165.png	c_lighthouses_g118.png	c_lighthouses_g80.png	c_lighthouses_g53.png	c_lighthouses_g37.png																							
+373	Mercati	medium, image	c_market_g9364.png	c_market_g8575.png	c_market_g8276.png	c_market_g7712.png	c_market_g7251.png	c_market_g5635.png	c_market_g4009.png	c_market_g1616.png	c_market_g836.png																							
+374	Treni	easy, image	c_trains_g609.png	c_trains_g577.png	c_trains_g543.png	c_trains_g507.png	c_trains_g459.png	c_trains_g418.png	c_trains_g368.png	c_trains_g228.png	c_trains_g106.png																							
+375	Meteo	medium, image	c_weather_g237.png	c_weather_g202.png	c_weather_g75.png	c_weather_g37.png	c_weather_g192.png	c_weather_g188.png	c_weather_g171.png	c_weather_g163.png	c_weather_g143.png	c_weather_g133.png	c_weather_g122.png	c_weather_g118.png																				
+376	Gioielli	hard, image	c_jewels__x39_.png	c_jewels__x38_.png	c_jewels__x37_.png	c_jewels__x36_.png	c_jewels__x35_.png	c_jewels__x34_.png	c_jewels__x33_.png	c_jewels__x32_.png	c_jewels__x31_6.png	c_jewels__x31_5.png	c_jewels__x31_4.png	c_jewels__x31_3.png	c_jewels__x31_2.png	c_jewels__x31_1.png	c_jewels__x31_0.png	c_jewels__x31_.png																
+377	Tatuaggio	medium, image	c_tatoos_g404.png	c_tatoos_g390.png	c_tatoos_g384.png	c_tatoos_g338.png	c_tatoos_g334.png	c_tatoos_g305.png	c_tatoos_g254.png	c_tatoos_g180.png	c_tatoos_g152.png	c_tatoos_g115.png	c_tatoos_g102.png	c_tatoos_g77.png																				
+378	Alieni	image,medium	c_aliens_g134.png	c_aliens_g263.png	c_aliens_g340.png	c_aliens_g474.png	c_aliens_g550.png	c_aliens_g622.png	c_aliens_g653.png	c_aliens_g709.png	c_aliens_g751.png	c_aliens_g834.png	c_aliens_g933.png																					
+379	Campane	image,medium	c_bells_g56.png	c_bells_g82.png	c_bells_g94.png	c_bells_g103.png	c_bells_g125.png	c_bells_g139.png	c_bells_g151.png	c_bells_g165.png	c_bells_g190.png																							
+380	Stivali	image,medium	c_boots_g7.png	c_boots_g13.png	c_boots_g33.png	c_boots_g69.png	c_boots_g82.png	c_boots_g116.png	c_boots_g174.png	c_boots_g222.png	c_boots_g254.png																							
+381	Castello	image,medium	c_castles_g453.png	c_castles_g558.png	c_castles_g672.png	c_castles_g943.png	c_castles_g1082.png	c_castles_g1264.png	c_castles_g1377.png	c_castles_g1576.png	c_castles_g1717.png	c_castles_g1816.png	c_castles_g1817.png	c_castles_g1818.png																				
+382	Cioccolato	image,medium	c_chocolate_g1123.png	c_chocolate_g1253.png	c_chocolate_g241.png	c_chocolate_g313.png	c_chocolate_g1279.png	c_chocolate_g2245.png	c_chocolate_g2322.png	c_chocolate_g2389.png	c_chocolate_g2420.png	c_chocolate_g2429.png	c_chocolate_g6907.png																					
+383	Uova	image,medium	c_eggs_g17.png	c_eggs_g22.png	c_eggs_g54.png	c_eggs_g231.png	c_eggs_g409.png	c_eggs_g547.png	c_eggs_g985.png	c_eggs_g1008.png	c_eggs_g1142.png	c_eggs_g1197.png																						
+384	Fate	image,medium	c_fairies_g94.png	c_fairies_g282.png	c_fairies_g361.png	c_fairies_g426.png	c_fairies_g516.png	c_fairies_g623.png	c_fairies_g752.png	c_fairies_g865.png	c_fairies_g964.png	c_fairies_g1083.png	c_fairies_g1227.png	c_fairies_g1315.png	c_fairies_g1439.png	c_fairies_g1533.png	c_fairies_g1635.png	c_fairies_g1712.png	c_fairies_g1833.png	c_fairies_g1938.png	c_fairies_g2030.png	c_fairies_g2146.png	c_fairies_g2250.png	c_fairies_g2330.png	c_fairies_g2422.png	c_fairies_g2519.png	c_fairies_g2630.png							
+385	Fontana	image,medium	c_fountain_g189.png	c_fountain_g269.png	c_fountain_g1022.png	c_fountain_g354.png	c_fountain_g439.png	c_fountain_g598.png	c_fountain_g695.png	c_fountain_g779.png	c_fountain_g925.png																							
+386	Giardin.	image,medium	c_gardening_g1813.png	c_gardening_g1814.png	c_gardening_g1815.png	c_gardening_g1817.png	c_gardening_g1818.png	c_gardening_g1819.png	c_gardening_g1820.png	c_gardening_g1821.png	c_gardening_g1822.png	c_gardening_g1823.png	c_gardening_g1824.png	c_gardening_g1816.png																				
+387	Guanti	image,medium	c_gloves_baseball.png	c_gloves_boxing_gloves.png	c_gloves_convertible_mittens.png	c_gloves_cuffs.png	c_gloves_cycling_gloves.png	c_gloves_dress_gloves.png	c_gloves_driving_gloves.png	c_gloves_garden_gloves.png	c_gloves_knitted_gloves.png	c_gloves_leather_gloves.png	c_gloves_medical.png	c_gloves_mittens.png	c_gloves_oven_mitten.png	c_gloves_rubber_gloves.png																		
+388	Elicottero	image,medium	c_helicopter_g104.png	c_helicopter_g124.png	c_helicopter_g162.png	c_helicopter_g203.png	c_helicopter_g23.png	c_helicopter_g65.png	c_helicopter_g242.png	c_helicopter_g279.png	c_helicopter_g331.png																							
+389	Ospedale	image,medium	c_hospital_g10.png	c_hospital_g35.png	c_hospital_g52.png	c_hospital_g70.png	c_hospital_g310.png	c_hospital_g380.png	c_hospital_g388.png	c_hospital_g400.png	c_hospital_g455.png	c_hospital_g488.png	c_hospital_g489.png																					
+390	Isole	image,medium	c_island_g87.png	c_island_g151.png	c_island_g266.png	c_island_g437.png	c_island_g522.png	c_island_g712.png	c_island_g834.png	c_island_g922.png	c_island_g1024.png																							
+391	Lavanderia	image,medium	c_laundry_g37.png	c_laundry_g90.png	c_laundry_g114.png	c_laundry_g149.png	c_laundry_g167.png	c_laundry_g183.png	c_laundry_g198.png	c_laundry_g213.png	c_laundry_g222.png																							
+392	Biblio.	image,medium	c_library_g1000.png	c_library_g259.png	c_library_g404.png	c_library_g471.png	c_library_g574.png	c_library_g615.png	c_library_g751.png	c_library_g823.png	c_library_g947.png	c_library_g1105.png	c_library_g1128.png	c_library_g1259.png	c_library_g1327.png	c_library_g1463.png	c_library_g1745.png																	
+393	Fulmine	image,medium	c_lightning_g2.png	c_lightning_g4.png	c_lightning_g7.png	c_lightning_g8.png	c_lightning_g11.png	c_lightning_g20.png	c_lightning_g21.png	c_lightning_g23.png	c_lightning_g30.png	c_lightning_g36.png	c_lightning_g37.png																					
+394	Latte	image,medium	c_milk_g40.png	c_milk_g80.png	c_milk_g91.png	c_milk_g109.png	c_milk_g144.png	c_milk_g145.png																										
+395	Scimmie	image,medium	c_monkeys_g117.png	c_monkeys_g186.png	c_monkeys_g281.png	c_monkeys_g402.png	c_monkeys_g624.png	c_monkeys_g712.png	c_monkeys_g844.png	c_monkeys_g938.png	c_monkeys_g1029.png																							
+396	Ninja	image,medium	c_ninjas_g47.png	c_ninjas_g89.png	c_ninjas_g126.png	c_ninjas_g168.png	c_ninjas_g236.png	c_ninjas_g295.png	c_ninjas_g362.png	c_ninjas_g403.png	c_ninjas_g453.png	c_ninjas_g510.png	c_ninjas_g595.png	c_ninjas_g630.png																				
+397	Farmacia	image,medium	c_pharmacy_g60.png	c_pharmacy_g110.png	c_pharmacy_g236.png	c_pharmacy_g252.png	c_pharmacy_g309.png	c_pharmacy_g390.png	c_pharmacy_g854.png	c_pharmacy_g1045.png	c_pharmacy_g1226.png	c_pharmacy_g1265.png	c_pharmacy_g1343.png																					
+398	Radio	image,medium	c_radio_g71.png	c_radio_g105.png	c_radio_g126.png	c_radio_g195.png	c_radio_g226.png	c_radio_g246.png	c_radio_g285.png	c_radio_g332.png	c_radio_g344.png	c_radio_g409.png	c_radio_g490.png	c_radio_g491.png																				
+399	Arcoba.	image,medium	c_rainbow_g60.png	c_rainbow_g88.png	c_rainbow_g123.png	c_rainbow_g167.png	c_rainbow_g203.png	c_rainbow_g239.png	c_rainbow_g259.png	c_rainbow_g296.png	c_rainbow_g331.png	c_rainbow_g362.png	c_rainbow_g391.png	c_rainbow_g426.png	c_rainbow_g462.png	c_rainbow_g482.png	c_rainbow_g524.png	c_rainbow_g538.png																
+400	Cucito	image,medium	c_sewing_g15.png	c_sewing_g25.png	c_sewing_g32.png	c_sewing_g45.png	c_sewing_g66.png	c_sewing_g68.png	c_sewing_g74.png	c_sewing_g128.png	c_sewing_g131.png	c_sewing_g137.png	c_sewing_g185.png	c_sewing_g201.png	c_sewing_g219.png																			
+401	Pattinaggio	image,medium	c_skating_g164.png	c_skating_g314.png	c_skating_g441.png	c_skating_g610.png	c_skating_g786.png	c_skating_g950.png	c_skating_g1041.png	c_skating_g1186.png	c_skating_g1281.png	c_skating_g1384.png	c_skating_g1522.png	c_skating_g1697.png																				
+402	Grattac.	image,medium	c_skyscraper_g231.png	c_skyscraper_g530.png	c_skyscraper_g1018.png	c_skyscraper_g1137.png	c_skyscraper_g1394.png	c_skyscraper_g1424.png	c_skyscraper_g1520.png	c_skyscraper_g1972.png	c_skyscraper_g2076.png	c_skyscraper_g79.png	c_skyscraper_g708.png	c_skyscraper_g940.png																				
+403	Pupaz.	image,medium	c_snowman_g177.png	c_snowman_g275.png	c_snowman_g404.png	c_snowman_g557.png	c_snowman_g683.png	c_snowman_g842.png	c_snowman_g928.png	c_snowman_g1067.png	c_snowman_g1190.png	c_snowman_g1298.png																						
+404	Calze	image,medium	c_socks_g9.png	c_socks_g40.png	c_socks_g78.png	c_socks_g107.png	c_socks_g140.png	c_socks_g202.png	c_socks_g228.png	c_socks_g266.png	c_socks_g721.png	c_socks_g745.png	c_socks_g768.png	c_socks_g795.png	c_socks_g813.png	c_socks_g844.png	c_socks_g862.png																	
+405	Pallonc.	image,medium	c_sport_balls_g3589.png	c_sport_balls_g3590.png	c_sport_balls_g3591.png	c_sport_balls_g3592.png	c_sport_balls_g3593.png	c_sport_balls_g3594.png	c_sport_balls_g3595.png	c_sport_balls_g3596.png	c_sport_balls_g3597.png	c_sport_balls_g3598.png	c_sport_balls_g3599.png	c_sport_balls_g3600.png	c_sport_balls_g3601.png	c_sport_balls_g3602.png	c_sport_balls_g3603.png																	
+406	Tè	image,medium	c_tea_g20.png	c_tea_g46.png	c_tea_g60.png	c_tea_g111.png	c_tea_g119.png	c_tea_g362.png	c_tea_g373.png	c_tea_g388.png	c_tea_g411.png	c_tea_g438.png	c_tea_g458.png	c_tea_g476.png	c_tea_g496.png	c_tea_g511.png	c_tea_g529.png																	
+407	Tenda	image,medium	c_tent_g16.png	c_tent_g32.png	c_tent_g49.png	c_tent_g70.png	c_tent_g81.png	c_tent_g103.png	c_tent_g123.png	c_tent_g136.png	c_tent_g148.png																							
+408	Teatro	image,medium	c_theater__x31_.png	c_theater__x31_1.png	c_theater__x31_2.png	c_theater__x31_3.png	c_theater__x31_4.png	c_theater__x31_5.png	c_theater__x31_6.png	c_theater__x33_.png	c_theater__x35_.png	c_theater__x37__2_.png	c_theater__x38_.png																					
+409	Yoga	image,medium	c_yoga_g79.png	c_yoga_g540.png	c_yoga_g493.png	c_yoga_g415.png	c_yoga_g377.png	c_yoga_g335.png	c_yoga_g250.png	c_yoga_g168.png																								
+410	Viticoltore	image,medium	c_winemaker_g929.png	c_winemaker_g836.png	c_winemaker_g797.png	c_winemaker_g733.png	c_winemaker_g690.png	c_winemaker_g603.png	c_winemaker_g549.png	c_winemaker_g511.png	c_winemaker_g373.png	c_winemaker_g346.png	c_winemaker_g273.png	c_winemaker_g195.png																				
+411	Vulcanologia	image,hard	c_volcanology_g1149.png	c_volcanology_g1148.png	c_volcanology_g1147.png	c_volcanology_g1146.png	c_volcanology_g1145.png	c_volcanology_g1144.png	c_volcanology_g1143.png	c_volcanology_g842.png	c_volcanology_g710.png	c_volcanology_g569.png																						
+412	Tappezziere	image,medium	c_upholsterer_g940.png	c_upholsterer_g905.png	c_upholsterer_g874.png	c_upholsterer_g748.png	c_upholsterer_g630.png	c_upholsterer_g550.png	c_upholsterer_g416.png	c_upholsterer_g334.png	c_upholsterer_g245.png	c_upholsterer_g135.png																						
+413	Sismologia	image,hard	c_seismology_g3957.png	c_seismology_g3704.png	c_seismology_g3305.png	c_seismology_g2897.png	c_seismology_g2196.png	c_seismology_g1704.png	c_seismology_g1294.png	c_seismology_g1096.png	c_seismology_g450.png	c_seismology_g394.png	c_seismology_g128.png																					
+414	Ceramica	image,medium	c_pottery_g517.png	c_pottery_g478.png	c_pottery_g423.png	c_pottery_g375.png	c_pottery_g312.png	c_pottery_g254.png	c_pottery_g172.png	c_pottery_g117.png	c_pottery_g85.png																							
+415	Polizia	image,easy	c_police_g720.png	c_police_g699.png	c_police_g672.png	c_police_g576.png	c_police_g456.png	c_police_g353.png	c_police_g185.png	c_police_g146.png	c_police_g127.png	c_police_g54.png																						
+416	Idraulico	image,easy	c_plumber_g693.png	c_plumber_g642.png	c_plumber_g604.png	c_plumber_g532.png	c_plumber_g460.png	c_plumber_g403.png	c_plumber_g348.png	c_plumber_g304.png	c_plumber_g227.png	c_plumber_g184.png	c_plumber_g91.png	c_plumber_g44.png																				
+417	Fotografia	image,easy	c_photography_g547.png	c_photography_g494.png	c_photography_g419.png	c_photography_g389.png	c_photography_g338.png	c_photography_g273.png	c_photography_g214.png	c_photography_g177.png	c_photography_g110.png	c_photography_g51.png																						
+418	Ottico	image,easy	c_optician_g648.png	c_optician_g544.png	c_optician_g433.png	c_optician_g325.png	c_optician_g197.png	c_optician_g87.png																										
+419	Lavanderia	image,easy	c_laundromat__x39_.png	c_laundromat__x37__1_.png	c_laundromat__x36_.png	c_laundromat__x35_.png	c_laundromat__x34_.png	c_laundromat__x33_.png	c_laundromat__x32_.png	c_laundromat__x31_6.png	c_laundromat__x31_5.png	c_laundromat__x31_4.png	c_laundromat__x31_3.png	c_laundromat__x31_2.png	c_laundromat__x31_1.png	c_laundromat__x31_0.png	c_laundromat__x31_.png																	
+420	Gelateria	image,easy	c_ice_cream_shop_g2983.png	c_ice_cream_shop_g2890.png	c_ice_cream_shop_g2598.png	c_ice_cream_shop_g2434.png	c_ice_cream_shop_g1959.png	c_ice_cream_shop_g1344.png	c_ice_cream_shop_g1199.png	c_ice_cream_shop_g983.png	c_ice_cream_shop_g829.png	c_ice_cream_shop_g499.png																						
+421	Pompiere	image,easy	c_firefighter_g1896.png	c_firefighter_g1773.png	c_firefighter_g864.png	c_firefighter_g800.png	c_firefighter_g619.png	c_firefighter_g467.png	c_firefighter_g367.png	c_firefighter_g302.png	c_firefighter_g229.png	c_firefighter_g145.png	c_firefighter_g67.png																					
+422	Scherma	image,medium	c_fencing_g1767.png	c_fencing_g1644.png	c_fencing_g1544.png	c_fencing_g1485.png	c_fencing_g1373.png	c_fencing_g1318.png	c_fencing_g1199.png	c_fencing_g1071.png	c_fencing_g960.png	c_fencing_g827.png	c_fencing_g714.png	c_fencing_g595.png	c_fencing_g481.png	c_fencing_g362.png	c_fencing_g249.png	c_fencing_g123.png																
+423	Fiera	image,easy	c_fairground_g927.png	c_fairground_g850.png	c_fairground_g787.png	c_fairground_g706.png	c_fairground_g639.png	c_fairground_g560.png	c_fairground_g461.png	c_fairground_g1112.png	c_fairground_g1057.png	c_fairground_g1004.png	c_fairground_g378.png	c_fairground_g310.png	c_fairground_g258.png	c_fairground_g196.png	c_fairground_g122.png																	
+424	Palombaro	image,hard	c_diver_g710.png	c_diver_g709.png	c_diver_g708.png	c_diver_g707.png	c_diver_g706.png	c_diver_g705.png	c_diver_g704.png	c_diver_g295.png	c_diver_g215.png																							
+425	Camper	image,easy	c_camper_van_g448.png	c_camper_van_g414.png	c_camper_van_g353.png	c_camper_van_g307.png	c_camper_van_g271.png	c_camper_van_g214.png	c_camper_van_g150.png	c_camper_van_g113.png	c_camper_van_g72.png	c_camper_van_g46.png																						
+426	Cantiere	image,easy	c_construction_g961.png	c_construction_g835.png	c_construction_g790.png	c_construction_g730.png	c_construction_g663.png	c_construction_g609.png	c_construction_g550.png	c_construction_g500.png	c_construction_g461.png	c_construction_g393.png	c_construction_g168.png	c_construction_g99.png	c_construction_g53.png																			
+427	Pugilato	image,easy	c_boxing_g431.png	c_boxing_g398.png	c_boxing_g364.png	c_boxing_g301.png	c_boxing_g257.png	c_boxing_g203.png	c_boxing_g177.png	c_boxing_g152.png	c_boxing_g106.png	c_boxing_g71.png	c_boxing_g34.png																					
+428	Bowling	image,easy	c_bowling_g2199.png	c_bowling_g2198.png	c_bowling_g2197.png	c_bowling_g2196.png	c_bowling_g2195.png	c_bowling_g2194.png	c_bowling_g2193.png	c_bowling_g2192.png																								
+429	Rilegatura	image,hard	c_bookbinding_g2068.png	c_bookbinding_g1996.png	c_bookbinding_g1950.png	c_bookbinding_g1796.png	c_bookbinding_g1755.png	c_bookbinding_g1548.png	c_bookbinding_g1489.png	c_bookbinding_g1439.png	c_bookbinding_g1288.png	c_bookbinding_g1138.png	c_bookbinding_g565.png	c_bookbinding_g296.png	c_bookbinding_g158.png																			
+430	Fabbro	image,medium	c_blacksmith_g302.png	c_blacksmith_g271.png	c_blacksmith_g228.png	c_blacksmith_g187.png	c_blacksmith_g125.png	c_blacksmith_g68.png																										
+431	Cesteria	image,medium	c_basketry_g5564.png	c_basketry_g4994.png	c_basketry_g4903.png	c_basketry_g4721.png	c_basketry_g4561.png	c_basketry_g4218.png	c_basketry_g4155.png	c_basketry_g4085.png	c_basketry_g3790.png	c_basketry_g3601.png	c_basketry_g2934.png	c_basketry_g2515.png	c_basketry_g2210.png	c_basketry_g1958.png	c_basketry_g1827.png	c_basketry_g1625.png	c_basketry_g1263.png	c_basketry_g611.png	c_basketry_g248.png	c_basketry_g99.png												
+432	Astronomia	image,medium	c_astronomy_g805.png	c_astronomy_g735.png	c_astronomy_g660.png	c_astronomy_g554.png	c_astronomy_g434.png	c_astronomy_g372.png	c_astronomy_g302.png	c_astronomy_g226.png	c_astronomy_g200.png	c_astronomy_g144.png	c_astronomy_g111.png	c_astronomy_g57.png	c_astronomy_g23.png																			
+433	Tiro con arco	image,medium	c_archery_g917.png	c_archery_g584.png	c_archery_g569.png	c_archery_g498.png	c_archery_g422.png	c_archery_g400.png	c_archery_g334.png	c_archery_g265.png	c_archery_g250.png	c_archery_g244.png	c_archery_g221.png	c_archery_g204.png	c_archery_g174.png	c_archery_g13.png																		
+434	Acquario	image,easy	c_aquarium_g9109.png	c_aquarium_g9024.png	c_aquarium_g5237.png	c_aquarium_g2998.png	c_aquarium_g2147.png	c_aquarium_g2133.png	c_aquarium_g1115.png	c_aquarium_g812.png	c_aquarium_g808.png	c_aquarium_g803.png	c_aquarium_g720.png	c_aquarium_g682.png	c_aquarium_g635.png																			
+435	Biliardo	image,easy	c_billiard_g239.png	c_billiard_g226.png	c_billiard_g220.png	c_billiard_g214.png	c_billiard_g194.png	c_billiard_g184.png	c_billiard_g115.png	c_billiard_g102.png	c_billiard_g90.png	c_billiard_g88.png	c_billiard_g76.png	c_billiard_g45.png																				
+436	Panificio	image,easy	c_bakery_g755.png	c_bakery_g685.png	c_bakery_g607.png	c_bakery_g519.png	c_bakery_g500.png	c_bakery_g492.png	c_bakery_g472.png	c_bakery_g448.png	c_bakery_g389.png	c_bakery_g375.png	c_bakery_g322.png	c_bakery_g260.png	c_bakery_g154.png	c_bakery_g117.png	c_bakery_g44.png	c_bakery_g33.png																
+437	Apicoltore	image,medium	c_beekeeper_g6573.png	c_beekeeper_g6572.png	c_beekeeper_g5974.png	c_beekeeper_g5920.png	c_beekeeper_g4401.png	c_beekeeper_g3576.png	c_beekeeper_g3331.png	c_beekeeper_g376.png	c_beekeeper_g357.png	c_beekeeper_g307.png	c_beekeeper_g287.png	c_beekeeper_g196.png	c_beekeeper_g170.png																			
+438	Cina	image,medium	c_china_g1.png	c_china_g57.png	c_china_g58.png	c_china_g59.png	c_china_g60.png	c_china_g61.png	c_china_g62.png	c_china_g63.png	c_china_g64.png	c_china_g65.png	c_china_g66.png	c_china_g67.png	c_china_g68.png	c_china_g69.png	c_china_g70.png	c_china_g71.png	c_china_g72.png	c_china_g73.png	c_china_g74.png	c_china_g75.png	c_china_g76.png	c_china_g77.png	c_china_g78.png									
+439	Verdure	image,medium	c_vegetables2_g1115.png	c_vegetables2_g1118.png	c_vegetables2_g1119.png	c_vegetables2_g1120.png	c_vegetables2_g1125.png	c_vegetables2_g1126.png	c_vegetables2_g1127.png	c_vegetables2_g1129.png	c_vegetables2_g1131.png	c_vegetables2_g1132.png	c_vegetables2_g1133.png	c_vegetables2_g1134.png	c_vegetables2_g1136.png	c_vegetables2_g1137.png	c_vegetables2_g1138.png	c_vegetables2_g1139.png																
+440	Rettili	image,medium	c_reptiles_g87.png	c_reptiles_g138.png	c_reptiles_g257.png	c_reptiles_g464.png	c_reptiles_g529.png	c_reptiles_g582.png	c_reptiles_g754.png	c_reptiles_g772.png	c_reptiles_g858.png																							
+441	Spagna	image,medium	c_spain_g13.png	c_spain_g55.png	c_spain_g115.png	c_spain_g170.png	c_spain_g182.png	c_spain_g202.png	c_spain_g249.png	c_spain_g275.png	c_spain_g334.png	c_spain_g355.png	c_spain_g470.png	c_spain_g589.png	c_spain_g710.png	c_spain_g839.png	c_spain_g893.png	c_spain_g1296.png	c_spain_g1361.png															
+442	Orologio	image,hard	c_clocks_g115.png	c_clocks_g6.png	c_clocks_g13.png	c_clocks_g34.png	c_clocks_g40.png	c_clocks_g54.png	c_clocks_g63.png	c_clocks_g71.png	c_clocks_g89.png	c_clocks_g143.png	c_clocks_g151.png	c_clocks_g162.png	c_clocks_g185.png																			
+443	Cavalieri	image,easy	c_knights_g77.png	c_knights_g162.png	c_knights_g235.png	c_knights_g323.png	c_knights_g384.png	c_knights_g461.png	c_knights_g517.png	c_knights_g648.png																								
+444	Limone	image,easy	c_lemon_g13152.png	c_lemon_g18931.png	c_lemon_g23413.png	c_lemon_g28153.png	c_lemon_g33293.png	c_lemon_g34431.png	c_lemon_g7436.png	c_lemon_g42508.png	c_lemon_g46985.png																							
+445	Maya	image,hard	c_mayans_g921.png	c_mayans_g1146.png	c_mayans_g1242.png	c_mayans_g1873.png	c_mayans_g2097.png	c_mayans_g2369.png	c_mayans_g2541.png	c_mayans_g2593.png	c_mayans_g2808.png	c_mayans_g2839.png	c_mayans_g2939.png																					
+446	Banca / Soldi	image,medium	c_banking_g17.png	c_banking_g38.png	c_banking_g75.png	c_banking_g94.png	c_banking_g220.png	c_banking_g324.png	c_banking_g346.png	c_banking_g411.png	c_banking_g430.png	c_banking_g467.png	c_banking_g495.png	c_banking_g563.png	c_banking_g598.png	c_banking_g694.png	c_banking_g739.png	c_banking_g781.png																
+447	Barbecue	image,easy	c_barbecue_g242.png	c_barbecue_g569.png	c_barbecue_g789.png	c_barbecue_g1031.png	c_barbecue_g1087.png	c_barbecue_g1289.png																										
+448	Compleanno	image,easy	c_birthday_g14.png	c_birthday_g23.png	c_birthday_g42.png	c_birthday_g80.png	c_birthday_g122.png	c_birthday_g183.png	c_birthday_g235.png	c_birthday_g302.png	c_birthday_g349.png	c_birthday_g432.png	c_birthday_g487.png	c_birthday_g514.png	c_birthday_g534.png	c_birthday_g555.png	c_birthday_g579.png																	
+449	Pane	image,medium	c_bread_g6155.png	c_bread_g6156.png	c_bread_g6157.png	c_bread_g6158.png	c_bread_g6159.png	c_bread_g6160.png	c_bread_g6161.png	c_bread_g6162.png	c_bread_g6163.png	c_bread_g6164.png	c_bread_g6165.png	c_bread_g6166.png	c_bread_g6167.png	c_bread_g6168.png	c_bread_g6169.png	c_bread_g6170.png																
+450	Campeggio	image,medium	c_camping_g101.png	c_camping_g179.png	c_camping_g293.png	c_camping_g387.png	c_camping_g439.png	c_camping_g486.png	c_camping_g569.png	c_camping_g595.png	c_camping_g622.png	c_camping_g649.png	c_camping_g681.png	c_camping_g732.png	c_camping_g751.png	c_camping_g769.png																		
+451	Candele	image,easy	c_candles_g14.png	c_candles_g31.png	c_candles_g44.png	c_candles_g704.png	c_candles_g727.png	c_candles_g773.png	c_candles_g789.png	c_candles_g797.png	c_candles_g834.png	c_candles_g847.png	c_candles_g1047.png	c_candles_g1062.png	c_candles_g1109.png																			
+452	Pulizia	image,easy	c_cleaning__x31_.png	c_cleaning__x31_0.png	c_cleaning__x31_1.png	c_cleaning__x31_4.png	c_cleaning__x32_.png	c_cleaning__x33_.png	c_cleaning__x34_.png	c_cleaning__x35_.png	c_cleaning__x36_.png	c_cleaning__x37_.png	c_cleaning__x38_.png	c_cleaning__x39_.png																				
+453	Orologio	image,hard	c_clock_g6.png	c_clock_g13.png	c_clock_g34.png	c_clock_g40.png	c_clock_g54.png	c_clock_g63.png	c_clock_g71.png	c_clock_g89.png	c_clock_g115.png	c_clock_g143.png	c_clock_g151.png	c_clock_g162.png	c_clock_g185.png																			
+454	Dentista	image,medium	c_dentist_g2018.png	c_dentist_g2019.png	c_dentist_g2020.png	c_dentist_g2021.png	c_dentist_g2022.png	c_dentist_g2023.png	c_dentist_g2024.png	c_dentist_g2025.png	c_dentist_g2026.png	c_dentist_g2027.png	c_dentist_g2028.png	c_dentist_g2029.png	c_dentist_g2030.png	c_dentist_g2031.png	c_dentist_g2032.png	c_dentist_g2033.png																
+455	Elettricità	image,easy	c_electricity_g9.png	c_electricity_g32.png	c_electricity_g108.png	c_electricity_g133.png	c_electricity_g134.png	c_electricity_g150.png	c_electricity_g165.png	c_electricity_g196.png	c_electricity_g259.png	c_electricity_g342.png	c_electricity_g419.png																					
+456	Golf	image,medium	c_golf_g508.png	c_golf_g573.png	c_golf_g582.png	c_golf_g762.png	c_golf_g905.png	c_golf_g956.png	c_golf_g1071.png	c_golf_g1212.png	c_golf_g1295.png	c_golf_g1407.png	c_golf_g1496.png	c_golf_g1527.png	c_golf_g1642.png																			
+457	Gelati	image,easy	c_ice_creams_g677.png	c_ice_creams_g678.png	c_ice_creams_g679.png	c_ice_creams_g680.png	c_ice_creams_g681.png	c_ice_creams_g682.png	c_ice_creams_g683.png	c_ice_creams_g684.png																								
+458	Laboratorio	image,medium	c_laboratory_g46.png	c_laboratory_g110.png	c_laboratory_g187.png	c_laboratory_g239.png	c_laboratory_g297.png	c_laboratory_g347.png	c_laboratory_g398.png	c_laboratory_g437.png	c_laboratory_g478.png																							
+459	Cucina Messicana	image,easy	c_mexican_food_g323.png	c_mexican_food_g367.png	c_mexican_food_g1296.png	c_mexican_food_g1899.png	c_mexican_food_g3265.png	c_mexican_food_g3303.png	c_mexican_food_g3625.png	c_mexican_food_g3669.png	c_mexican_food_g3952.png	c_mexican_food_g4012.png	c_mexican_food_g4351.png	c_mexican_food_g4632.png	c_mexican_food_g4873.png																			
+460	Museo	image,easy	c_museum_g6.png	c_museum_g26.png	c_museum_g88.png	c_museum_g124.png	c_museum_g138.png	c_museum_g147.png	c_museum_g200.png	c_museum_g244.png	c_museum_g267.png	c_museum_g295.png	c_museum_g307.png	c_museum_g322.png																				
+461	Opera	image,medium	c_opera_g38.png	c_opera_g69.png	c_opera_g83.png	c_opera_g96.png	c_opera_g119.png	c_opera_g127.png	c_opera_g147.png	c_opera_g170.png	c_opera_g207.png	c_opera_g218.png	c_opera_g231.png	c_opera_g246.png	c_opera_g447.png																			
+462	Picnic	image,easy	c_picnic_g763.png	c_picnic_g1162.png	c_picnic_g1371.png	c_picnic_g2025.png	c_picnic_g2684.png	c_picnic_g3262.png																										
+463	Posta	image,medium	c_post_g26.png	c_post_g44.png	c_post_g77.png	c_post_g106.png	c_post_g139.png	c_post_g169.png	c_post_g205.png	c_post_g231.png	c_post_g285.png	c_post_g300.png																						
+464	Preistoria	image,easy	c_prehistory_g81.png	c_prehistory_g110.png	c_prehistory_g165.png	c_prehistory_g207.png	c_prehistory_g254.png	c_prehistory_g298.png	c_prehistory_g350.png	c_prehistory_g387.png	c_prehistory_g406.png	c_prehistory_g567.png																						
+465	Impero Romano	image,easy	c_roman_empire_g117.png	c_roman_empire_g315.png	c_roman_empire_g410.png	c_roman_empire_g514.png	c_roman_empire_g611.png	c_roman_empire_g842.png	c_roman_empire_g913.png	c_roman_empire_g926.png	c_roman_empire_g963.png	c_roman_empire_g982.png	c_roman_empire_g990.png	c_roman_empire_g1142.png	c_roman_empire_g1188.png	c_roman_empire_g1216.png	c_roman_empire_g1363.png	c_roman_empire_g1454.png																
+466	Scultura	image,easy	c_sculpture_g32.png	c_sculpture_g68.png	c_sculpture_g91.png	c_sculpture_g115.png	c_sculpture_g136.png	c_sculpture_g160.png	c_sculpture_g225.png	c_sculpture_g257.png	c_sculpture_g290.png	c_sculpture_g321.png	c_sculpture_g362.png	c_sculpture_g382.png	c_sculpture_g396.png	c_sculpture_g419.png	c_sculpture_g446.png	c_sculpture_g473.png	c_sculpture_g493.png	c_sculpture_g504.png	c_sculpture_g512.png	c_sculpture_g572.png	c_sculpture_g617.png	c_sculpture_g660.png	c_sculpture_g722.png	c_sculpture_g781.png	c_sculpture_g798.png	c_sculpture_g836.png	c_sculpture_g879.png	c_sculpture_g902.png	c_sculpture_g914.png	c_sculpture_g963.png		
+467	Sapone	image,easy	c_soap_g2734.png	c_soap_g2735.png	c_soap_g2736.png	c_soap_g2737.png	c_soap_g2738.png	c_soap_g2739.png	c_soap_g2740.png	c_soap_g2741.png																								
+468	Statua	image,easy	c_statue_g1.png	c_statue_g2.png	c_statue_g3.png	c_statue_g4.png	c_statue_g5.png	c_statue_g6.png	c_statue_g7.png	c_statue_g8.png																								
+469	Surf	image,medium	c_surfing_g42.png	c_surfing_g83.png	c_surfing_g127.png	c_surfing_g170.png	c_surfing_g217.png	c_surfing_g252.png	c_surfing_g297.png	c_surfing_g344.png	c_surfing_g386.png	c_surfing_g426.png	c_surfing_g470.png	c_surfing_g509.png	c_surfing_g549.png	c_surfing_g590.png	c_surfing_g633.png	c_surfing_g663.png	c_surfing_g701.png	c_surfing_g737.png	c_surfing_g774.png	c_surfing_g815.png	c_surfing_g853.png	c_surfing_g888.png	c_surfing_g918.png	c_surfing_g948.png								
+470	Matrimonio	image,easy	c_wedding_g40.png	c_wedding_g63.png	c_wedding_g86.png	c_wedding_g117.png	c_wedding_g145.png	c_wedding_g180.png	c_wedding_g206.png	c_wedding_g289.png	c_wedding_g317.png																							
+471	Insetti	image,hard	c_insects_g29.png	c_insects_g54.png	c_insects_g91.png	c_insects_g121.png	c_insects_g228.png	c_insects_g265.png	c_insects_g302.png	c_insects_g342.png	c_insects_g377.png	c_insects_g408.png	c_insects_g448.png	c_insects_g516.png	c_insects_g568.png	c_insects_g596.png	c_insects_g641.png	c_insects_g709.png																
+472	Sushi	image,easy	c_sushi_g26.png	c_sushi_g63.png	c_sushi_g80.png	c_sushi_g96.png	c_sushi_g125.png	c_sushi_g161.png	c_sushi_g229.png	c_sushi_g253.png	c_sushi_g280.png	c_sushi_g324.png	c_sushi_g349.png																					
+473	Delfini	image,easy	c_dolphins_g40.png	c_dolphins_g78.png	c_dolphins_g93.png	c_dolphins_g197.png	c_dolphins_g232.png	c_dolphins_g257.png	c_dolphins_g286.png	c_dolphins_g322.png	c_dolphins_g365.png	c_dolphins_g400.png	c_dolphins_g433.png	c_dolphins_g478.png																				
+474	Hamb.	image,medium	c_burgers_g354.png	c_burgers_g667.png	c_burgers_g907.png	c_burgers_g1145.png	c_burgers_g1465.png	c_burgers_g1689.png	c_burgers_g1975.png	c_burgers_g2194.png	c_burgers_g2367.png	c_burgers_g2697.png	c_burgers_g3096.png	c_burgers_g3470.png																				
+475	Scuola	image,medium	c_school_g149.png	c_school_g164.png	c_school_g181.png	c_school_g194.png	c_school_g208.png	c_school_g245.png	c_school_g261.png	c_school_g295.png	c_school_g322.png	c_school_g346.png	c_school_g374.png	c_school_g382.png	c_school_g406.png	c_school_g420.png	c_school_g430.png	c_school_g458.png	c_school_g464.png	c_school_g511.png	c_school_g480.png	c_school_g491.png	c_school_g500.png	c_school_g510.png										
+476	Montagne	image,easy	c_mountain_g59.png	c_mountain_g88.png	c_mountain_g125.png	c_mountain_g156.png	c_mountain_g189.png	c_mountain_g219.png	c_mountain_g280.png	c_mountain_g312.png	c_mountain_g339.png																							
+477	Vampiri	image,easy	c_vampires_g59.png	c_vampires_g76.png	c_vampires_g106.png	c_vampires_g180.png	c_vampires_g206.png	c_vampires_g257.png	c_vampires_g290.png	c_vampires_g324.png	c_vampires_g342.png	c_vampires_g378.png	c_vampires_g405.png	c_vampires_g433.png	c_vampires_g479.png																			
+478	Skate	image,easy	c_skateboard_g6.png	c_skateboard_g33.png	c_skateboard_g45.png	c_skateboard_g53.png	c_skateboard_g74.png	c_skateboard_g120.png	c_skateboard_g127.png	c_skateboard_g140.png	c_skateboard_g153.png	c_skateboard_g165.png	c_skateboard_g174.png	c_skateboard_g251.png	c_skateboard_g302.png																			
+479	Street Art	image,easy	c_street_art_g3936.png	c_street_art_g6106.png	c_street_art_g11469.png	c_street_art_g14133.png	c_street_art_g15675.png	c_street_art_g17436.png	c_street_art_g19226.png	c_street_art_g23898.png	c_street_art_g26480.png	c_street_art_g29777.png																						
+480	Carnevale	image,medium	c_carnival_g70.png	c_carnival_g137.png	c_carnival_g205.png	c_carnival_g264.png	c_carnival_g350.png	c_carnival_g454.png	c_carnival_g527.png	c_carnival_g637.png	c_carnival_g730.png	c_carnival_g784.png																						
+481	Brunch	image,hard	c_brunch_g435.png	c_brunch_g545.png	c_brunch_g830.png	c_brunch_g936.png	c_brunch_g958.png	c_brunch_g1009.png	c_brunch_g1204.png	c_brunch_g1282.png	c_brunch_g1431.png																							
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		
+																																		

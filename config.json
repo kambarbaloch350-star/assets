@@ -1,0 +1,235 @@
+{
+    "disable_log_system": false,
+    "disable_jokers": false,
+
+    "no_ads_settings_button_disabled": false,
+    "no_ads_banner_button_disabled": false,
+
+    "restart_button_next_to_level_disabled": false,
+    "restart_button_in_settings_disabled": false,
+    
+    "products": [
+        { "id": "st.ows.lexicosolitaire.no_ads_bundle", "type": "inapp", "grant": "no_ads_bundle" },
+        { "id": "st.ows.lexicosolitaire.bundle1", "type": "inapp", "grant": "bundle" },
+        { "id": "st.ows.lexicosolitaire.no_ads", "type": "inapp", "grant": "no_ads" },
+        { "id": "st.ows.lexicosolitaire.coin_pack1", "type": "inapp", "grant": "coin_pack_1" },
+        { "id": "st.ows.lexicosolitaire.coin_pack2", "type": "inapp", "grant": "coin_pack_2" },
+        { "id": "st.ows.lexicosolitaire.coin_pack3", "type": "inapp", "grant": "coin_pack_3" },
+        { "id": "st.ows.lexicosolitaire.coin_pack4", "type": "inapp", "grant": "coin_pack_4" },
+        { "id": "st.ows.lexicosolitaire.coin_pack5", "type": "inapp", "grant": "coin_pack_5" }
+    ],
+
+    "shop_entries": [
+        {
+            "id": "no_ads_bundle",
+            "product_id": "st.ows.lexicosolitaire.no_ads_bundle",
+            "banner": "red", "banner_text": "BEST DEAL!",
+            "rewards": [
+                { "type": "coin", "qty": 6000 },
+                { "type": "no_ads", "qty": 1 },
+                { "type": "undo", "qty": 5 },
+                { "type": "hint", "qty": 5 },
+                { "type": "joker", "qty": 5 }
+            ]
+        },
+        {
+            "id": "bundle",
+            "product_id": "st.ows.lexicosolitaire.bundle1",
+            "banner": "red", "banner_text": "BEST DEAL!",
+            "rewards": [
+                { "type": "coin", "qty": 10000 },
+                { "type": "undo", "qty": 5 },
+                { "type": "hint", "qty": 5 },
+                { "type": "joker", "qty": 5 }
+            ]
+        },
+        {
+            "id": "no_ads",
+            "product_id": "st.ows.lexicosolitaire.no_ads",
+            "rewards": [ { "type": "no_ads", "qty": 1 } ]
+        },
+        { "id": "free_coins",  "product_id": "free" },
+        { "id": "coin_pack_1", "product_id": "st.ows.lexicosolitaire.coin_pack1", "rewards": [ { "type": "coin", "qty": 1000 } ] },
+        { "id": "coin_pack_2", "product_id": "st.ows.lexicosolitaire.coin_pack2", "rewards": [ { "type": "coin", "qty": 5000 } ] },
+        { "id": "coin_pack_3", "product_id": "st.ows.lexicosolitaire.coin_pack3", "rewards": [ { "type": "coin", "qty": 20000 } ] },
+        { "id": "coin_pack_4", "product_id": "st.ows.lexicosolitaire.coin_pack4", "rewards": [ { "type": "coin", "qty": 50000 } ] },
+        { "id": "coin_pack_5", "product_id": "st.ows.lexicosolitaire.coin_pack5", "rewards": [ { "type": "coin", "qty": 100000 } ] }
+    ],
+
+    "free_coins_ar_value": 100,
+    "free_coins_given_value": 100,
+
+    "ad_banner_delay_first_launch": 300,
+    "ad_banner_delay": 15,
+    "ad_interstitial_delay": 60,
+    "ad_interstitial_capping": 130,
+
+    "ad_disable_until_level": 5,
+    "ad_disable_interstitial_during_gameplay_until_level": 20,
+
+    "telemetry_sampling_rate_per_mille": 1000,
+    "telemetry_check_every_x_seconds": 60,
+    "telemetry_send_max_period": 43200,
+    "telemetry_send_every_x_seconds_of_playtime": 1800,
+
+    "start_more_move_retries": 2,
+    "more_move_value": 10,
+
+    "stock_coins": 500,
+    "stock_hints": 3,
+    "stock_undos": 3,
+    "stock_jokers": 5,
+
+    "price_hint": 300,
+    "price_undo": 300,
+    "price_joker": 300,
+    "price_more_move": 600,
+
+    "hover_helper_option": "force_on",
+
+    "force_auto_multi_pick": true,
+
+    "coins_per_moves_remaining": 0,
+
+    "style_selector_level": 20,
+    "buttons_original_ordering": false,
+    "keep_old_style_on_122_if_level_reached": 35,
+
+    "content_configs": [
+        {
+            "lang": "en",
+            "file": "content_en.csv"
+        },
+        {
+            "lang": "fr",
+            "file": "content_fr.csv"
+        },
+        {
+            "lang": "es",
+            "file": "content_es.csv"
+        },
+        {
+            "lang": "pt",
+            "file": "content_pt.csv"
+        },
+        {
+            "lang": "it",
+            "file": "content_it.csv"
+        },
+        {
+            "lang": "ru",
+            "file": "content_ru.csv"
+        },
+        {
+            "lang": "ja",
+            "file": "content_ja.csv"
+        },
+        {
+            "lang": "de",
+            "file": "content_de.csv"
+        }
+    ],
+
+    "leveling": [
+        {"level_min":1,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 9999,"seed":0,"nb_foundations":3,"nb_piles":3,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        
+        {"level_min":2,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 9999,"seed":1,"nb_foundations":3,"nb_piles":3,"card_count":{"min":25,"max":25},"family_count":{"min":5,"max":5},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        {"level_min":3,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 150,"seed":1,"card_count":{"min":33,"max":33},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        {"level_min":4,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 150,"seed":0,"card_count":{"min":33,"max":33},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        {"level_min":5,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 145,"seed":1,"card_count":{"min":42,"max":42},"family_count":{"min":7,"max":7},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":4,"max":4},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        {"level_min":6,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 145,"seed":1,"card_count":{"min":48,"max":48},"family_count":{"min":7,"max":7},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":4,"max":4},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+
+        {"level_min":7, "rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":200,"seed":7,"nb_foundations":4,"nb_piles":4,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":5,"max":5},"max_card_per_family_added_to_average":{"min":0,"max":0},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":50.000000},{"incl_tags":"image","excl_tags":"easy","chance":50.000000}]},
+        {"level_min":8, "rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":50.000000},{"incl_tags":"easy","excl_tags":"image","chance":50.000000}]},
+        {"level_min":9, "rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image","chance":10.000000}]},
+        {"level_min":10,"rewards":[{ "type": "coin", "qty": 30 },{"type": "undo", "qty": 1 }],"moves":160,"seed":119,"nb_foundations":5,"nb_piles":5,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":15.000000},{"incl_tags":"medium","excl_tags":"image","chance":15.000000},{"incl_tags":"hard","excl_tags":"image","chance":25.000000},{"incl_tags":"image","excl_tags":"","chance":45.000000}]},
+        
+        {"level_min":11,"rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":74,"nb_foundations":3,"nb_piles":3,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":60.000000},{"incl_tags":"image","excl_tags":"src1","chance":40.000000}]},
+        {"level_min":12,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":40.000000},{"incl_tags":"image","excl_tags":"src1","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":10.000000}]},
+        {"level_min":13,"rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":40.000000},{"incl_tags":"image","excl_tags":"src1","chance":30.000000},{"incl_tags":"medium","excl_tags":"image,src1","chance":20.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":10.000000}]},
+        {"level_min":14,"rewards":[{ "type": "coin", "qty": 20 }],"moves":200,"seed":105,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"src1","chance":40.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":30.000000},{"incl_tags":"medium","excl_tags":"image,src1","chance":20.000000},{"incl_tags":"easy","excl_tags":"image,src1","chance":10.000000}]},
+        {"level_min":15,"rewards":[{ "type": "coin", "qty": 20 },{"type": "undo", "qty": 1 }],"moves":160,"seed":119,"nb_foundations":5,"nb_piles":5,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":15.000000},{"incl_tags":"medium","excl_tags":"image,src1","chance":15.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":25.000000},{"incl_tags":"image","excl_tags":"src1","chance":45.000000}]},
+        {"level_min":16,"rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"src1","chance":50.000000},{"incl_tags":"easy","excl_tags":"image,src1","chance":50.000000}]},
+        {"level_min":17,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":40.000000},{"incl_tags":"image","excl_tags":"src1","chance":30.000000},{"incl_tags":"medium","excl_tags":"image,src1","chance":20.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":10.000000}]},
+        {"level_min":18,"rewards":[{ "type": "coin", "qty": 30 }],"moves":220,"seed":130,"card_count":{"min":82,"max":82},"family_count":{"min":14,"max":14},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"src1","chance":70.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":30.000000}]},
+        {"level_min":19,"rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image,src1","chance":20.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":10.000000}]},
+        {"level_min":20,"rewards":[{ "type": "coin", "qty": 30 },{"type": "undo", "qty": 1 }],"moves":200,"seed":130,"nb_foundations":5,"nb_piles":5,"card_count":{"min":80,"max":80},"family_count":{"min":14,"max":14},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image,src1","chance":15.000000},{"incl_tags":"medium","excl_tags":"image,src1","chance":15.000000},{"incl_tags":"hard","excl_tags":"image,src1","chance":25.000000},{"incl_tags":"image","excl_tags":"src1","chance":45.000000}]},
+
+        {"level_min":51,"rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":74,"nb_foundations":3,"nb_piles":3,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":60.000000},{"incl_tags":"image","excl_tags":"","chance":40.000000}]},
+        {"level_min":52,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image","chance":10.000000}]},
+        {"level_min":53,"rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image","chance":10.000000}]},
+        {"level_min":54,"rewards":[{ "type": "coin", "qty": 20 }],"moves":200,"seed":105,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":40.000000},{"incl_tags":"hard","excl_tags":"image","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"easy","excl_tags":"image","chance":10.000000}]},
+        {"level_min":55,"rewards":[{ "type": "coin", "qty": 20 },{"type": "undo", "qty": 1 }],"moves":160,"seed":119,"nb_foundations":5,"nb_piles":5,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":15.000000},{"incl_tags":"medium","excl_tags":"image","chance":15.000000},{"incl_tags":"hard","excl_tags":"image","chance":25.000000},{"incl_tags":"image","excl_tags":"","chance":45.000000}]},
+        {"level_min":56,"rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":50.000000},{"incl_tags":"easy","excl_tags":"image","chance":50.000000}]},
+        {"level_min":57,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image","chance":10.000000}]},
+        {"level_min":58,"rewards":[{ "type": "coin", "qty": 30 }],"moves":220,"seed":130,"card_count":{"min":82,"max":82},"family_count":{"min":14,"max":14},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":70.000000},{"incl_tags":"hard","excl_tags":"image","chance":30.000000}]},
+        {"level_min":59,"rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image","chance":10.000000}]},
+        {"level_min":60,"rewards":[{ "type": "coin", "qty": 30 },{"type": "undo", "qty": 1 }],"moves":200,"seed":130,"nb_foundations":5,"nb_piles":5,"card_count":{"min":80,"max":80},"family_count":{"min":14,"max":14},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":15.000000},{"incl_tags":"medium","excl_tags":"image","chance":15.000000},{"incl_tags":"hard","excl_tags":"image","chance":25.000000},{"incl_tags":"image","excl_tags":"","chance":45.000000}]},
+    ],
+
+    "leveling_experiment": [
+        {"level_min":1,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 9999,"seed":0,"nb_foundations":3,"nb_piles":3,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        
+        {"level_min":2,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 9999,"seed":1,"nb_foundations":3,"nb_piles":3,"card_count":{"min":25,"max":25},"family_count":{"min":5,"max":5},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        {"level_min":3,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 150,"seed":1,"card_count":{"min":33,"max":33},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        {"level_min":4,"rewards":[{ "type": "coin", "qty": 20 }],"moves": 150,"seed":0,"card_count":{"min":33,"max":33},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":0.400000},{"incl_tags":"image","excl_tags":"","chance":0.400000},{"incl_tags":"medium","excl_tags":"image","chance":0.200000},{"incl_tags":"hard","excl_tags":"image","chance":0.100000}]},
+        
+        {"level_min":5, "rewards":[{ "type": "coin", "qty": 20 }],"moves":50,"seed":86,"nb_foundations":3,"nb_piles":3,"card_count":{"min":24,"max":24},"family_count":{"min":4,"max":4},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":60.000000},{"incl_tags":"image","excl_tags":"","chance":40.000000}]},
+        {"level_min":6, "rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":74,"nb_foundations":3,"nb_piles":3,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":60.000000},{"incl_tags":"image","excl_tags":"","chance":40.000000}]},
+        {"level_min":7, "rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":200,"seed":7,"nb_foundations":4,"nb_piles":4,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":5,"max":5},"max_card_per_family_added_to_average":{"min":0,"max":0},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":50.000000},{"incl_tags":"image","excl_tags":"easy","chance":50.000000}]},
+        {"level_min":8, "rewards":[{ "type": "coin", "qty": 20 }],"moves":200,"seed":7,"nb_foundations":4,"nb_piles":4,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":5,"max":5},"max_card_per_family_added_to_average":{"min":0,"max":0},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":50.000000},{"incl_tags":"image","excl_tags":"easy","chance":50.000000}]},
+        {"level_min":9, "rewards":[{ "type": "coin", "qty": 20 }],"moves":200,"seed":7,"nb_foundations":4,"nb_piles":4,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":5,"max":5},"max_card_per_family_added_to_average":{"min":0,"max":0},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":50.000000},{"incl_tags":"image","excl_tags":"easy","chance":50.000000}]},
+        {"level_min":10,"rewards":[{ "type": "coin", "qty": 20 },{"type": "undo", "qty": 1 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":50.000000},{"incl_tags":"easy","excl_tags":"image","chance":50.000000}]},
+        {"level_min":11,"rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":50.000000},{"incl_tags":"easy","excl_tags":"image","chance":50.000000}]},
+        {"level_min":12,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":50.000000},{"incl_tags":"easy","excl_tags":"image","chance":50.000000}]},
+        {"level_min":13,"rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":74,"nb_foundations":4,"nb_piles":4,"card_count":{"min":54,"max":54},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":17.000000},{"incl_tags":"medium","excl_tags":"image","chance":17.000000},{"incl_tags":"hard","excl_tags":"image","chance":16.000000},{"incl_tags":"image","excl_tags":"","chance":50.000000}]},
+        {"level_min":14,"rewards":[{ "type": "coin", "qty": 20 }],"moves":110,"seed":53,"nb_foundations":4,"nb_piles":4,"card_count":{"min":54,"max":54},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":17.000000},{"incl_tags":"medium","excl_tags":"image","chance":17.000000},{"incl_tags":"hard","excl_tags":"image","chance":16.000000},{"incl_tags":"image","excl_tags":"","chance":50.000000}]},
+        {"level_min":15,"rewards":[{ "type": "coin", "qty": 30 },{"type": "undo", "qty": 1 }],"moves":160,"seed":119,"nb_foundations":5,"nb_piles":5,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":15.000000},{"incl_tags":"medium","excl_tags":"image","chance":15.000000},{"incl_tags":"hard","excl_tags":"image","chance":25.000000},{"incl_tags":"image","excl_tags":"","chance":45.000000}]},
+        {"level_min":16,"rewards":[{ "type": "coin", "qty": 20 }],"moves":50,"seed":86,"nb_foundations":3,"nb_piles":3,"card_count":{"min":24,"max":24},"family_count":{"min":4,"max":4},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":60.000000},{"incl_tags":"image","excl_tags":"","chance":40.000000}]},
+        {"level_min":17,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":120,"seed":74,"nb_foundations":4,"nb_piles":4,"card_count":{"min":54,"max":54},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":17.000000},{"incl_tags":"medium","excl_tags":"image","chance":17.000000},{"incl_tags":"hard","excl_tags":"image","chance":16.000000},{"incl_tags":"image","excl_tags":"","chance":50.000000}]},
+        {"level_min":18,"rewards":[{ "type": "coin", "qty": 20 }],"moves":200,"seed":105,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":40.000000},{"incl_tags":"hard","excl_tags":"image","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"easy","excl_tags":"image","chance":10.000000}]},
+        {"level_min":19,"rewards":[{ "type": "coin", "qty": 20 }],"moves":75,"seed":144,"card_count":{"min":30,"max":30},"family_count":{"min":6,"max":6},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":50.000000},{"incl_tags":"easy","excl_tags":"image","chance":50.000000}]},
+        {"level_min":20,"rewards":[{ "type": "coin", "qty": 20 },{"type": "undo", "qty": 1 }],"moves":160,"seed":119,"nb_foundations":5,"nb_piles":5,"card_count":{"min":68,"max":68},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":15.000000},{"incl_tags":"medium","excl_tags":"image","chance":15.000000},{"incl_tags":"hard","excl_tags":"image","chance":25.000000},{"incl_tags":"image","excl_tags":"","chance":45.000000}]},
+        {"level_min":21,"rewards":[{ "type": "coin", "qty": 20 }],"moves":50,"seed":86,"nb_foundations":3,"nb_piles":3,"card_count":{"min":24,"max":24},"family_count":{"min":4,"max":4},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":1,"max":1},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":60.000000},{"incl_tags":"image","excl_tags":"","chance":40.000000}]},
+        {"level_min":22,"rewards":[{ "type": "coin", "qty": 20 },{"type": "hint", "qty": 1 }],"moves":120,"seed":45,"card_count":{"min":54,"max":54},"family_count":{"min":10,"max":10},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":40.000000},{"incl_tags":"image","excl_tags":"","chance":30.000000},{"incl_tags":"medium","excl_tags":"image","chance":20.000000},{"incl_tags":"hard","excl_tags":"image","chance":10.000000}]},
+        {"level_min":23,"rewards":[{ "type": "coin", "qty": 30 }],"moves":220,"seed":130,"card_count":{"min":82,"max":82},"family_count":{"min":14,"max":14},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"image","excl_tags":"","chance":70.000000},{"incl_tags":"hard","excl_tags":"image","chance":30.000000}]},
+        {"level_min":24,"rewards":[{ "type": "coin", "qty": 20 }],"moves":120,"seed":74,"nb_foundations":4,"nb_piles":4,"card_count":{"min":54,"max":54},"family_count":{"min":12,"max":12},"min_cards_per_family":{"min":3,"max":3},"max_card_per_family_added_to_average":{"min":10,"max":10},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":17.000000},{"incl_tags":"medium","excl_tags":"image","chance":17.000000},{"incl_tags":"hard","excl_tags":"image","chance":16.000000},{"incl_tags":"image","excl_tags":"","chance":50.000000}]},
+        {"level_min":25,"rewards":[{ "type": "coin", "qty": 30 },{"type": "undo", "qty": 1 }],"moves":200,"seed":130,"nb_foundations":5,"nb_piles":5,"card_count":{"min":80,"max":80},"family_count":{"min":14,"max":14},"min_cards_per_family":{"min":4,"max":4},"max_card_per_family_added_to_average":{"min":3,"max":3},"family_selection":[{"incl_tags":"easy","excl_tags":"image","chance":15.000000},{"incl_tags":"medium","excl_tags":"image","chance":15.000000},{"incl_tags":"hard","excl_tags":"image","chance":25.000000},{"incl_tags":"image","excl_tags":"","chance":45.000000}]}
+    ],
+
+    "leveling_loops": [
+        { "applied_from": 21, "applied_to": 100000, "level_base_from": 11, "level_base_to": 20 }
+    ],
+    "leveling_loops_new": [
+        { "applied_from": 21, "applied_to": 50, "level_base_from": 11, "level_base_to": 20 },
+        { "applied_from": 61, "applied_to": 100000, "level_base_from": 51, "level_base_to": 60 }
+    ],
+
+    "leveling_loops_experiment": [
+        { "applied_from": 26, "applied_to": 100000, "level_base_from": 16, "level_base_to": 25 }
+    ],
+
+    "tutorial_categories_en": [ 6, 8, 2, 3 ],
+    "tutorial_categories_fr": [ 53, 64, 124, 46 ],
+    "tutorial_categories_es": [ 53, 92, 19, 46 ],
+    "tutorial_categories_pt": [ 53, 92, 19, 46 ],
+
+    "tutorial_categories_it": [ 53, 92, 19, 46 ],
+    "tutorial_categories_ru": [ 53, 92, 19, 46 ],
+    "tutorial_categories_ja": [ 53, 92, 19, 46 ],
+    "tutorial_categories_de": [ 53, 92, 19, 46 ],
+
+    "predefined_levels": [
+        { "id":2,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"en","deal_seed":3,"columns":3,"moves":9999,"cats":[0,290,9,325,7],"cards":[5,4,4,3,4] },
+        { "id":3,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"en","deal_seed":1,"columns":4,"moves":150,"cats":[4,2,1,319,13,410],"cards":[5,5,4,5,4,4] },
+        { "id":4,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"en","deal_seed":0,"columns":4,"moves":150,"cats":[35,47,21,174,123,172],"cards":[6,5,3,5,3,5] },
+        { "id":5,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"en","deal_seed":0,"columns":4,"moves":145,"cats":[12,62,290,56,324,94,36],"cards":[4,5,5,8,5,4,4] },
+        { "id":6,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"en","deal_seed":7,"columns":4,"moves":145,"cats":[108,30,125,102,118,300,330],"cards":[4,4,5,8,6,8,6] },
+
+        { "id":2,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"fr","deal_seed":3,"columns":3,"moves":9999,"cats":[0,10,32,200,12],"cards":[5,4,4,3,4] },
+        { "id":3,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"fr","deal_seed":1,"columns":4,"moves":150,"cats":[1,91,34,173,795,111],"cards":[5,5,4,5,4,4] },
+        { "id":4,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"fr","deal_seed":3,"columns":4,"moves":150,"cats":[2,13,37,185,33,207],"cards":[6,5,3,5,3,5] },
+        { "id":5,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"fr","deal_seed":1,"columns":4,"moves":145,"cats":[3,174,40,39,4,187,54],"cards":[4,5,5,8,5,4,4] },
+        { "id":6,"rewards":[{ "type": "coin", "qty": 20 }],"lang":"fr","deal_seed":7,"columns":4,"moves":145,"cats":[29,24,46,77,182,5,215],"cards":[4,4,5,8,6,8,6] }
+    ]
+}
