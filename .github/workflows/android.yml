@@ -175,7 +175,22 @@ jobs:
       - name: Build debug APK
         if: ${{ github.event.inputs.build_type != 'release' }}
         working-directory: android
-        run: ./gradlew :app:assembleDebug --no-daemon --stacktrace -PversionCode=${{ github.run_number }}
+        run: |
+          set -o pipefail
+          ./gradlew :app:assembleDebug --no-daemon --stacktrace \
+            -PversionCode=${{ github.run_number }} 2>&1 | tee /tmp/debug-build.log
+
+      - name: Report debug build failure
+        if: failure()
+        run: |
+          {
+            echo "### Debug build failed"
+            echo ""
+            echo '```'
+            grep -E "^e: |error:|FAILURE:|What went wrong|^> |Caused by" /tmp/debug-build.log \
+              | head -60 || tail -60 /tmp/debug-build.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Build release APK
         if: ${{ github.event.inputs.build_type != 'debug' }}
@@ -190,7 +205,22 @@ jobs:
           ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
           ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
-        run: ./gradlew :app:assembleRelease --no-daemon --stacktrace -PversionCode=${{ github.run_number }}
+        run: |
+          set -o pipefail
+          ./gradlew :app:assembleRelease --no-daemon --stacktrace \
+            -PversionCode=${{ github.run_number }} 2>&1 | tee /tmp/release-build.log
+
+      - name: Report release build failure
+        if: failure()
+        run: |
+          {
+            echo "### Release build failed"
+            echo ""
+            echo '```'
+            grep -E "^e: |error:|FAILURE:|What went wrong|^> |Caused by" /tmp/release-build.log \
+              | head -60 || tail -60 /tmp/release-build.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Summarise artifacts
         if: always()
@@ -231,6 +261,15 @@ jobs:
           path: android/app/build/outputs/apk/release/*.apk
           if-no-files-found: ignore
           retention-days: 30
+
+      - name: Upload build logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: /tmp/*-build.log
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Upload mapping file
         if: always()
