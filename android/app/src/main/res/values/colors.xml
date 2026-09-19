@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_deep">#1B1035</color>
+    <color name="bg_violet">#2A1856</color>
+    <color name="gold">#F5C451</color>
+    <color name="white">#FFFFFF</color>
+    <!-- adaptive launcher icon background -->
+    <color name="icon_bg">#2A1856</color>
+</resources>

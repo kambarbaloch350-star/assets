@@ -1,0 +1,22 @@
+{
+  "name": "jadooye-adad",
+  "private": true,
+  "version": "1.0.0",
+  "description": "جادوی اعداد — Persian math solitaire puzzle game",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
+    "test": "tsx tools/uitest.ts && tsx tools/playtest.ts && tsx tools/tooltest.ts && tsx tools/bridgetest.ts",
+    "test:levels": "tsx tools/simulate.ts 1 120",
+    "test:perf": "tsx tools/perf.ts"
+  },
+  "devDependencies": {
+    "jsdom": "^25.0.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

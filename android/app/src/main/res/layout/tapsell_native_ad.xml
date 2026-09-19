@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Native-ad layout for the Tapsell Mediation SDK.
+
+  Unlike the old Tapsell Plus template, the view IDs here are OURS — the SDK
+  binds them through NativeAdView.Builder in TapsellBridge.kt. Styling is the
+  game's own so the ad sits naturally inside the Persian UI.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/nativead_bg"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/tapsell_native_ad_logo"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/ad_logo"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tapsell_native_ad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/tapsell_native_ad_logo"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tapsell_native_ad_sponsored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/tapsell_native_ad_title"
+        android:layout_alignBaseline="@id/tapsell_native_ad_title"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/nativead_tag"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:text="@string/sponsored"
+        android:textColor="@color/gold"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tapsell_native_ad_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tapsell_native_ad_title"
+        android:layout_toStartOf="@id/tapsell_native_ad_logo"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:alpha="0.75"
+        android:textColor="@color/white"
+        android:textSize="11sp" />
+
+    <!-- Media (banner image or video). Zero-height by default: the slot the
+         web UI reserves is a compact strip. Give it a height if you switch to
+         a larger native placement. -->
+    <FrameLayout
+        android:id="@+id/tapsell_native_ad_media"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/tapsell_native_ad_description" />
+
+    <Button
+        android:id="@+id/tapsell_native_ad_cta"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_below="@id/tapsell_native_ad_media"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/nativead_cta"
+        android:minWidth="88dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:text="@string/ad_cta"
+        android:textAllCaps="false"
+        android:textColor="#2A1856"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+</RelativeLayout>
