@@ -190,9 +190,17 @@ jobs:
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           # Annotations are surfaced through the check-runs API, which is the
           # only channel reliably readable from every environment.
-          grep -E "^e: |error:" /tmp/debug-build.log | head -25 | while IFS= read -r line; do
-            echo "::error::$line"
-          done
+          # No compile error matched? Then it failed earlier — surface the tail
+          # verbatim so the real cause is visible.
+          if grep -qE "^e: |error:" /tmp/debug-build.log; then
+            grep -E "^e: |error:" /tmp/debug-build.log | head -25 | while IFS= read -r line; do
+              echo "::error::$line"
+            done
+          else
+            tail -40 /tmp/debug-build.log | while IFS= read -r line; do
+              [ -n "$line" ] && echo "::error::$line"
+            done
+          fi
 
       - name: Build release APK
         if: ${{ github.event.inputs.build_type != 'debug' }}
