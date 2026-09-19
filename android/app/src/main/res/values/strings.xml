@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">جادوی اعداد</string>
+    <string name="sponsored">تبلیغ</string>
+    <string name="ad_cta">مشاهده</string>
+    <string name="ad_logo">لوگوی تبلیغ</string>
+    <string name="ad_banner">تصویر تبلیغ</string>
+</resources>

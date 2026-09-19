@@ -8,19 +8,35 @@ import { sfx } from '../../platform/audio';
 import { ads } from '../../platform/tapsell';
 
 /** Attach a Tapsell native ad to a panel (skipped when ads are removed). */
-async function attachNative(panel: HTMLElement) {
-  if (player.state.noAds) return;
-  const ad = await ads.requestNative();
-  if (!ad) return;
+/**
+ * Reserves a native-ad slot inside a panel.
+ *
+ * The slot is a fixed-height empty box. On Android the real Tapsell view is
+ * positioned over it by the native layer (so impressions/clicks are tracked by
+ * the SDK); in the browser a styled placeholder is drawn inside it.
+ *
+ * Returns a teardown that must run when the panel closes, otherwise the native
+ * overlay would keep floating above the rest of the UI.
+ */
+function attachNative(panel: HTMLElement): () => void {
+  if (player.state.noAds) return () => {};
 
-  const n = el('div', 'nativead');
-  n.appendChild(el('div', 'nativead__ico', '◆'));
-  const b = el('div', 'nativead__b');
-  const t = el('div', 'nativead__t');
-  t.append(el('span', '', ad.title), el('span', 'nativead__sp', ad.sponsoredLabel || T.sponsored));
-  b.append(t, el('div', 'nativead__d', ad.description));
-  n.append(b, el('button', 'nativead__cta', ad.cta));
-  panel.appendChild(n);
+  const slot = el('div', 'nativead-slot');
+  panel.appendChild(slot);
+
+  let teardown: (() => void) | null = null;
+  let cancelled = false;
+
+  void ads.mountNative(slot).then((fn) => {
+    if (cancelled) fn();
+    else teardown = fn;
+  });
+
+  return () => {
+    cancelled = true;
+    teardown?.();
+    slot.remove();
+  };
 }
 
 // ------------------------------------------------------------------ WIN
@@ -35,7 +51,7 @@ export function showWin(o: {
   onMenu: () => void;
 }): Promise<void> {
   return new Promise((resolve) => {
-    const { panel, close } = makePanel({ closable: false });
+    const { panel, close, onClose } = makePanel({ closable: false });
     panel.appendChild(el('div', 'win__burst'));
     confetti(panel, 60);
 
@@ -85,7 +101,7 @@ export function showWin(o: {
       );
     }
 
-    void attachNative(panel);
+    onClose(attachNative(panel));
 
     const next = bigBtn(T.nextLevel, 'play', () => {
       close();
@@ -120,7 +136,7 @@ export function showOutOfMoves(
   onRestart: () => void,
   onMenu: () => void,
 ) {
-  const { panel, close } = makePanel({ closable: false });
+  const { panel, close, onClose } = makePanel({ closable: false });
   panel.appendChild(el('h2', 'panel__title', T.outOfMoves));
   panel.appendChild(el('p', 'panel__msg', T.outOfMovesMsg));
 
@@ -134,7 +150,7 @@ export function showOutOfMoves(
   };
   panel.appendChild(buy);
 
-  void attachNative(panel);
+  onClose(attachNative(panel));
 
   const row = el('div', 'panel__row');
   row.append(

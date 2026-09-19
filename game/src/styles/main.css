@@ -1437,6 +1437,15 @@ img {
 }
 
 /* native ad card inside panels */
+/* Reserved space for a native ad. On Android the real Tapsell view is
+   positioned over this box by the native layer; in the browser the
+   placeholder below is rendered inside it. */
+.nativead-slot {
+  min-height: 84px;
+  margin-top: 10px;
+  border-radius: 16px;
+}
+
 .nativead {
   display: flex;
   align-items: center;

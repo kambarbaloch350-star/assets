@@ -5,6 +5,8 @@ export interface PanelHandle {
   root: HTMLElement;
   panel: HTMLElement;
   close(): void;
+  /** Register cleanup that must run when the panel closes (e.g. native ads). */
+  onClose(fn: () => void): void;
 }
 
 /** Build a modal overlay. Returns handles so callers can fill/close it. */
@@ -18,7 +20,18 @@ export function makePanel(opts: {
   root.appendChild(panel);
   document.body.appendChild(root);
 
+  const cleanups: Array<() => void> = [];
+  let closed = false;
   const close = () => {
+    if (closed) return;
+    closed = true;
+    cleanups.forEach((fn) => {
+      try {
+        fn();
+      } catch {
+        /* a failing teardown must not block closing */
+      }
+    });
     root.classList.remove('is-open');
     setTimeout(() => root.remove(), 260);
     opts.onClose?.();
@@ -37,7 +50,7 @@ export function makePanel(opts: {
   }
 
   requestAnimationFrame(() => root.classList.add('is-open'));
-  return { root, panel, close };
+  return { root, panel, close, onClose: (fn) => cleanups.push(fn) };
 }
 
 export function bigBtn(

@@ -35,7 +35,15 @@ interface NativeBridge {
   showInterstitial(responseId: string): Promise<void>;
   requestRewarded(zoneId: string): Promise<string>;
   showRewarded(responseId: string): Promise<void>;
-  requestNative(zoneId: string): Promise<TapsellNativeAd>;
+  /**
+   * Places a REAL Tapsell native-ad view over the given screen rectangle
+   * (CSS pixels, relative to the viewport). The SDK renders and owns that
+   * view, so impressions and clicks are tracked correctly.
+   */
+  showNativeAt(zoneId: string, x: number, y: number, w: number, h: number): Promise<void>;
+  /** Moves the currently shown native view (called on scroll/resize). */
+  moveNative(x: number, y: number, w: number, h: number): void;
+  hideNative(): void;
 }
 
 declare global {
@@ -164,16 +172,66 @@ class TapsellAds {
 
   // ------------------------------------------------------------- native
 
-  async requestNative(): Promise<TapsellNativeAd | null> {
-    if (this.noAds) return null;
-    if (this.bridge?.requestNative) {
+  /**
+   * Mounts a native ad into `slot`.
+   *
+   * On Android the creative is NOT re-rendered as HTML — doing that would
+   * break impression and click tracking. Instead the slot stays empty and
+   * reserves layout space, and the native layer positions a real Tapsell
+   * `NativeAdViewContainer` directly over it. In the browser we draw a
+   * styled placeholder inside the slot instead.
+   *
+   * Returns a teardown function; always call it when the slot goes away.
+   */
+  async mountNative(slot: HTMLElement): Promise<() => void> {
+    if (this.noAds) return () => {};
+
+    if (this.bridge?.showNativeAt) {
+      const rect = () => {
+        const r = slot.getBoundingClientRect();
+        return [r.left, r.top, r.width, r.height] as const;
+      };
       try {
-        return await this.bridge.requestNative(this.zones.native);
+        const [x, y, w, h] = rect();
+        if (w < 1 || h < 1) return () => {};
+        await this.bridge.showNativeAt(this.zones.native, x, y, w, h);
       } catch {
-        return null;
+        return () => {};
       }
+
+      // keep the overlay glued to the slot while the page moves
+      const sync = () => {
+        const [x, y, w, h] = rect();
+        this.bridge?.moveNative?.(x, y, w, h);
+      };
+      window.addEventListener('resize', sync);
+      window.addEventListener('scroll', sync, true);
+      const iv = window.setInterval(sync, 250);
+
+      return () => {
+        window.clearInterval(iv);
+        window.removeEventListener('resize', sync);
+        window.removeEventListener('scroll', sync, true);
+        this.bridge?.hideNative?.();
+      };
     }
-    return MOCK_NATIVE[Math.floor(Math.random() * MOCK_NATIVE.length)];
+
+    // ---- browser fallback: render a house-ad placeholder in the slot ----
+    const ad = MOCK_NATIVE[Math.floor(Math.random() * MOCK_NATIVE.length)];
+    slot.innerHTML = '';
+    const n = document.createElement('div');
+    n.className = 'nativead';
+    n.innerHTML = `
+      <div class="nativead__ico">◆</div>
+      <div class="nativead__b">
+        <div class="nativead__t"><span>${ad.title}</span><span class="nativead__sp">${ad.sponsoredLabel}</span></div>
+        <div class="nativead__d">${ad.description}</div>
+      </div>
+      <button class="nativead__cta">${ad.cta}</button>`;
+    slot.appendChild(n);
+    return () => {
+      slot.innerHTML = '';
+    };
   }
 }
 
