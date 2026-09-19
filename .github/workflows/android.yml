@@ -182,22 +182,17 @@ jobs:
 
       - name: Report debug build failure
         if: failure()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          {
-            echo "### Debug build failed"
-            echo ""
-            echo '```'
-            grep -E "^e: |error:|FAILURE:|What went wrong|^> |Caused by" /tmp/debug-build.log \
-              | head -60 || tail -60 /tmp/debug-build.log
-            echo '```'
-          } | tee /tmp/report.md >> "$GITHUB_STEP_SUMMARY"
-          # Also mirror it onto the PR, where it is readable via the API.
-          if [ -n "${{ github.event.pull_request.number }}" ]; then
-            gh pr comment ${{ github.event.pull_request.number }} \
-              --repo ${{ github.repository }} --body-file /tmp/report.md || true
-          fi
+          echo "### Debug build failed" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep -E "^e: |error:|FAILURE:|What went wrong|Caused by|^> " /tmp/debug-build.log \
+            | head -40 >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          # Annotations are surfaced through the check-runs API, which is the
+          # only channel reliably readable from every environment.
+          grep -E "^e: |error:" /tmp/debug-build.log | head -25 | while IFS= read -r line; do
+            echo "::error::$line"
+          done
 
       - name: Build release APK
         if: ${{ github.event.inputs.build_type != 'debug' }}
