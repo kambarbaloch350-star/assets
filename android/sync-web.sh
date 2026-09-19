@@ -19,7 +19,14 @@ cd "$GAME_DIR"
 npm run build
 
 echo "▸ syncing into $WWW_DIR"
-# keep bridge.js, replace everything else
+# bridge.js is SOURCE (tracked in git); everything else here is generated.
+# Preserve it across the sync, and fail loudly if it has gone missing —
+# without it the Android build silently ships a game with no native bridges.
+if [[ ! -f "$WWW_DIR/bridge.js" ]]; then
+  echo "✗ $WWW_DIR/bridge.js is missing — it is source, not build output." >&2
+  echo "  Restore it with: git checkout android/app/src/main/assets/www/bridge.js" >&2
+  exit 1
+fi
 BRIDGE="$(cat "$WWW_DIR/bridge.js")"
 if [[ "${1:-}" == "--clean" ]]; then
   rm -rf "$WWW_DIR"

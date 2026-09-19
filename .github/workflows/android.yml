@@ -1,0 +1,237 @@
+name: Build APK
+
+on:
+  push:
+    branches: ['**']
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      build_type:
+        description: 'Which variant to build'
+        type: choice
+        default: both
+        options: [both, debug, release]
+
+concurrency:
+  group: apk-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  JAVA_VERSION: '17'
+  GRADLE_VERSION: '8.7'
+  NODE_VERSION: '20'
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Gate: the game's own test suites must pass before we spend time on Gradle.
+  # ---------------------------------------------------------------------------
+  test-web:
+    name: Test web game
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: game/package-lock.json
+
+      - name: Install dependencies
+        working-directory: game
+        run: npm ci
+
+      - name: Typecheck
+        working-directory: game
+        run: npx tsc --noEmit
+
+      - name: Test (UI, gameplay, power-ups, native bridge)
+        working-directory: game
+        run: npm test
+
+      - name: Verify all 120 levels are solvable
+        working-directory: game
+        run: npx tsx tools/simulate.ts 1 120
+
+  # ---------------------------------------------------------------------------
+  # Build the web bundle once and hand it to the Android job as an artifact, so
+  # the APK is built from exactly the bytes that were tested.
+  # ---------------------------------------------------------------------------
+  build-web:
+    name: Build web bundle
+    runs-on: ubuntu-latest
+    needs: test-web
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: game/package-lock.json
+
+      - name: Install dependencies
+        working-directory: game
+        run: npm ci
+
+      - name: Build web app and sync into android/assets/www
+        working-directory: android
+        run: ./sync-web.sh
+
+      - name: Verify the bridge shim loads before the game bundle
+        working-directory: android/app/src/main/assets/www
+        run: |
+          echo "— packaged files: $(find . -type f | wc -l)"
+          test -f index.html || { echo "::error::index.html missing — the web build did not sync"; exit 1; }
+          test -f bridge.js  || { echo "::error::bridge.js missing from the packaged assets"; exit 1; }
+          bridge_line=$(grep -n 'bridge\.js' index.html | head -1 | cut -d: -f1)
+          bundle_line=$(grep -n 'type="module"' index.html | head -1 | cut -d: -f1)
+          if [ -z "$bridge_line" ]; then
+            echo "::error::bridge.js was not injected into index.html"; exit 1
+          fi
+          if [ -z "$bundle_line" ]; then
+            echo "::error::no module bundle found in index.html"; exit 1
+          fi
+          if [ "$bridge_line" -gt "$bundle_line" ]; then
+            echo "::error::bridge.js (line $bridge_line) must come before the module bundle (line $bundle_line)"
+            exit 1
+          fi
+          echo "✓ bridge.js on line $bridge_line, bundle on line $bundle_line"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: web-bundle
+          path: android/app/src/main/assets/www
+          retention-days: 7
+
+  # ---------------------------------------------------------------------------
+  # Compile the APK.
+  # ---------------------------------------------------------------------------
+  build-apk:
+    name: Build APK
+    runs-on: ubuntu-latest
+    needs: build-web
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore the tested web bundle
+        uses: actions/download-artifact@v4
+        with:
+          name: web-bundle
+          path: android/app/src/main/assets/www
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: ${{ env.GRADLE_VERSION }}
+
+      # The wrapper jar is a binary and is intentionally not committed.
+      # Generate it here so `./gradlew` works in later steps and in the logs.
+      - name: Generate Gradle wrapper
+        working-directory: android
+        run: gradle wrapper --gradle-version ${{ env.GRADLE_VERSION }} --no-daemon
+
+      - name: Decode signing keystore
+        if: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' }}
+        env:
+          KEYSTORE_B64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        working-directory: android
+        run: |
+          echo "$KEYSTORE_B64" | base64 -d > app/release.keystore
+          echo "✓ release keystore decoded ($(stat -c%s app/release.keystore) bytes)"
+
+      - name: Build debug APK
+        if: ${{ github.event.inputs.build_type != 'release' }}
+        working-directory: android
+        run: ./gradlew :app:assembleDebug --no-daemon --stacktrace -PversionCode=${{ github.run_number }}
+
+      - name: Build release APK
+        if: ${{ github.event.inputs.build_type != 'debug' }}
+        working-directory: android
+        env:
+          TAPSELL_APP_KEY: ${{ secrets.TAPSELL_APP_KEY }}
+          TAPSELL_ZONE_BANNER: ${{ secrets.TAPSELL_ZONE_BANNER }}
+          TAPSELL_ZONE_INTERSTITIAL: ${{ secrets.TAPSELL_ZONE_INTERSTITIAL }}
+          TAPSELL_ZONE_NATIVE: ${{ secrets.TAPSELL_ZONE_NATIVE }}
+          TAPSELL_ZONE_REWARDED: ${{ secrets.TAPSELL_ZONE_REWARDED }}
+          BAZAAR_RSA_KEY: ${{ secrets.BAZAAR_RSA_KEY }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: ./gradlew :app:assembleRelease --no-daemon --stacktrace -PversionCode=${{ github.run_number }}
+
+      - name: Summarise artifacts
+        if: always()
+        working-directory: android
+        run: |
+          {
+            echo "### APKs"
+            echo ""
+            found=0
+            while IFS= read -r apk; do
+              found=1
+              size=$(du -h "$apk" | cut -f1)
+              echo "- \`$(basename "$apk")\` — $size"
+            done < <(find app/build/outputs/apk -name '*.apk' 2>/dev/null | sort)
+            if [ "$found" = 0 ]; then echo "_No APK produced._"; fi
+            echo ""
+            echo "Signing: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' && 'upload keystore' || 'debug key (set ANDROID_KEYSTORE_BASE64 to sign for release)' }}"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload debug APK
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jadooye-adad-debug
+          path: android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Upload release APK
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jadooye-adad-release
+          path: android/app/build/outputs/apk/release/*.apk
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Upload mapping file
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mapping
+          path: android/app/build/outputs/mapping/release/mapping.txt
+          if-no-files-found: ignore
+          retention-days: 30
+
+  # ---------------------------------------------------------------------------
+  # Tagging v* publishes the APK as a GitHub release.
+  # ---------------------------------------------------------------------------
+  release:
+    name: Publish release
+    runs-on: ubuntu-latest
+    needs: build-apk
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: jadooye-adad-*
+          merge-multiple: true
+          path: apks
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: apks/*.apk
+          generate_release_notes: true

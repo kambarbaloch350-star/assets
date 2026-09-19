@@ -15,6 +15,9 @@
  *
  * If the natives are missing (plain browser), nothing is defined and the game
  * transparently falls back to its built-in mocks.
+ *
+ * This file is SOURCE, not build output — sync-web.sh preserves it while
+ * replacing everything else in assets/www.
  */
 (function () {
   'use strict';

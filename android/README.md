@@ -19,11 +19,31 @@ cannot do by itself:
 
 ## 1. Build
 
+### In CI (recommended)
+
+`.github/workflows/android.yml` builds the APK on every push and PR. It runs
+the web test suites first, builds the bundle once, then compiles the APK from
+exactly those bytes. Download the result from the run's **Artifacts**:
+
+- `jadooye-adad-debug` — debug APK, always built
+- `jadooye-adad-release` — release APK (minified + shrunk)
+- `mapping` — R8 mapping file for deobfuscating crash reports
+
+Pushing a `v*` tag additionally publishes the APKs as a GitHub release. You can
+also trigger a build by hand from the **Actions** tab and pick which variant.
+
+### Locally
+
 ```bash
 cd android
 ./sync-web.sh            # builds ../game and copies dist/ into assets/www
+gradle wrapper --gradle-version 8.7   # first time only; the jar is not committed
 ./gradlew :app:assembleRelease
 ```
+
+The Gradle wrapper JAR is deliberately not committed (binaries in git age
+badly and are a supply-chain risk). Generate it once with a local Gradle
+install; CI does the same step automatically.
 
 `sync-web.sh` also injects `<script src="./bridge.js">` above the game bundle
 in `index.html`, so the bridges exist before the app boots. Re-run it after
@@ -56,8 +76,35 @@ to widen fill.
 
 ## 2. Keys and zone ids
 
-Nothing secret is hardcoded. Put your values in `~/.gradle/gradle.properties`
-(preferred) or pass them with `-P`:
+Nothing secret is hardcoded. Each credential is resolved from a Gradle property
+first, then an environment variable, then a harmless placeholder — so the
+project always builds, with or without keys.
+
+### For CI — repository secrets
+
+Set these under **Settings → Secrets and variables → Actions**:
+
+| Secret | Purpose |
+|---|---|
+| `TAPSELL_APP_KEY` | Tapsell app key |
+| `TAPSELL_ZONE_BANNER` | banner zone id |
+| `TAPSELL_ZONE_INTERSTITIAL` | interstitial zone id |
+| `TAPSELL_ZONE_NATIVE` | native zone id |
+| `TAPSELL_ZONE_REWARDED` | rewarded zone id |
+| `BAZAAR_RSA_KEY` | CafeBazaar RSA public key |
+| `ANDROID_KEYSTORE_BASE64` | `base64 -w0 upload.keystore` |
+| `ANDROID_KEYSTORE_PASSWORD` | keystore password |
+| `ANDROID_KEY_ALIAS` | key alias |
+| `ANDROID_KEY_PASSWORD` | key password |
+
+All are optional. Without them the workflow still produces an installable APK
+signed with the debug key and built against placeholder ad/billing ids — useful
+for testing gameplay, but **not** shippable to CafeBazaar.
+
+### Locally
+
+Put your values in `~/.gradle/gradle.properties` (preferred) or pass them
+with `-P`:
 
 ```properties
 tapsell.appKey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -172,7 +219,7 @@ otherwise only appear on a phone.
 
 ## 7. Release checklist
 
-1. `./sync-web.sh` — refresh `assets/www`.
+1. `./sync-web.sh` — refresh `assets/www`. (CI does this for you.)
 2. Set a real `bazaar.rsaKey`; confirm `SecurityCheck.Enable` is active.
 3. Bump `versionCode` / `versionName` in `app/build.gradle.kts`.
 4. Sign with your upload keystore (don't commit it).

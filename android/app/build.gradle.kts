@@ -3,6 +3,15 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
+/**
+ * Resolve a credential from a gradle property, falling back to an environment
+ * variable, then to a harmless placeholder so the project always builds.
+ */
+fun cred(property: String, env: String, fallback: String): String =
+    (project.findProperty(property) as String?)?.takeIf { it.isNotBlank() }
+        ?: System.getenv(env)?.takeIf { it.isNotBlank() }
+        ?: fallback
+
 android {
     namespace = "ir.jadoo.adad"
     compileSdk = 34
@@ -11,25 +20,29 @@ android {
         applicationId = "ir.jadoo.adad"
         minSdk = 21
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        // CI sets these from the run number / git tag.
+        versionCode = (project.findProperty("versionCode") as String?)?.toIntOrNull() ?: 1
+        versionName = (project.findProperty("versionName") as String?) ?: "1.0.0"
 
         // ---------------------------------------------------------------
-        // Fill these in from your Tapsell + CafeBazaar dashboards.
-        // They are injected into the WebView as window.TAPSELL_CONFIG and
-        // window.BAZAAR_RSA_KEY, so the web layer never hardcodes secrets.
+        // Tapsell + CafeBazaar credentials.
+        //
+        // Resolved from (in order): a -P gradle property, ~/.gradle or
+        // gradle.properties, then an environment variable. CI passes them as
+        // env vars from repository secrets. Nothing secret is committed; the
+        // placeholders below just let the project build without keys.
         // ---------------------------------------------------------------
-        buildConfigField("String", "TAPSELL_APP_KEY", "\"${properties["tapsell.appKey"] ?: "PUT_TAPSELL_APP_KEY_HERE"}\"")
+        buildConfigField("String", "TAPSELL_APP_KEY", "\"${cred("tapsell.appKey", "TAPSELL_APP_KEY", "PUT_TAPSELL_APP_KEY_HERE")}\"")
+        buildConfigField("String", "ZONE_BANNER", "\"${cred("tapsell.zone.banner", "TAPSELL_ZONE_BANNER", "PUT_BANNER_ZONE_ID")}\"")
+        buildConfigField("String", "ZONE_INTERSTITIAL", "\"${cred("tapsell.zone.interstitial", "TAPSELL_ZONE_INTERSTITIAL", "PUT_INTERSTITIAL_ZONE_ID")}\"")
+        buildConfigField("String", "ZONE_NATIVE", "\"${cred("tapsell.zone.native", "TAPSELL_ZONE_NATIVE", "PUT_NATIVE_ZONE_ID")}\"")
+        buildConfigField("String", "ZONE_REWARDED", "\"${cred("tapsell.zone.rewarded", "TAPSELL_ZONE_REWARDED", "PUT_REWARDED_ZONE_ID")}\"")
+        buildConfigField("String", "BAZAAR_RSA_KEY", "\"${cred("bazaar.rsaKey", "BAZAAR_RSA_KEY", "PUT_BAZAAR_RSA_PUBLIC_KEY_HERE")}\"")
 
         // The Mediation SDK self-initialises from this manifest placeholder.
         addManifestPlaceholders(
-            mapOf("TapsellMediationAppKey" to (properties["tapsell.appKey"] ?: "PUT_TAPSELL_APP_KEY_HERE"))
+            mapOf("TapsellMediationAppKey" to cred("tapsell.appKey", "TAPSELL_APP_KEY", "PUT_TAPSELL_APP_KEY_HERE"))
         )
-        buildConfigField("String", "ZONE_BANNER", "\"${properties["tapsell.zone.banner"] ?: "PUT_BANNER_ZONE_ID"}\"")
-        buildConfigField("String", "ZONE_INTERSTITIAL", "\"${properties["tapsell.zone.interstitial"] ?: "PUT_INTERSTITIAL_ZONE_ID"}\"")
-        buildConfigField("String", "ZONE_NATIVE", "\"${properties["tapsell.zone.native"] ?: "PUT_NATIVE_ZONE_ID"}\"")
-        buildConfigField("String", "ZONE_REWARDED", "\"${properties["tapsell.zone.rewarded"] ?: "PUT_REWARDED_ZONE_ID"}\"")
-        buildConfigField("String", "BAZAAR_RSA_KEY", "\"${properties["bazaar.rsaKey"] ?: "PUT_BAZAAR_RSA_PUBLIC_KEY_HERE"}\"")
     }
 
     buildFeatures {
@@ -37,11 +50,32 @@ android {
         viewBinding = true
     }
 
+    signingConfigs {
+        create("release") {
+            // CI decodes ANDROID_KEYSTORE_BASE64 to app/release.keystore.
+            val ksFile = rootProject.file("app/release.keystore")
+            if (ksFile.exists()) {
+                storeFile = ksFile
+                storePassword = System.getenv("ANDROID_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("ANDROID_KEY_ALIAS")
+                keyPassword = System.getenv("ANDROID_KEY_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+
+            // Sign with the upload key when present; otherwise fall back to the
+            // debug key so CI still emits an installable APK for testing.
+            signingConfig = if (rootProject.file("app/release.keystore").exists()) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
         }
         debug {
             isMinifyEnabled = false
