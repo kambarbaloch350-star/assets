@@ -14,7 +14,10 @@ fun cred(property: String, env: String, fallback: String): String =
 
 android {
     namespace = "ir.jadoo.adad"
-    compileSdk = 34
+    // A transitive AndroidX dependency requires compileSdk 35. Raising
+    // compileSdk only lets newer APIs be referenced at build time; it does not
+    // change runtime behaviour — targetSdk stays at 34 for that.
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ir.jadoo.adad"

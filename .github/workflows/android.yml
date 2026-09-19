@@ -149,7 +149,7 @@ jobs:
           echo "sdkmanager: $SDKMGR"
 
           yes | "$SDKMGR" --licenses > /dev/null 2>&1 || true
-          "$SDKMGR" "platforms;android-34" "build-tools;34.0.0" "platform-tools"
+          "$SDKMGR" "platforms;android-35" "build-tools;35.0.0" "platform-tools"
           echo "$SDK/platform-tools" >> "$GITHUB_PATH"
 
       - name: Set up Gradle

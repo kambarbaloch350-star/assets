@@ -53,7 +53,7 @@ in `index.html`, so the bridges exist before the app boots. Re-run it after
 ### Requirements
 
 - JDK 17, Android SDK 34, Gradle 8.7 (via the wrapper), AGP 7.4.2+
-- `minSdk 21`, `compileSdk 34`, `targetSdk 34`
+- `minSdk 21`, `compileSdk 35`, `targetSdk 34`
 
 ### Which Tapsell SDK?
 
