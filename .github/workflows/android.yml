@@ -157,11 +157,6 @@ jobs:
         with:
           gradle-version: ${{ env.GRADLE_VERSION }}
 
-      # The wrapper jar is a binary and is intentionally not committed.
-      # Generate it here so `./gradlew` works in later steps and in the logs.
-      - name: Generate Gradle wrapper
-        working-directory: android
-        run: gradle wrapper --gradle-version ${{ env.GRADLE_VERSION }} --no-daemon
 
       - name: Decode signing keystore
         if: env.HAS_KEYSTORE == 'true'
@@ -177,7 +172,7 @@ jobs:
         working-directory: android
         run: |
           set -o pipefail
-          ./gradlew :app:assembleDebug --no-daemon --stacktrace \
+          gradle :app:assembleDebug --no-daemon --stacktrace \
             -PversionCode=${{ github.run_number }} 2>&1 | tee /tmp/debug-build.log
 
       - name: Report debug build failure
@@ -217,7 +212,7 @@ jobs:
           ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
         run: |
           set -o pipefail
-          ./gradlew :app:assembleRelease --no-daemon --stacktrace \
+          gradle :app:assembleRelease --no-daemon --stacktrace \
             -PversionCode=${{ github.run_number }} 2>&1 | tee /tmp/release-build.log
 
       - name: Report release build failure

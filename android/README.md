@@ -36,14 +36,14 @@ also trigger a build by hand from the **Actions** tab and pick which variant.
 
 ```bash
 cd android
-./sync-web.sh            # builds ../game and copies dist/ into assets/www
-gradle wrapper --gradle-version 8.7   # first time only; the jar is not committed
-./gradlew :app:assembleRelease
+./sync-web.sh                      # builds ../game, copies dist/ into assets/www
+gradle :app:assembleRelease        # needs Gradle 8.7 and JDK 17
 ```
 
-The Gradle wrapper JAR is deliberately not committed (binaries in git age
-badly and are a supply-chain risk). Generate it once with a local Gradle
-install; CI does the same step automatically.
+The Gradle wrapper JAR is deliberately not committed — binaries in git age
+badly and are a supply-chain risk — so use a local Gradle install. If you
+prefer the wrapper, run `gradle wrapper --gradle-version 8.7` once and then
+use `./gradlew`.
 
 `sync-web.sh` also injects `<script src="./bridge.js">` above the game bundle
 in `index.html`, so the bridges exist before the app boots. Re-run it after
